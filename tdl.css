@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  }
+
+section {
+  margin:  0 0 0 5%;
+  width: 90%;
+  background-color: #bf94e4;
+  padding: 10px 20px;
+  border: 1px solid #bf94e4;
+}
+
+.list {
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+}
+
+li {
+  list-style-type:none;
+  font-size: 30px;
+}
+
+.bottomSec span,  p  {
+  color: white;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: gray;
+}
+
+.createdLiAttr{
+  list-style-type:none;
+  font-size: 30px;
+}
+
+.delete{
+  display:none;
+}
+
+button, input {
+  height: 40px;
+  width: 12%;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 20%;
+}
