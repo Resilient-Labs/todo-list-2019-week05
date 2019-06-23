@@ -1,0 +1,44 @@
+ <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>To Do List</title>
+  </head>
+  <body>
+    <!-- <section>
+      <label>To Do List</label>
+      <ul id="save">
+      </ul>
+    </section>
+
+    <form class="c" action="index.html" method="post">
+      <ul>
+        <li><input id="addToDoItem" type="text" name="" value=""></li>
+      </ul>
+      <button id="addToDo" type="button" name="button">Add TO-Do List Item</button>
+      <button id="clearStrike" type="button" name="button">Clear All</button>
+      <button id="completed" type="button" name="button">Delete Completed Items</button>
+    </form> -->
+    <h1>To Do:</h1>
+       <section>
+
+           <input type="text" id="inputBar">
+           <span id="add_task_error">&nbsp;</span>
+           <input type="button" id="taskBtn" value="Add task" onclick="addTask()">
+
+           <div id="empty_message" class="open">
+               <h3>You have <span id = "keepCount" >0</span> tasks left to accomplish!</h3>
+           </div>
+
+           <div id="tasklist">
+               <ul id="list">
+
+               </ul>
+               <button id="clearAll" type="button" name="button">Clear All</button>
+               <button id="completed" type="button" name="button">Delete Completed Items</button>
+           </div>
+
+       </section>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
