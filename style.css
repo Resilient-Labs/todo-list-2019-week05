@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  }
+
+section {
+  margin:  0 0 0 5%;
+  width: 90%;
+  background-color: black;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+.list {
+  background-color: white;
+  color: black;
+}
+
+li {
+  /* list-style-type:none; */
+}
+
+.bottomSec span, .bottomSec p {
+  color: white;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: gray
+}
