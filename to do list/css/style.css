@@ -1,0 +1,33 @@
+section {
+    margin: 10%;
+    background-color: lavender;
+    border: 1px solid lightblue;
+}
+h1 {
+
+	 margin: 0 0 0 40%;
+	 padding: 0;
+	 font-size: 3em;
+}
+input {
+	 height: 33px;
+	 margin: 0 0 0 33%;
+	 width: 30%;
+	 font-size: 1em;
+}
+button {
+	 height: 40px;
+	 padding: 0;
+	 width: 10%;
+}
+ul {
+	list-style: none;
+}
+li {
+	padding: 1em;
+	text-align: center;
+}
+.checked {
+  text-decoration: line-through;
+  color: gray;
+}
