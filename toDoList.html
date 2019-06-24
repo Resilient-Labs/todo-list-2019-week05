@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="toDoList.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1>My To-Do List</h1>
+    </header>
+    <section class="mainSec">
+      <form class="toDoForm">
+        <input id="toDoInput" type="text" placeholder="Add a to-do">
+        <button type="button" id="addBtn">Add</button>
+      </form>
+      <section>
+        <ul id="toDoList">
+        </ul>
+      </section>
+      <section class="container">
+        <button class="clearButton" id="clearBnt">Clear All</button>
+        <button id="removeCom">Remove Completed</button>
+        <p>You have <span id= "counting">0</span> things to do</p>
+      </section>
+    </section>
+  </body>
+  <script type="text/javascript" src="toDoList.js"></script>
+</html>
