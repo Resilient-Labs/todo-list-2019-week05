@@ -1,6 +1,6 @@
 # To-Do List
 
-######I created a front-end web application with Javascript, HTML, and CSS.
+###### I created a front-end web application with Javascript, HTML, and CSS.
 The List features these actions:
 * Add (Item) to List
 * Click Item to Mark as Complete (Grayed and Lined-Through)
@@ -8,7 +8,7 @@ The List features these actions:
 * Clear List
 * Keep a running tally of To-Do's remaining
 
-####Key Takeaways
+#### Key Takeaways
 * sending information to the DOM (.innerHTML)
 * receiving information from the DOM (.onClick, .value)
 * .createElement and .createTextNode to create new elements and text
