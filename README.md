@@ -1,22 +1,13 @@
-# ✅ Week05 Bootcamp2019b Project: Todo List
+# To-Do List
+A simple to do list with options to mark and clear completed tasks.
 
-### Goal: Build a Simple Todo List
+**View project in browser:** https://endev-todolist.netlify.com
 
-### How to submit your code for review:
+![alt tag](todo.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Design and Development:
+**Tech Used** Basic HTML & CSS, JavaScript
+I spent hours upon hours trying to figure out to target the list items that were created because once I did, I was able to plug it into various functions and get this list up and going. Pseudo-coding what each element would do was helpful in figuring out what questions to ask and how functions would be written. This list brings together the “Big 4” in Javascript in a really compact, engaging way.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned
+Google truly is a developer’s best friend. For most functions I had to do extensive research before arriving to answers that made sense to me and worked within the scope of this project. It did shed light on my relentless curiosity, though. Just knowing that something can be done is enough to keep me going! 
