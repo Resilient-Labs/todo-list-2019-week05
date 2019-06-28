@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tdl.css">
+    <title></title>
+  </head>
+  <body>
+    <section class="topSec clearfix">
+      <p>TO-DO LIST</p>
+      <form class="" action="index.html" method="post">
+        <input id="inputItem" type="text" placeholder="What will you accomplish today?">
+        <button type="button" id="addListButton">Add to List</button>
+      </form>
+    </section>
+
+    <section class="list clearfix">
+      <ul id="myList">
+      </ul>
+     </section>
+
+    <section class="bottomSec clearfix">
+        <p>You have <span id="listNumber">0</span> things left to crush</p>
+        <button type="button" id="clearListButton">Clear List</button>
+        <button type="button" id="clearCompletedButton">Clear Completed</button>
+    </section>
+
+    <script type="text/javascript" src= "tdl.js" ></script>
+  </body>
+</html>

@@ -12,18 +12,21 @@
   height: 0;
   }
 
+body {
+margin: 10% 20%;
+background-color: #bf94e4	;
+}
+
 section {
-  margin:  0 0 0 5%;
-  width: 90%;
-  background-color: #bf94e4;
+  width: 100%;
   padding: 10px 20px;
-  border: 1px solid #bf94e4;
+  border: 1px solid #ddd;
 }
 
 .list {
+  padding: 20px 30px;
   background-color: white;
   color: black;
-  padding: 20px 30px;
 }
 
 li {
@@ -31,11 +34,26 @@ li {
   font-size: 30px;
 }
 
+button, input {
+  height: 40px;
+  padding: 5px 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 50%;
+}
+
+
 .bottomSec span,  p  {
   color: white;
   font-size: 30px;
   margin: 10px 0;
 }
+
+
+
 
 .completed{
   text-decoration: line-through;
@@ -49,16 +67,4 @@ li {
 
 .delete{
   display:none;
-}
-
-button, input {
-  height: 40px;
-  width: 12%;
-  padding: 5px;
-  font-size: 15px;
-  margin-bottom: 15px;
-}
-
-input {
-  width: 20%;
 }
