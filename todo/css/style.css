@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+form{
+  width: 70%;
+  text-align: center;
+  margin: 5px 15%;
+}
+.completed{
+  color: red;
+  text-decoration: line-through;
+}
+#container{
+  width: 79%;
+  margin: 15px 10%;
+  border: 1px solid blue;
+  min-height: 500px;
+}
