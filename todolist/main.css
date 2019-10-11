@@ -1,0 +1,57 @@
+body {
+  margin: 6% auto;
+  width: 31%;
+  border: 5px solid orange;
+  margin: 6% auto;
+}
+h1 {
+  text-align: center;
+  background: yellowgreen;
+  border: 4px solid yellow;
+  margin: 0;
+  line-height: 2;
+  text-decoration: underline;
+}
+section {
+  border-bottom: 4px solid yellow;
+  background: yellowgreen;
+  padding-bottom: 9px;
+}
+input {
+  width: 68%;
+  font-size: 30px;
+}
+#submit {
+  line-height: 1.5;
+  font-size: 25px;
+  border-radius: 4%;
+  background: aliceblue;
+  width: 30%;
+}
+li {
+  border: 4px solid yellow;
+}
+ul {
+  background: yellowgreen;
+  font-size: 30px;
+  margin: 0;
+}
+body > button {
+  width: 50%;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 3%;
+  padding: 4%;
+}
+button:hover {
+  background-color: beige;
+  text-decoration: underline;
+}
+p {
+  background-color: yellowgreen;
+  border: 4px solid yellow;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  line-height: 2;
+}
