@@ -1,0 +1,50 @@
+html {
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > section {
+    border: 1px solid #000000;
+}
+
+.blackBox, .whiteBox {
+    width: 100%;
+}
+
+.blackBox input, .blackBox button {
+    height: 40%;
+    font-size: 1.5rem;
+}
+
+.completed {
+    color: #aaaaaa;
+    text-decoration: #aaaaaa line-through;
+}
+
+.toDoItem {
+    list-style: none;
+}
+
+.blackBox {
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.whiteBox {
+    font-size: 2rem;
+    height: 30rem;
+}
+
+
+#clearListButton {
+    margin: 0 5%;
+}
