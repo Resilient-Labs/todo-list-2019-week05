@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+     <title>To Do List</title>
+  </head>
+  <body>
+    <section class="displaySection">
+
+      <section class="topSection">
+        <form action="index.html" method="post">
+          <input id="itemInput" type="text" name="" value="" placeholder="Todo items...">
+          <button id="addToListButton" type="button" name="button">Add to list</button>
+        </form>
+      </section>
+
+      <section class="middleSection" >
+        <ul id="toDoList">
+        </ul>
+      </section>
+
+      <section class="bottomSection" >
+        <p id="addItem" ></p>
+        <p>You have <span id="activeTasks">0</span> todo left</p>
+        <section class="acctionButtons">
+          <button id="clearComplete" type="button" name="button">Clear completed items</button>
+          <button id="clearAll" type="button" name="button">Clear list</button>
+        </section>
+      </section>
+
+  </section>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
