@@ -1,0 +1,35 @@
+.displaySection{
+  width: 80%;
+  border: 1px solid black;
+  background-color: #77778075;
+  margin: 2% 0% 3% 10%;
+}
+.topSection{
+  border: 1px solid black;
+}
+form{
+  border: 4px solid black;
+    width: 50%;
+    background-color: white;
+    margin: 1% 1% 1% 25%;
+}
+.middleSection{
+  border: 1px solid black;
+  background-color: white
+}
+#toDoList{
+  margin: 1% 1% 1% 25%;
+font-size: 20px;
+height: auto;
+}
+p{
+  text-align: center;
+}
+.acctionButtons{
+  text-align: center;
+}
+
+.clearCompletedItems {
+  text-decoration: line-through;
+  color: darkgray;
+}
