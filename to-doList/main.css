@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  background-color: darkslategrey;
+  background-image: url(IMG/todo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.topPart{
+  height: 10%;
+  width: 76%;
+  /* margin-left: -284px; */
+  /* background-color: salmon; */
+}
+.whitePart{
+  min-height: 50%;
+  height: auto;
+  background-color:white;
+  opacity: .4;
+  width: 70%;
+  margin-bottom: 9px;
+  /* border:1px solid salmon; */
+}
+li{
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.bottomPart{
+  height: 10%;
+  width: 76%;
+  /* background-color: salmon; */
+}
+p{
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+h1{
+  color: tomato
+}
+
+input{
+  width: 67%;
+  height: 33px;
+  margin-top: 7px;
+  margin-left: 8px;
+  border-radius: 6px;
+}
+.topButton{
+  width: 23%;
+  height: 33px;
+  border-radius: 6px;
+  /* margin-left: 35px; */
+  cursor: pointer;
+}
+
+.topButton:hover {
+  background-color: salmon;
+}
+
+.clear:hover {
+  background-color: salmon;
+}
+
+.clearCompleted:hover {
+  background-color: salmon;
+}
+.clear{
+  margin-right: 258px;
+}
+.clear, .clearCompleted{
+    border-radius: 6px;
+    height: 42%;
+    width: 32%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
