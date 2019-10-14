@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+.topBlackPart{
+  height: 50%;
+  width: 100%;
+  background-color: purple;
+
+}
+.whitePart{
+  min-height: 50%;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+.bottomBlack{
+  height: 50%;
+  width: 100%;
+  background-color: p;
+}
+button{
+  font-size: 15px;
+  border-radius: 25px;
+  background-color: white;
+  border-color: none;
+}
+ul{
+  list-style-type: square;
+}
