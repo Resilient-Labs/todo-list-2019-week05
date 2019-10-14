@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.topSec {
+  height: 10%;
+  width: 40%;
+  background-color: maroon;
+}
+ul{
+  list-style: none;
+}
+.topSec input {
+  margin-left: 25%;
+}
+.midSec {
+  height: 30%;
+  width: 40%;
+  border: 1px solid black;
+}
+.botSec {
+  height: 10%;
+  width: 40%;
+  background-color: maroon;
+}
+.botSec p {
+  color: white;
+  text-align: center;
+}
+.botSec button {
+  margin-right: 10%;
+}
+.botSec button:first-of-type{
+  margin-left: 25%
+}
+button {
+  background-color: white;
+}
+.completed{
+  text-decoration: line-through;
+}
