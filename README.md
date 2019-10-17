@@ -2,9 +2,9 @@
 # To-Do-List
 This is a simple to-do-list that takes in a list of activities that an individual can add their tasks for the day.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![alt tag](http://placecorgi.com/1200/650)
+
+![alt tag](to-do-LIST.png)
 
 ## How It's Made:
 
