@@ -35,15 +35,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
       tasksLeft = 0;
    });
 
-//    document.querySelector(".clearComplete").addEventListener("click", () => {
-//      function clearCompleted(completed){
-//        let completedItems = document.getElementsByClassName(".done");
-//        while(completedItems.length > 0){
-//          completedItems[0].parentNode.removeChild(completedItems[0]);
-//     }
-//     document.getElementsByClassName('clearComplete').onclick = clearCompleted;
-//   }
-// });
+   function complete(arr){
+     let tasksRemaining = document.querySelector('.remainingTasks')
+      for (let i = 0; i < arr.length; i++) {
+         arr[i].onclick = function() {
+            this.classList.toggle("done")
+            if (this.classList.contains("done")) {
+              let item = parseInt(tasksRemaining.innerHTML)
+              let newValue = item + -1
+              return tasksRemaining.innerHTML = String(newValue)
+            } else {
+              let item2 = parseInt(tasksRemaining.innerHTML)
+              let newValue = item2 + 1
+              return tasksRemaining.innerHTML = String(newValue)
+            }
+         }
+      }
+   }
 
 function clearCompleted(completed){
   let completedItems = document.getElementsByClassName("done");
@@ -55,14 +63,14 @@ document.getElementsByClassName('clearComplete').onclick = clearCompleted;
 
 // Find out querySelectorAll and do it to class, find out what data type it returns, might be a forEach. For loop
 
-   function complete(arr){
-      for (let i = 0; i < arr.length; i++) {
-         arr[i].onclick = function() {
-            return this.classList.toggle("done")
-         }
-      }
-   }
-
+   clearComplete.addEventListener("click", function() {
+     var allNodes = document.querySelectorAll("li")
+     for(let i = 0; i < allNodes.length; i++) {
+        if (allNodes[i].classList.contains("done")) {
+          allNodes[i].style.display = 'none';
+        }
+     }
+   });
 });
 
 //Thank you to Lloyd, Kaniah, and Kevin for their wisdom!
