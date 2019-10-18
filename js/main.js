@@ -11,7 +11,10 @@ document.getElementById('populateList').addEventListener('click', crossItem)
 document.getElementById('clearCompleteTasks').addEventListener('click', clearComplete)
 document.getElementById('clearAllTasks').addEventListener('click', clearAll)
 
+updateCountTasks();
+
 function addItem(e){
+  e.preventDefault()
   let input = document.getElementById("inputItem");
   const ul = document.getElementById('populateList')
   if (input.value === '')return alert ('Please input a task item')
@@ -20,28 +23,40 @@ function addItem(e){
   li.appendChild(document.createTextNode(input.value))
   ul.appendChild(li)
   input.value = ''
-  e.preventDefault()
+
+  updateCountTasks()
 }
 
 function crossItem(e){
   if (e.target.classList.contains('listItem')){
     e.target.style.textDecoration = "line-through"
     e.target.style.color="grey"
-    li.classname = 'completedItems'
+    e.target.classList += ' completedItems'
+    updateCountTasks()
+  }
+}
+function updateCountTasks(){
+  let incompleteItems = document.querySelectorAll('.listItem').length
+  let completeItems = document.querySelectorAll('.completedItems').length
+  let results = incompleteItems - completeItems
+  console.log(completeItems);
+  document.querySelector('#listItemsLeft').innerHTML = results
+}
+
+function clearComplete(e) {
+  e.preventDefault()
+  let ul = document.getElementById('populateList')
+  while (ul.firstElementChild.classList.contains('completedItems')){
+    ul.removeChild(ul.firstChild)
+    updateCountTasks()
   }
 }
 
-function clearComplete(element) {
-  let completedItems = document.getElementsByClassName('completedItems')
-  while (completedItems.length > 0){
-    completedItems[0].parentNode.removeChild(completedItems[0]);
-    console.log(completedItems)
-  }
-}
 
 function clearAll(e) {
   let ul = document.getElementById('populateList')
     while(ul.firstChild){
       ul.removeChild(ul.firstChild);
+      updateCountTasks()
     }
 }

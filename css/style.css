@@ -6,11 +6,15 @@ body{
 }
 
 section{
+  margin-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
   border: 2px solid white;
 }
-
+h1 {
+  color: white;
+  font-size: 3rem;
+}
 p{
   font-size: 2rem;
   color: white;
@@ -40,7 +44,7 @@ button{
   text-align: center;
   color: #fff;
   border-radius: 7%;
-  background-color: rgb(214, 69, 80);
+  background-color: rgb( 231, 90, 124);
   margin-top: 2%;
   margin-bottom: 2%;
 }

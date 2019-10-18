@@ -1,6 +1,8 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To-Do List
 
-### Goal: Build a Simple Todo List
+### A Simple Todo List with options to clear and mark tasks as complete
+
+### You can view it here [link]
 
 ### How to submit your code for review:
 
