@@ -7,4 +7,4 @@ This is a to-do list with the ability to add times and strike through tasks as t
 
 Link to project: https://xenodochial-snyder-8c7734.netlify.com/
 
-Photo of project: ![alt tag](
+Photo of project: ![Github Logo](https://photos.google.com/search/_tra_/photo/AF1QipOTvvg5_qo9ZID5ErivRDKlVTeLGcJD-6wU2BN5)
