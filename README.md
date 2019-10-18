@@ -2,21 +2,7 @@
 
 ### Goal: Build a Simple Todo List
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This is a to-do list with the ability to add times and strike through tasks as they're completed.  The list also tells you how many items you have left to complete, and you have the option to keep or clear them from the list.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Link to project: https://xenodochial-snyder-8c7734.netlify.com/
