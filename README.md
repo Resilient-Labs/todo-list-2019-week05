@@ -6,3 +6,5 @@
 This is a to-do list with the ability to add times and strike through tasks as they're completed.  The list also tells you how many items you have left to complete, and you have the option to keep or clear them from the list.
 
 Link to project: https://xenodochial-snyder-8c7734.netlify.com/
+
+Photo of project: ![alt tag](
