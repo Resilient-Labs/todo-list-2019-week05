@@ -1,22 +1,12 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Todo List
 
-### Goal: Build a Simple Todo List
+<img width="800" alt="Screen Shot of To Do List" src="https://user-images.githubusercontent.com/55306344/67130611-e3918580-f1cf-11e9-9012-1ebf5e39c838.png">
 
-### How to submit your code for review:
+https://mystifying-lamport-e39c89.netlify.com
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
+**Tech used:** HTML, CSS, JavaScript
+The HTML and CSS are very simple and could use some editing. The basis of this whole project lies in the JS. Most of my time was spent developing the JS and getting it to appropriately add to the list and removing the completed tasks utilizind DOM manipulation.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned
+I realize now that something that may appear simple at first can be more complicated at first. It is definitely best to tackle a project right away, especially the most difficult issues. Stack Overflow was the most resourceful of all my sources and just googling a question doesn't always give you the answer.
