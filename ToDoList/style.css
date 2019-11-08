@@ -1,0 +1,26 @@
+body {
+  background-image: url(https://www.maxpixel.net/static/photo/2x/Leaf-Notebook-Paper-Lines-Leaf-Binder-Background-1935230.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+li:hover {
+  color: red;
+  cursor: pointer;
+}
+button {
+  outline: 0;
+}
+.lineThrough {
+  text-decoration: line-through;
+}
+ul {
+  background-color: rgba(190,190,190,0.5);
+  height: 300px;
+  max-height: 300px;
+  overflow: scroll;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
