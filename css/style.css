@@ -1,29 +1,32 @@
 body{
-  background-color: rgb(141, 161, 185);
+  background-image: url("images/calm.jpeg");
   font-size: 10px;
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
 }
-
+/* .loginInput{
+  align-content: flex-end;
+} */
 section{
   margin-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
-  border: 2px solid white;
+  border: 2px solid brown;
 }
 h1 {
-  color: white;
+  color: brown;
   font-size: 3rem;
 }
 p{
   font-size: 2rem;
-  color: white;
+  color: brown;
 }
 
 .listItem{
   font-size: 2rem;
-  color: white;
+  color: brown;
   list-style: none;
+  font-weight: bold;
 }
 
 input{
@@ -39,12 +42,11 @@ button{
   font-size: 1.2rem;
   border: 0;
   line-height: 2.5;
-  padding: .4% ;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
-  color: #fff;
-  border-radius: 7%;
-  background-color: rgb( 231, 90, 124);
+  color: lightblue;
+  border-radius: 5%;
+  background-color: brown;
   margin-top: 2%;
   margin-bottom: 2%;
 }
