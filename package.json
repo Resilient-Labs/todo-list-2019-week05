@@ -1,0 +1,23 @@
+{
+  "name": "todo-list-2019-week05",
+  "version": "1.0.0",
+  "description": "### Goal: Build a Simple Todo List with options to clear and mark tasks as complete",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaniahDunn/todo-list-2019-week05.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaniahDunn/todo-list-2019-week05/issues"
+  },
+  "homepage": "https://github.com/KaniahDunn/todo-list-2019-week05#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
