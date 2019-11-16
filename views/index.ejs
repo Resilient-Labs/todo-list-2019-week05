@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Your To-Do List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <h1>What you do want to accomplish today?</h1>
+    <section>
+      <form class="" action="/taskitems" method="post">
+        <input id="inputItem" type="text" placeholder="What do you have to do today?" name="taskitem">
+        <button id="addItemButton" type="button" name="button">Add Item To List</button>
+      </form>
+    </section>
+
+    <h3>Messages</h3>
+    <ul class="messages">
+    <% for(var i=0; i<taskitems.length; i++) {%>
+      <li class="message">
+        <span><%= taskitems[i].name %></span>
+        <!-- <span><%= messages[i].msg %></span>
+        <span><%= messages[i].thumbUp %></span>
+        <span><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+        <span><i class="fa fa-thumbs-down" aria-hidden="true"></i></span>
+        <span><i class="fa fa-trash" aria-hidden="true"></i></span> -->
+      </li>
+    <% } %>
+    </ul>
+    <section>
+      <ul id="populateList">
+
+      </ul>
+    </section>
+
+    <section>
+      <p>You have <span id="listItemsLeft"></span> things left to do</p>
+      <button id="clearCompleteTasks"type="button" name="button">Clear Completed Tasks</button>
+      <button id="clearAllTasks" type="button" name="button">Clear All Tasks </button>
+    </section>
+
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

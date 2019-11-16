@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/KaniahDunn/todo-list-2019-week05#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "bson": "^4.0.2",
+    "ejs": "^2.7.2",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "nodemon": "^1.19.4"
   }
 }

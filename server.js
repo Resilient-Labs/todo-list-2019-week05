@@ -30,16 +30,16 @@ app.get('/', (req, res) => {
   })
 })
 
-app.post('/messages', (req, res) => {
-  db.collection('messages').save({title: req.body.title, author: req.body.author, isbn: req.body.isbn}, (err, result) => {
+app.post('/taskitems', (req, res) => {
+  db.collection('taskitems').save({taskitems: req.body.taskitems, author: req.body.author, isbn: req.body.isbn}, (err, result) => {
     if (err) return console.log(err)
     console.log('saved to database')
     res.redirect('/')
   })
 })
 
-app.put('/messages', (req, res) => {
-  db.collection('messages')
+app.put('/taskitems', (req, res) => {
+  db.collection('taskitems')
   .findOneAndUpdate({title: req.body.title, author: req.body.author}, {
     $set: {
 
@@ -54,9 +54,9 @@ app.put('/messages', (req, res) => {
   })
 })
 
-app.delete('/messages', (req, res) => {
+app.delete('/taskitems', (req, res) => {
   console.log(req.body);
-  db.collection('messages').findOneAndDelete({title: req.body.title, author: req.body.author, isbn: (req.body.isbn).toString()}, (err, result) => {
+  db.collection('taskitems').findOneAndDelete({title: req.body.title, author: req.body.author, isbn: (req.body.isbn).toString()}, (err, result) => {
     if (err) {
       console.log('delete failed')
       return res.send(500, err)
