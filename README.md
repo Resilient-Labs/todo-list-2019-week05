@@ -4,10 +4,8 @@
 
 ### Give a feel for how it works here: https://rc-to-do-list.netlify.com/
 
-![alt text](css/images/todo-list.png)
-### Technology Used: 
-- HTML 
+![alt text](public/css/images/todo-list.png)
+### Technology Used:
+- HTML
 - CSS
-- Javascript 
-
-
+- Javascript
