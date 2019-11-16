@@ -8,7 +8,7 @@ var db, collection;
 const url = "mongodb+srv://jayden:april2017@cluster0-chjxm.mongodb.net/test?retryWrites=true&w=majority";
 const dbName = "tasktracker";
 
-app.listen(3000, () => {
+app.listen(8000, () => {
     MongoClient.connect(url, { useNewUrlParser: true }, (error, client) => {
         if(error) {
             throw error;
@@ -26,12 +26,13 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
   db.collection('taskitems').find().toArray((err, result) => {
     if (err) return console.log(err)
-    res.render('index.ejs', {messages: result})
+    res.render('index.ejs', {taskitems: result})
   })
 })
 
 app.post('/taskitems', (req, res) => {
-  db.collection('taskitems').save({taskitems: req.body.taskitems, author: req.body.author, isbn: req.body.isbn}, (err, result) => {
+  db.collection('taskitems').save({taskitems: req.body.userInput}, (err, result) => {
+    console.log(req.body)
     if (err) return console.log(err)
     console.log('saved to database')
     res.redirect('/')
@@ -40,7 +41,7 @@ app.post('/taskitems', (req, res) => {
 
 app.put('/taskitems', (req, res) => {
   db.collection('taskitems')
-  .findOneAndUpdate({title: req.body.title, author: req.body.author}, {
+  .findOneAndUpdate({taskitems: req.body.userInput}, {
     $set: {
 
     }
@@ -56,7 +57,7 @@ app.put('/taskitems', (req, res) => {
 
 app.delete('/taskitems', (req, res) => {
   console.log(req.body);
-  db.collection('taskitems').findOneAndDelete({title: req.body.title, author: req.body.author, isbn: (req.body.isbn).toString()}, (err, result) => {
+  db.collection('taskitems').findOneAndDelete({taskitems: req.body.userInput}, (err, result) => {
     if (err) {
       console.log('delete failed')
       return res.send(500, err)

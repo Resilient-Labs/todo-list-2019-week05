@@ -22,7 +22,7 @@ p{
   color: brown;
 }
 
-.listItem{
+span{
   font-size: 2rem;
   color: brown;
   list-style: none;

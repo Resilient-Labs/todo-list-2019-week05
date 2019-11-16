@@ -60,21 +60,21 @@
 //       updateCountTasks()
 //     }
 // }
-var taskitem = document.querySelector('.inputItem')
-
+var taskitem = document.querySelector('.inputItem').value
+var btn = document.querySelector('.addItemButton')
 
 
 Array.from(taskitem).forEach(function(element) {
       element.addEventListener('click', function(){
-        console.log(element);
-        const title = this.parentNode.parentNode.childNodes[1].childNodes[0].innerText
-        fetch('messages', {
+        const taskitem = this.parentNode.parentNode.childNodes[1].childNodes[0].innerText
+        console.log(taskitem);
+        fetch('taskitems', {
           method: 'delete',
           headers: {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            'inputItem': inputItem,
+            'userInput': userInput,
           })
         }).then(function (response) {
           window.location.reload()
