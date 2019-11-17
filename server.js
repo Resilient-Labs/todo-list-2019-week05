@@ -31,8 +31,8 @@ app.get('/', (req, res) => {
 })
 
 app.post('/taskitems', (req, res) => {
-  db.collection('taskitems').save({taskitems: req.body.userInput}, (err, result) => {
-    console.log(req.body)
+  console.log(req.body.userInput);
+  db.collection('taskitems').insertOne({taskitems: req.body.userInput}, (err, result) => {
     if (err) return console.log(err)
     console.log('saved to database')
     res.redirect('/')
@@ -56,7 +56,6 @@ app.put('/taskitems', (req, res) => {
 })
 
 app.delete('/taskitems', (req, res) => {
-  console.log(req.body);
   db.collection('taskitems').findOneAndDelete({taskitems: req.body.userInput}, (err, result) => {
     if (err) {
       console.log('delete failed')

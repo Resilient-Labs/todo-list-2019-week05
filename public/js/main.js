@@ -63,10 +63,9 @@
 var taskitem = document.querySelector('.inputItem').value
 var btn = document.querySelector('.addItemButton')
 
-
 Array.from(taskitem).forEach(function(element) {
       element.addEventListener('click', function(){
-        const taskitem = this.parentNode.parentNode.childNodes[1].childNodes[0].innerText
+        const taskitem = this.parentNode.parentNode.childNodes[1].childNodes[0]
         console.log(taskitem);
         fetch('taskitems', {
           method: 'delete',
