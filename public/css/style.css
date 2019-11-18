@@ -13,6 +13,9 @@ section{
   margin-right: 20%;
   border: 2px solid brown;
 }
+ul {
+  list-style: none;
+}
 h1 {
   color: brown;
   font-size: 3rem;

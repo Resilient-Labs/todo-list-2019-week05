@@ -5,6 +5,7 @@
     <title>Your To-Do List</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -21,18 +22,19 @@
       <% for(var i=0; i<taskitems.length; i++) {%>
         <li class="taskitem">
           <span><%=taskitems[i].taskitems%></span>
+          <span><i class="fas fa-trash-alt"></i></span>
         </li>
       <% } %>
       </ul>
     </section>
 
 
-
+<!-- 
     <section>
       <p>You have <span id="listItemsLeft"></span> things left to do</p>
       <button id="clearCompleteTasks"type="button" name="button">Clear Completed Tasks</button>
       <button id="clearAllTasks" type="button" name="button">Clear All Tasks </button>
-    </section>
+    </section> -->
 
 
 

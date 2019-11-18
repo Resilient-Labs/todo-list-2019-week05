@@ -56,7 +56,7 @@ app.put('/taskitems', (req, res) => {
 })
 
 app.delete('/taskitems', (req, res) => {
-  db.collection('taskitems').findOneAndDelete({taskitems: req.body.userInput}, (err, result) => {
+  db.collection('taskitems').findOneAndDelete({taskitem: req.body.taskitem}, (err, result) => {
     if (err) {
       console.log('delete failed')
       return res.send(500, err)

@@ -60,23 +60,24 @@
 //       updateCountTasks()
 //     }
 // }
-var taskitem = document.querySelector('.inputItem').value
-var btn = document.querySelector('.addItemButton')
+var trash = document.getElementsByClassName("fa-trash-alt");
 
-Array.from(taskitem).forEach(function(element) {
-      element.addEventListener('click', function(){
-        const taskitem = this.parentNode.parentNode.childNodes[1].childNodes[0]
-        console.log(taskitem);
-        fetch('taskitems', {
-          method: 'delete',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            'userInput': userInput,
-          })
-        }).then(function (response) {
-          window.location.reload()
-        })
-      });
+
+Array.from(trash).forEach(function(element) {
+  element.addEventListener('click', function(){
+    const task = this.parentNode.parentNode.childNodes[1].innerText
+    console.log(task);
+    
+    fetch('taskitems', {
+      method: 'delete',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        'task': task,
+      })
+    }).then(function (response) {
+      window.location.reload()
+    })
+  });
 });
