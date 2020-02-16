@@ -1,0 +1,49 @@
+ul{
+list-style-type: none;
+}
+
+body{
+  background-image: url(../img/secBI.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  padding-top: 40px;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+.biggestContainer{
+  text-align: center;
+  height: 800px;
+  width: 50%;
+  margin-left: 350px;
+  color: white;
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+}
+
+.input{
+  height: 50px;
+  width: 100%;
+  padding-top: 15px;
+  background-color: white;
+}
+
+#userItem{
+  width: 30%;
+}
+
+.strike{
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
