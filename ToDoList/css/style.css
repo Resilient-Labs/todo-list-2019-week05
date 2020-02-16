@@ -1,0 +1,48 @@
+h1{
+text-align: center;
+  font-size:24px;
+  color:black;
+}
+
+.image {
+  background-image: url(../image/todolist.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+text-align:center;
+
+}
+form{
+text-align: center;
+
+}
+input{
+
+width:30%;
+}
+section{
+
+
+width:40%;
+margin-left:auto;
+margin-right: auto;
+
+}
+section section{
+text-align:center;
+}
+button{
+  height: 30px;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+ul{
+  color:white;
+}
+.crossOut {
+  text-decoration: line-through;
+}
