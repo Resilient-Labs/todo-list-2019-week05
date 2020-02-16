@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  /* background-image:url(back.jpeg);
+  background-repeat:no-repeat; */
+  background-size:cover;
+  background-color:rgb(179, 245, 236);
+}
+h1{
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size:40px;
+  color:green;
+}
+p{
+  text-align:center;
+  font-family: 'Caveat', cursive;
+  font-size:24px;
+}
+form{
+  text-align: center;
+
+}
+input{
+  width:30%;
+}
+section{
+  background-color:pink;
+  width:40%;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+section section{
+  text-align:center;
+}
+button{
+  height: 30px;
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+#addItems{
+  width:40%;
+}
+#addInput{
+  width:95%;
+}
+
+ul{
+  color:white;
+}
+.crossOut {
+  text-decoration: line-through;
+}
