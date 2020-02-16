@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+p{
+  font-size: 2rem;
+}
+li{
+  font-size: 2rem;
+  color:white;
+}
+.container {
+    width: 100%;
+    background: url(../lov.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border: 4px solid black;
+    margin-top: 8rem;
+}
+#list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+#addToList{
+  width: 23rem;
+}
+.addOne {
+    width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
