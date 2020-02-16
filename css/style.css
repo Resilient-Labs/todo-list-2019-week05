@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+h1{
+  color: brown;
+}
+.strike{
+  text-decoration: line-through;
+}
+
+li{
+  list-style: number;
+}
+
+#adder, #deleteAll, #deleteSelected{
+  color: brown;
+  background-color: skyblue;
+}
+
+body{
+  /* background-color: beige; */
+  background-image: url(../images/notepad.jpeg);
+}
