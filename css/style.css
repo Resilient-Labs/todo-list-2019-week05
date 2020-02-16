@@ -1,0 +1,48 @@
+.line {
+  text-decoration: line-through;
+  color: red;
+}
+
+html {
+  background: url("../images/desktop.png");
+  font-size: 10px;
+}
+
+.hero {
+  display:flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 300px 200px 0 200px;
+  background: url("../images/notebook.png") center no-repeat;
+  height: 600px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 5rem;
+  color: #EF7587;
+  margin-bottom: 0;
+}
+
+.taskSection {
+  display: flex;
+  flex-flow: column;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.shownList {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}

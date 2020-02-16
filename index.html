@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon|Fredericka+the+Great|Mali&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="hero">
+    <section class="displayInput">
+      <h1>#GOALS</h1>
+      <section class="taskSection">
+        <p>You have <span id="totalTasks">0</span> left to do</p>
+        <section class="clearButtons">
+          <button id="clearAll" type="button" name="button">Clear All Tasks</button>
+          <button id="clearCompleted" type="button" name="button">Clear Completed Tasks</button>
+        </section>
+      </section>
+      <form id="listInput" action="index.html" method="post">
+        <input id="listItem" type="text">
+        <button id="addToList">Add</button>
+      </form>
+    </section>
+    <section class="shownList">
+      <ul id="addUl">
+      </ul>
+    </section>
+  </section>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
