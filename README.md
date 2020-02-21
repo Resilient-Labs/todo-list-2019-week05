@@ -1,22 +1,27 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
-
 ### Goal: Build a Simple Todo List
 
-### How to submit your code for review:
+This to do list will keep track of your daily tasks, items or anything else you can think of.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Link to site:
+https://zikretodolist.netlify.com/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![to do list](gitlist.png)
+
+## How It's Made:
+
+## Tech used: HTML, CSS, JavaScript
+
+A blend of simple HTML, abstract styling and efficient JavaScript.
+
+
+## Lessons Learned :
+
+I felt I started to get better with writing functions on this project
+
+## Examples:
+
+https://github.com/zikrehaimanot/calculator
+
+https://github.com/zikrehaimanot/rpsGame
+
+https://github.com/zikrehaimanot/foodist
