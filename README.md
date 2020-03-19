@@ -1,4 +1,4 @@
-#Todo List
+# Todo List
 
 It's a simple Todo List where user can add task and cross it after completing it.
 
@@ -6,10 +6,10 @@ View project [Here](https://todolistbyaiperi.netlify.com)
 
 ![TodoList](images/readme.png)
 
-##How It's Made:
+## How It's Made:
 
 **Tech Used**: HTML5,CSS3,JavaScript
 
-##Lessons Learned:
+## Lessons Learned:
 
 * To cross completed items I learned how to use styling in JavaScript.
