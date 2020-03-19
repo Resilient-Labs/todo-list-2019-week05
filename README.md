@@ -4,6 +4,8 @@ It's a simple Todo List where user can add task and cross it after completing it
 
 View project [Here](https://todolistbyaiperi.netlify.com)
 
+![TodoList](images/readme.png)
+
 ##How It's Made:
 
 **Tech Used**: HTML5,CSS3,JavaScript
