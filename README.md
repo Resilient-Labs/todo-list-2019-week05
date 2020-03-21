@@ -1,22 +1,15 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ To-Do List Project: Todo List
 
-### Goal: Build a Simple Todo List
+A simple to-do list for the goals you'll like to achieve.
+** View Full Project Here: ** https://samdecoteau.netlify.com/todo-list-2019-week05/index.html
 
-### How to submit your code for review:
+![Image of Goals To-Do List] (/goals.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### Development:
+** Languages Used: ** HTML & CSS, JavaScript
+I learned the .createElement() method that allowd us to create the to-do list. The CSS was really simple but allowed for a clean design. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Optimizations: 
+For a next step, I'd like to add an edit and remove button for each individual listed goal.
+
+
