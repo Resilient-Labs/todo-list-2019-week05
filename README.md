@@ -7,9 +7,7 @@ A simple to-do list for the goals you'll like to achieve.
 
 ### Development:
 ** Languages Used: ** HTML & CSS, JavaScript
-I learned the .createElement() method that allowd us to create the to-do list. The CSS was really simple but allowed for a clean design. 
+I learned the .createElement() method that allowd us to create the to-do list. The CSS was really simple but allowed for a clean design.
 
-### Optimizations: 
+### Optimizations:
 For a next step, I'd like to add an edit and remove button for each individual listed goal.
-
-
