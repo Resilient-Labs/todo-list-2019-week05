@@ -2,7 +2,7 @@
 
 **Goal:** Build a simple to do list using vanilla JS.
 
-**Link to project:** TBA
+**Link to project:** https://github.com/zjacobsdev/ToDoList
 
 ![](project_img/TODOSITE.JPG)
 
