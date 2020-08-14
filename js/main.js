@@ -7,9 +7,9 @@ const ul = document.getElementById('items');
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 //prevents the form from refreshing the page after submit
-function taskForm(event){event.preventDefault();
-form.addEventListener('submit', taskForm);
-}
+// function taskForm(event){event.preventDefault();
+// }
+form.addEventListener('submit', addItem);
 
 function crossOut(event){
   let li = event.target;
@@ -19,10 +19,13 @@ function crossOut(event){
     li.className = "crossOut";
   }
 }
+
 // L32 shows what happens when li clicked and L14 targets it. assigned a class
 var count= 0;
 
-function addItem(){
+function addItem(event){
+  console.log(event);
+  event.preventDefault();
   let li = document.createElement('li');
   let liTxt = document.createTextNode(input.value);
   li.appendChild(liTxt);
@@ -44,16 +47,25 @@ function clearAll(){
 }
 
 function clearCompleted(){
-  var children = ul.childNodes;
-  // console.log(children);
-  for (var child of children) {
-    if(child.className == "crossOut"){
-    ul.removeChild(child);
+  let children = ul.querySelectorAll('.crossOut');
+  children.forEach(function(li){
+    console.log(li);
+    ul.removeChild(li);
     count--;
-    taskMsg(count +" "+ "tasks left in your to-do list," + " " + "good job!");
-    }
-  }
+    taskMsg(count +" "+ "tasks left in your to-do list," +" "+ "good job!");
+  })
+
 }
+  // var children = ul.childNodes;
+  // // console.log(children);
+  // for (var child of children) {
+  //   if(child.className == "crossOut"){
+  //   ul.removeChild(child);
+//     // count--;
+//     // taskMsg(count +" "+ "tasks left in your to-do list," +" "+ "good job!");
+//     }
+//   }
+
 
 function taskMsg(msg){
   document.getElementById('itemCounter').innerHTML = msg;
