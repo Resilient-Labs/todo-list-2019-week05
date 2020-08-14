@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section>
+    <h1>Your To Do List</h1>
+    <form id="form" class="" action="index.html">
+      <input id="listItemTask" type="text" name="" value="" placeholder="Add Value">
+      <button id="addsTask" type="submit" name="button">ADD</button>
+      <!-- type = submit; it will fire a submit event. Which handles the enter and the button click with the same event handler -->
+    </form>
+  </section>
+
+  <section>
+    <ul id="itemToAdd"></ul>
+  </section>
+
+  <section class="btnSec">
+    <p>You have <span id="taskCounter">0</span> tasks left to do.</p>
+    <button id="clearAll" type="button" name="button">Clear All Task</button>
+    <button id="clearCompleted" type="button" name="button">Clear Completed Task</button>
+  </section>
+
+  <script type="text/javascript" src="js/failedmain.js"></script>
+  <!-- <script type="text/javascript" src="js/main.js"></script> -->
+</body>
+</html>
