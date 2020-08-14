@@ -1,0 +1,12 @@
+body{
+  background: pink;
+}
+
+.containerAll{
+  display: block;
+  text-align: center;
+}
+
+.crossOut{
+  text-decoration: line-through;
+}

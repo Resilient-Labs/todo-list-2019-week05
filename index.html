@@ -3,23 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <section class="containerAll">
       <header></header>
       <section class="List">
         <form id="form" action="index.html" method="post">
-          <input type="text" name="" value="">
+          <input id="input" type="text" name="" value="">
           <button id="enterBtn" type="button" name="button">Enter</button>
-          <ul class="items"></ul>
         </form>
+        <ul id="items"></ul>
       </section>
+      <section class="actionBtn">
         <p id="itemCounter"></p>
-        <button id ="clearBtn" type="button" name="button">Clear List</button>
-        <button id ="clearItems" type="button" name="button">Clear Completed Items</button>
-      <section>
-
+        <button id="clearBtn" type="button" name="button">Clear List</button>
+        <button id="clearItems" type="button" name="button">Clear Completed Items</button>
       </section>
     </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
