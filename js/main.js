@@ -2,6 +2,7 @@ document.getElementById('enterBtn').addEventListener('click', addItem);
 document.getElementById('clearItems').addEventListener('click', clearCompleted);
 document.getElementById('clearBtn').addEventListener('click', clearAll);
 
+
 const ul = document.getElementById('items');
 const form = document.getElementById('form');
 const input = document.getElementById('input');
@@ -19,15 +20,15 @@ function crossOut(event){
   }
 }
 // L32 shows what happens when li clicked and L14 targets it. assigned a class
+var count= 0;
 
 function addItem(){
   let li = document.createElement('li');
-  console.log("this is the li", li);
   let liTxt = document.createTextNode(input.value);
-  // console.log("this foo", liTxt);
   li.appendChild(liTxt);
-  // console.log('this is the ul', ul);
   ul.appendChild(li);
+  count++
+  taskMsg(count +" "+ "tasks left in your to-do list");
   // console.log('input value!', input.value);
   li.addEventListener('click', crossOut);
 }
@@ -38,6 +39,8 @@ function addItem(){
 
 function clearAll(){
   ul.innerHTML = "";
+  count = 0;
+  taskMsg(count +" "+ "tasks left in your to-do list");
 }
 
 function clearCompleted(){
@@ -46,8 +49,15 @@ function clearCompleted(){
   for (var child of children) {
     if(child.className == "crossOut"){
     ul.removeChild(child);
+    count--;
+    taskMsg(count +" "+ "tasks left in your to-do list");
     }
   }
 }
+
+function taskMsg(msg){
+  document.getElementById('itemCounter').innerHTML = msg;
+}
 // L44 creates list/array L46 loops through array
-addItem(); //needed to add li to the HTML - line 29
+// addItem();
+ //needed to add li to the HTML - line 29

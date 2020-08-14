@@ -3,24 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Yellowtail&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <section class="containerAll">
-      <header>
+      <header class="title">
         <h1>To-Do List</h1>
       </header>
-      <section class="List">
+      <section class="list">
         <form id="form" action="index.html" method="post">
-          <input id="input" type="text" name="" value="">
-          <button id="enterBtn" type="button" name="button">Enter</button>
+          <input id="input" type="text" placeholder="What's today's tasks?">
+          <button id="enterBtn" type="button" name="button">
+            <i class="fab fa-pagelines"></i>
+          </button>
         </form>
         <ul id="items"></ul>
       </section>
       <section class="actionBtn">
         <p id="itemCounter"></p>
         <button id="clearBtn" type="button" name="button">Clear List</button>
-        <button id="clearItems" type="button" name="button">Clear Completed Items</button>
+        <button id="clearItems" type="button" name="button">Clear Completed</button>
       </section>
     </section>
     <script src="js/main.js"></script>
