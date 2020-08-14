@@ -1,12 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
-  background: pink;
+  background: #FFF6CE;
+  font-family: 'Arial';
 }
 
 .containerAll{
   display: block;
   text-align: center;
+  background-image: url('../img/frame3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 700px;
 }
 
 .crossOut{
   text-decoration: line-through;
+}
+
+ul li{
+  list-style: none;
+}
+
+.actionBtn{
+  transform: translate(0, 339px);
+}
+
+#clearBtn{
+
+}
+
+#clearItems{
+
 }

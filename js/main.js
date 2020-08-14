@@ -6,7 +6,7 @@ const ul = document.getElementById('items');
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 //prevents the form from refreshing the page after submit
-function taskForm(event) { event.preventDefault();
+function taskForm(event){event.preventDefault();
 form.addEventListener('submit', taskForm);
 }
 
@@ -18,16 +18,17 @@ function crossOut(event){
     li.className = "crossOut";
   }
 }
+// L32 shows what happens when li clicked and L14 targets it. assigned a class
 
 function addItem(){
   let li = document.createElement('li');
   console.log("this is the li", li);
   let liTxt = document.createTextNode(input.value);
-  console.log("this foo", liTxt);
+  // console.log("this foo", liTxt);
   li.appendChild(liTxt);
-  console.log('this is the ul', ul);
+  // console.log('this is the ul', ul);
   ul.appendChild(li);
-  console.log('input value!', input.value);
+  // console.log('input value!', input.value);
   li.addEventListener('click', crossOut);
 }
 //li.appendChild(document.createTextNode("input.value"));
@@ -48,5 +49,5 @@ function clearCompleted(){
     }
   }
 }
-
+// L44 creates list/array L46 loops through array
 addItem(); //needed to add li to the HTML - line 29
