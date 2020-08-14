@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+font-family: 'Bonbon', cursive;
+
+}
+
+body{
+  background-image: url(../assets/img/flowers.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: brown;
+}
+h1{
+text-align: center;
+  font-size:5rem;
+  color:pink;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(75,0,130,1) 100%);
+  width: 60%;
+  margin: auto;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+p{
+text-align:center;
+height: 40px;
+background-color: gold;
+border-radius: 20px;
+padding-top: 2px;
+width: 50%;
+margin:auto;
+margin-bottom: 20px;
+font-family: 'Delius Unicase', cursive;
+font-size: 2rem;
+
+
+}
+span{
+  margin-left:5%;
+  font-size: 3rem;
+  color:hotpink;
+}
+form{
+text-align: center;
+
+}
+input{
+background-color: hotpink;
+width:40%;
+height: 30px;
+border: none;
+border-radius: 30px;
+}
+section{
+background-color:rebeccapurple;
+border-radius: 20px;
+height: 300px;
+box-shadow: 5px 10px #b507c5;
+
+width:40%;
+margin-left:auto;
+margin-right: auto;
+
+}
+
+button{
+  height: 30px;
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 20px;
+  background-color: cyan;
+  border-color: deeppink;
+  border-radius: 10px;
+  /* font-family: 'Alex Brush', cursive; */
+/* font-family: 'Molle', cursive; */
+font-family: 'Bonbon', cursive;
+
+}
+
+ul{
+  color:yellow;
+  font-size:2rem;
+}
+li{
+  list-style: none;
+}
+.crossOut {
+  text-decoration: line-through;
+}
+.hide{
+  display: none;
+}
+
+/* Phone */
+@media only screen and (max-width:550px){
+section{
+  width:90%;
+}
+p{
+
+height: 75px;
+
+
+}
+.burger{
+  display: none;
+}
+.hide{
+  display: block;
+  text-align: center;
+}
+input{
+  display: block;
+  width: 90%;
+  margin:auto;
+  margin-top: 20px;
+}
+
+
+}
+/* Tablet */
+@media only screen and (min-width:550px) and (max-width:1000px){
+  section{
+    width:90%;
+  }
+  p{
+  height: 75px;
+  }
+  .burger{
+    display: none;
+  }
+  .hide{
+    display: block;
+    text-align: center;
+  }
+  input{
+    display: block;
+    width: 50%;
+    margin:auto;
+    margin-top: 20px;
+  }
+  
+  
+  }
+  

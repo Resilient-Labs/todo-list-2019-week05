@@ -1,22 +1,24 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ To Do List
 
-### Goal: Build a Simple Todo List
+**Goal:** Build a simple to do list using vanilla JS.
 
-### How to submit your code for review:
+**Link to project:** https://github.com/zjacobsdev/ToDoList
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![](project_img/TODOSITE.JPG)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+  **Languages used:**  HTML, CSS, JavaScript, Framework of choice
+
+  - Created seperate functions to create an clear all, clear done.
+
+## Optimizations
+  - ADD an edit option
+  - IMPROVE syntax consistently
+
+## Lessons Learned:
+  This was a lot harder than I thought. The attempt to implementing an edit feature was interfering alot with the other button functions 
+## Examples:
+Take a look at these couple examples that I have in my own portfolio:
+
+**Slot Machine:** https://github.com/zjacobsdev/slot-machine-2019-week05/tree/answer
