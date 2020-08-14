@@ -61,13 +61,19 @@ body{
  /* crossed out li */
 .crossOut{
   text-decoration: line-through;
+  color: #306060;;
 }
 
 ul li{
   list-style: none;
+  color: green;
+  font-weight: bold;
   padding: 2px 0 3px 0;
-  /* background: pink; */
-  margin: 0 30%;
+  background: rgb(181 223 226 / 36%);
+  width: 630px;
+  margin: auto;
+  border-top: 1px solid rgb(110 180 185 / 36%);
+  border-bottom: 1px solid rgb(110 180 185 / 36%);
 }
 
 /* task counter for list  */
@@ -76,6 +82,7 @@ ul li{
   font-weight: bold;
 }
 
+/* Clear all button and task completion button */
 #clearBtn{
   height: 35px;
   width: 70px;

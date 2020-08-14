@@ -45,12 +45,12 @@ function clearAll(){
 
 function clearCompleted(){
   var children = ul.childNodes;
-  console.log(children);
+  // console.log(children);
   for (var child of children) {
     if(child.className == "crossOut"){
     ul.removeChild(child);
     count--;
-    taskMsg(count +" "+ "tasks left in your to-do list");
+    taskMsg(count +" "+ "tasks left in your to-do list," + " " + "good job!");
     }
   }
 }
