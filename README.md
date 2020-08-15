@@ -1,22 +1,7 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To-Do List
 
-### Goal: Build a Simple Todo List
+Keep track of your tasks with this is a to-do list generator!
+I used HTML, CSS and Javascript to create it.
+You can add tasks, click on the task to cross it off (and click on it again to undo!) and clear all or completed items. Take charge of your day!
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![To-Do Screenshot](/toDoScreen.png)
