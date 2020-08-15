@@ -1,5 +1,9 @@
 body{
   text-align: center;
+  background: url('https://thumbs.gfycat.com/ComfortableOnlyBass-small.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(253, 242, 127, 1);
 }
 
 .project{
@@ -10,6 +14,8 @@ body{
   border: 2px solid black;
   display: inline-block;
   width: 40%;
+  background: rgb(255,228,240);
+  background: radial-gradient(circle, rgba(255,228,240,1) 14%, rgba(141,202,255,1) 100%);
 }
 
 .inputs{
@@ -63,6 +69,10 @@ ul li {
   text-decoration: line-through;
   /*background-color: rgba(226, 253, 147, 1);*/
 
+}
+
+ul li:nth-child(even) {
+  background: #E5EDCD;
 }
 
 ul li:nth-child(odd) {
