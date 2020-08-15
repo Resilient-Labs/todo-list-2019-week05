@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="css/todo.css">
+  </head>
+  <body>
+
+    <section class="container">
+      <header>
+        <h1>To Do List</h1>
+        <img src="https://todoist.com/_next/static/images/header@2x_c84b18bc0a0246618f70afce1a562d58.jpg" alt="">
+      </header>
+
+      <section class="content">
+        <form id="inputContainer">
+          <input id="input" type="text" name="todo" placeholder="Enter To-do">
+          <button id="enter" type="button" name="button">Enter</button>
+        </form>
+
+        <section class="listContainer">
+          <ul id="toDoList" contenteditable="true">
+
+          </ul>
+        </section>
+
+        <section class="buttonContainer">
+          <h2 id="itemCount"></h2>
+          <button id="clear" type="button" name="button">Clear All</button>
+          <button id="complete" type="button" name="button">Clear Completed</button>
+          <button id="save" type="button" name="button">Save</button>
+          <button id="filter" type="" name="button">Archives</button>
+        </section>
+      </section>
+
+    </section>
+
+
+  <script src="js/todolist.js" type="text/javascript"></script>
+  </body>
+</html>
