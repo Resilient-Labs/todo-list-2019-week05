@@ -1,0 +1,50 @@
+.deletedItem{
+  text-decoration: line-through;
+}
+*{
+  font-family: "Gill Sans MT", "Gill Sans", "My Gill Sans", sans-serif;
+}
+body{
+  background-image: url("trueBack.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.container{
+  border-radius: 3px;
+  /*border: 4px solid rgb(167,133,94);*/
+  border: 4px solid rgb(118,63,33);
+  background-color: rgb(208,150,149);
+  opacity: .9;
+  width: 40%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+h1{
+  color: white;
+  font-size: 2em;
+}
+#toDo{
+  list-style: none;
+  font-size: 1.5em;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+#text{
+  height: 30px;
+  width: 50%;
+  outline: none;
+  margin-bottom: 2%;
+}
+#save, #remove, #clear{
+  background: rgb(118,63,33);
+  color: white;
+  height: 25px;
+  outline: none;
+  border-radius: 3px;
+}
+.remain{
+  color: white;
+}
