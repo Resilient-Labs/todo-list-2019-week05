@@ -9,9 +9,8 @@
 Using these 2 peices of markdown language in conjuction with the JavaScript coding language, I was able to make a simple to-do list that has the functionality of clearing all items in your to do list, checking ones off that you've already completed and at the same time, being able to delete the ones you've already completed while leaving the uncompleted items intact!
 
 ## Optimizations
-*(optional)*
 
-being able to cut down on the codes length by optimizing originally 70 lines of code down to under 30 has not only made the code more easily readable but faster as well.
+Being able to cut down on the codes length by optimizing originally 70 lines of code down to under 30 has not only made the code more easily readable but faster as well.
 
 ## Lessons Learned:
 
