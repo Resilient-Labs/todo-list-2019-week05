@@ -1,0 +1,53 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     /* font-size: 10px; */
+}
+body{
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+}
+
+.container{
+  margin-top: 20%;
+}
+
+.inputSec{
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.listDisplay{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.idk{
+  width: 25%;
+  min-height: 20em;
+  max-height: 20em;
+  overflow-y: scroll;
+
+}
+
+.buttonSec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.finished{
+  text-decoration: line-through;
+  text-decoration-color: red;
+  font-style: italic;
+  color: rgba(0,0,0,0.5);
+};
+.task: active{
+  text-decoration: none;
+}
+.ulElement{
+  list-style: none;
+}
