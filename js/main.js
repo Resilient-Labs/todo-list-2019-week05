@@ -1,14 +1,37 @@
-// By Nicole B. Worked on with Mike P. & Farrah
+const toDoList = document.querySelector('ul');
+let form = document.querySelector('#addToDo');
+form.addEventListener('submit',addItem);
+let clearAll= document.querySelector('#clearAll');
+clearAll.addEventListener('click', clearToDoList);
+toDoList.addEventListener('click', toggleCompleted)
 
-let button = document.querySelector('button');
-button.addEventListener('click',addItem);
-
-function addItem() {
+function addItem(e) {
+  e.preventDefault()
   document.querySelector('input').value;
   let li = document.createElement('li');
   let addLi =
   document.createTextNode(document.querySelector('input').value);
   li.appendChild(addLi);
-  document.querySelector('ul').appendChild(li);
-  document.getElementById('toDo').innerText = document.querySelector('ul').getElementsByTagName("li").length;
+  toDoList.appendChild(li);
+  document.getElementById('toDo').innerText = toDoList.getElementsByTagName("li").length;
 }
+
+function clearToDoList() {
+  while (toDoList.firstChild){
+    toDoList.removeChild(toDoList.firstChild);
+  }
+}
+
+function toggleCompleted(e) {
+  if (e.target.nodeName !== "LI") return;
+  e.target.classList.toggle('crossOut');
+}
+function clearComplete() {
+  while (toDoList.firstChild){
+    if () {
+      //check the class of the child with crossOut
+    }
+    toDoList.removeChild(toDoList.firstChild)
+  }
+}
+// decrease the count of 'toDo' to reflect the remaining total
