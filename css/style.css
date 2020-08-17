@@ -1,0 +1,18 @@
+body{
+  background-image: url(../img/blues.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: blue;
+  font-size: 1.2rem;
+}
+.calc{
+  margin-left: 15%;
+  margin-top: 11%;
+}
+h1{
+  font-size: 2rem;
+}
+
+.crossOut {
+  text-decoration: line-through;
+}
