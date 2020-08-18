@@ -12,7 +12,12 @@ body{
 h1{
   font-size: 2rem;
 }
-
+h4{
+  width: 37%;
+}
 .crossOut {
   text-decoration: line-through;
+}
+#todo, span{
+  font-weight: bold;
 }
