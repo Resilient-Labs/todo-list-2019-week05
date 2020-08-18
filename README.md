@@ -2,7 +2,7 @@
 
 ### Goal: Build a Simple To-Do List
 
-![To Do List Screenshot](https://github.com/ayimo/todo-list-2019-week05]/blob/answer/ToDoSS.png?raw=true)
+![To Do List Screenshot](ToDoSS.png)
 
 
 
