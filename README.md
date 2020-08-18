@@ -2,6 +2,8 @@
 
 ### Goal: Build a Simple To-Do List
 
+![alt text](https://github.com/ayimo/todo-list-2019-week05/blob/answer/ToDoSS.png?raw=true)
+
 <h1> My simple Todo List </h1>
 
 Create a functional TO-DO list that allows the user to type into the input box, and have their input appear in the list.
