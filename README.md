@@ -2,7 +2,7 @@
 
 ![alt tag](https://i.imgur.com/uZ5Zhy1.png)
 
-Live version here! - to-do-list-jm.netlify.app
+Live version here! - https://to-do-list-jm.netlify.app/
 
 ## How It's Made:
 
