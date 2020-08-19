@@ -42,3 +42,30 @@ li {
 .strike{
   text-decoration: line-through;
 }
+
+
+@media only screen and (max-width: 500px) {
+  #addsTask {
+    width: 15%;
+  }
+  .btnSec button {
+    font-size: 0.86rem;
+    width: 49%;
+  }
+  input {
+    width: 75%;
+  }
+}
+
+@media (min-width:501px) and (max-width: 1439px){
+  #addsTask {
+    width: 15%;
+  }
+  input{
+    width: 57%;
+  }
+  .btnSec button {
+    font-size: 1.2rem;
+    width: 44%;
+  }
+}

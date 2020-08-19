@@ -1,22 +1,22 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To - do list: Javascript - Week 5
+## Project done in one days. Check it out.
 
-### Goal: Build a Simple Todo List
+Create a simple to do list that clears tasks.
 
-### How to submit your code for review:
+<img width="707" alt="to-do-list" src="https://user-images.githubusercontent.com/69063454/90581528-76f16980-e199-11ea-9219-6ce8a730adbf.png">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Link to project: https://josh-to-do-list.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+How It's Made:
+Tech used: HTML5, CSS3, JavaScript ES6
+
+
+I used only two functions. The first function was to get the user's input; the second function was to make the clear completed button work. Everything else, including striking the items, clearin all and the increasing or decreasing of task was DOM manipulation. This is one of the cleanest and nicest code you'll see.
+
+Optimizations
+
+I added some media queries to make it responsive in any device.
+
+Lessons Learned:
+The hardest part of this project was trying to make it as simple as possible. The use of DOM manipulation for adding and creating the task was the hardest part.
