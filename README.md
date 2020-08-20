@@ -18,4 +18,4 @@ With this project, I discovered how to create elements and how to append the li 
 
 Take a look at these couple examples that I have in my own portfolio:
 
-Slot Machine:  https://kimflores-slotmachine.netlify.app
+Slot Machine:  https://github.com/Kim-Flores/slot-machine-2019-week05/tree/answer
