@@ -1,6 +1,6 @@
 ### Goal: Build a Simple Todo List w/ Javascript
 
-![alt tag](https://i.imgur.com/uZ5Zhy1.png)
+![alt tag](https://i.imgur.com/HWoztBw.png)
 
 Live version here! - https://to-do-list-jm.netlify.app/
 
