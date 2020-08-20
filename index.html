@@ -11,10 +11,11 @@
 		<title>To Do List</title>
 	</head>
 	<body>
+		<img src="./media/todo.png" alt="">
 		<section id="listContainer">
 
 			<header>
-				<input id="input" type="input" name="" value="">
+				<input id="input" type="input" name="" value="" onkeypress='EnterKey(event)' placeholder=" Enter your tasks here">
 				<button id="addInput" type="button" name="button" onclick="addText()">+</button>
 			</header>
 
@@ -25,7 +26,7 @@
 			</section>
 
 			<footer>
-				<h3 id="leftToDo"></h3>
+				<h3 id="leftToDo">Lets get some tasks down!</h3>
 				<button id="clearA" type="button" name="button" onclick="clearA()">Clear All</button>
 				<button id="clearC" type="button" name="button" onclick="clearC()">Clear Completed</button>
 			</footer>

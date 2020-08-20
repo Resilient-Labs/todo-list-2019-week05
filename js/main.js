@@ -2,7 +2,7 @@ let input = document.getElementById('input');
 function countLi(){
 	let len = document.getElementById('list').getElementsByTagName('li');
   let lilength = len.length
-  document.getElementById('leftToDo').innerHTML = (`you have ${lilength} tasks`);
+  document.getElementById('leftToDo').innerHTML = (`you have ${lilength} tasks left`);
 }
 function clicky(e){
   if (e.target.classList.contains('frank')) {
@@ -25,5 +25,11 @@ function clearC(){
 }
 function clearA(){
   document.getElementById('list').innerHTML = ('')
-  document.getElementById('leftToDo').innerHTML = (`you have 0 tasks`)
+  document.getElementById('leftToDo').innerHTML = (`No more tasks? You've earned a break!`)
+}
+
+function EnterKey(z){
+   if(z.keyCode == 13){
+   	addText()
+   }
 }
