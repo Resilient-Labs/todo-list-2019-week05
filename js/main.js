@@ -33,13 +33,16 @@ Adds a new staged task if current staged task has content
 function addListen(){
   let currentStaged =tasksHTML.querySelector('.stage')
   let currentStagedContent = tasksHTML.querySelector('.stage .task')
-  console.log(currentStagedContent.value)
+  console.log(currentStagedContent)
   if (currentStagedContent.value.length>0){
-    currentStaged.classList.remove('stage')
-    stageTask()
+    if (true) {
+      currentStaged.classList.remove('stage')
+      stageTask()
+    }
+
   }
 }
-
+// tasksHTML.querySelector('.stage').classList.remove('stage')
 
 // Removes all list items and sets up new task to be added
 function reset(){
@@ -116,10 +119,19 @@ function stageTask() {
   li.appendChild(textbox)
   tasksHTML.appendChild(li)
   taskCount.innerText = Number(taskCount.innerText)+1
+
+  textbox.focus()
 }
 
 function textBoxCheck(event){
-
+  switch (event.key){
+    case 'Enter':
+      event.currentTarget.blur()
+      if(event.currentTarget.parentElement.classList.contains('stage')){
+        console.log("make new stage");
+        addListen()
+      }
+  }
 }
 
 
