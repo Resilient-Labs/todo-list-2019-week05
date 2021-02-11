@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+  <section id="main" class="readable-width main">
+    <h1 id="listTitle">To-Do List</h1>
+    <section class="stats flex-container flex-xy-center">
+      <h2>Current Tasks: <span id="task-count">0</span></h2>
+      <h2>Completed Tasks: <span id="complete-count">0</span></h2>
+
+    </section>
+    <section class="buttons flex-container flex-xy-center" >
+      <button id="reset-button" class="reset" type="button" name="button">Reset</button>
+      <button id="clear-complete-button" class="clear-completed" type="button" name="button">Clear Completed</button>
+    </section>
+    <ul id="list-items" class="list-items">
+      <!-- <li id='task-1'class="task stage flex-container task-item flex-xy-center">
+        <label for="check-1"></label>
+        <input id="check-1" class="check-box" type="checkbox" name="" value="">
+        <input class="task" size="30" max-length="30" type="text" name="" value="" placeholder="What should I do?">
+      </li> -->
+    </ul>
+    <section class="add-section">
+      <button id="add-task" class="add-task" type="button" name="button">+</button>
+    </section>
+
+  </section>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
