@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="todoList.css">
+
+  <title>Todo List</title>
+</head>
+
+<body>
+  <div id="todoApp">
+    <header>
+      <h1>Daily To Do</h1>
+      <h6>Inspired by Spirited Away</h6><br>
+      <input type="button" onclick="count()" value="TOTAL OF ITEMS LEFT TO DO BUTTON" id="total">
+
+      <input type="text" name="text" placeholder="What is your errand or chore?" id="words">
+      <button id="fresh">+</button>
+      <p>Click checkmark to cross out tasks</p>
+      <p>Click trashcan to delete tasks</p>
+
+    </header>
+    <div id="wrap">
+      <ul id="todoL">
+        <li> Get Chicken
+          <div class="ticks">
+
+            <button class="strikeOut"></button>
+            <button class="finish"></button>
+          </div>
+        </li>
+        <li> Pay water billl
+          <div class="ticks">
+            <button class="strikeOut"></button>
+            <button class="finish"></button>
+          </div>
+        </li>
+      </ul>
+      <ul id="ready">
+        <li> Pay Auntie
+
+          <div class="ticks">
+            <button class="strikeOut"></button>
+            <button class="finish"></button>
+          </div>
+        </li>
+        <li> Sleep by 9pm
+          <div class="ticks">
+            <button class="strikeOut"></button>
+            <button class="finish"></button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div id="pretty"></div>
+
+  </div>
+  <img class="pic" src="https://i.gifer.com/8w5A.gif" alt="pic">
+
+  <img class="pic2" src="http://31.media.tumblr.com/1c448d142046ea7f4f0a28ad8902a2af/tumblr_n9uhjnbzBu1rswfk2o2_500.gif" alt="pic">
+
+  <script type="text/javascript" src="todoList.js"></script>
+</body>
+
+</html>
