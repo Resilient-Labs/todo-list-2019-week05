@@ -1,0 +1,70 @@
+body {
+  background-image: linear-gradient(to right, #0db38d, #2a3ccd)
+}
+
+input {
+  height: 3rem;
+  width: 23%;
+  font-size: 2rem;
+  background-color: #edfffd;
+  border: 1px solid #edfffd;
+  border-radius: 5px;
+  box-shadow: 3px 7px 4px 2px #191919;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #e0d33b;
+}
+
+section {
+  text-align: center;
+}
+
+button {
+  height: 3.4rem;
+  font-size: 2rem;
+  background-color: #edfffd;
+  border: 1px solid #edfffd;
+  border-radius: 5px;
+  box-shadow: 3px 7px 4px 2px #191919;
+}
+
+#clearCompleted, #Add {
+  border-radius: 23%;
+  width: 4rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: #edfffd;
+  width: 30%;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  box-shadow: 3px 7px 4px 2px #191919;
+}
+
+.cross {
+  text-decoration: line-through;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 510px) {
+  button {
+    font-size: 1.3rem;
+    height: 2.5rem;
+  }
+
+  #clearCompleted, #Add {
+    width: 2rem;
+  }
+
+  input {
+    font-size: 1.3rem;
+    height: 2.5rem;
+    width: 40%;
+  }
+}
