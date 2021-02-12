@@ -63,6 +63,62 @@ Custom Below
 
  */
 
+/*
+Task item componenets and styling
+*/
+
+
+input[type="text"]{
+  font-size: 2rem;
+  margin-left: .5rem;
+  padding: .5rem 2rem;
+  border:none;
+  outline:none;
+  color: rgb(50,50,50);
+  border-radius: .5rem;
+  background: none;
+  /* background-color: rgba(255,255,255,.3); */
+}
+
+input[type='text']::placeholder{
+  color: rgba(0,0,0,.3);
+  text-decoration: none;
+}
+
+
+input:active {
+  background-color: rgba(255,255,255,.3);
+}
+/*
+input[type='text'][readOnly="true"]{
+  text-decoration: none;
+} */
+
+/* input[type='text'][readOnly="true"]::placeholder{
+  text-decoration: line-through;
+} */
+input:focus {
+  background: rgba(255,255,255,.3);
+}
+
+.hover-items {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.task-item {
+  position: relative;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+/*End Task item styling and componenets*/
+
+
+
 body {
   padding: 0 1rem;
 }
@@ -107,33 +163,13 @@ h2 + h2{
   padding-left: 2rem;
 }
 
-input[type="checkbox"] {
-  /* display:none; */
-}
 
-input[type="text"]{
-  font-size: 2rem;
-  margin-left: .5rem;
-  padding: .5rem 2rem;
-  border:none;
-  outline:none;
-  color: rgb(50,50,50);
-  border-radius: .5rem;
-  background: none;
-}
 
-input[type='text']::placeholder{
-  color: rgba(0,0,0,.3);
-}
 
-input[type='text']:focus,
-input[type='text']:active {
-  background-color: rgba(255,255,255,.3);
-}
 
-input[type="checkbox"]:checked + input[type="text"]{
+/* input[type="checkbox"]:checked + input[type="text"]{
   text-decoration: line-through;
-}
+} */
 
 h1 {
   text-align: center;

@@ -12,7 +12,7 @@
   <body>
 
   <section id="main" class="readable-width main">
-    <h1 id="listTitle">To-Do List</h1>
+    <h1>ToDoList</h1>
     <section class="stats flex-container flex-xy-center">
       <h2>Current Tasks: <span id="task-count">0</span></h2>
       <h2>Completed Tasks: <span id="complete-count">0</span></h2>
@@ -24,9 +24,12 @@
     </section>
     <ul id="list-items" class="list-items">
       <!-- <li id='task-1'class="task stage flex-container task-item flex-xy-center">
-        <label for="check-1"></label>
-        <input id="check-1" class="check-box" type="checkbox" name="" value="">
-        <input class="task" size="30" max-length="30" type="text" name="" value="" placeholder="What should I do?">
+        <section class="hover-items flex-container">
+          <button class="hover edit" type="button" name="button"></button>
+
+        </section>
+
+        <input class="task-box" size="30" max-length="30" type="text" name="" value="" placeholder="What should I do?">
       </li> -->
     </ul>
     <section class="add-section">
@@ -38,3 +41,11 @@
     <script src="./js/main.js"></script>
   </body>
 </html>
+
+<!-- Old task item
+<button class="hover complete" type="button" name="button"></button>
+  <li id='task-1'class="task stage flex-container task-item flex-xy-center">
+  <label for="check-1"></label>
+  <input id="check-1" class="check-box" type="checkbox" name="" value="">
+  <input class="task" size="30" max-length="30" type="text" name="" value="" placeholder="What should I do?">
+</li> -->

@@ -72,33 +72,34 @@ function clear(){
   }
 }
 
-/*fires when checkbox is clicked*/
-function checkMe(click){
-  let checkbox = click.currentTarget
-  if(checkbox.checked===false){
-    console.log("I'm not checked");
-    checkbox.parentElement.classList.remove('checked')
-    completeCount.innerText = Number(completeCount.innerText)-1
-  } else {
-    console.log("I'm checked");
-    checkbox.parentElement.classList.add('checked')
-    console.log(`completed tasks: ${completeCount.innerText}`);
-    completeCount.innerText = Number(completeCount.innerText)+1
-  }
-}
+// /*fires when checkbox is clicked*/
+// function checkMe(click){
+//   let checkbox = click.currentTarget
+//   if(checkbox.checked===false){
+//     console.log("I'm not checked");
+//     checkbox.parentElement.classList.remove('checked')
+//     completeCount.innerText = Number(completeCount.innerText)-1
+//   } else {
+//     console.log("I'm checked");
+//     checkbox.parentElement.classList.add('checked')
+//     console.log(`completed tasks: ${completeCount.innerText}`);
+//     completeCount.innerText = Number(completeCount.innerText)+1
+//   }
+// }
 
 /*
 Sets up a new task item in dom
 */
 function stageTask() {
-  //add new staged task to DOM
-  let label = document.createElement('label')
 
-  let checkbox = document.createElement('input')
-  checkbox.setAttribute( 'type', 'checkbox')
-  checkbox.classList.add('check-box')
-  checkbox.addEventListener('click',checkMe)
-  // checkbox.setAttribute( id, ``)
+
+  let editButton = document.createElement('button')
+  editButton.classList.add('hover', 'edit')
+  editButton.addEventListener('click', editTask)
+  editButton.innerText = "EDIT"
+
+  // let hoverSection = document.createElement('section')
+  // hoverSection.classList.add('hover-items')
 
   let textbox = document.createElement('input')
   textbox.setAttribute( 'type', 'text')
@@ -106,32 +107,88 @@ function stageTask() {
   textbox.setAttribute('placeholder', 'What should I do?')
   textbox.setAttribute('size', '30?')
   textbox.setAttribute('max-length', '30')
-  textbox.addEventListener('keydown', textBoxCheck)
+  // textbox.setAttribute('readOnly', 'true')
+  textbox.addEventListener('keyup', textBoxCheck)
+  textbox.addEventListener('click', completeTask)
+  textbox.addEventListener('blur', removeFocus)
+
 
 
   let li = document.createElement('li')
-  li.classList.add('task', 'stage', 'flex-container', 'flex-xy-center')
-  // li.setAttribute(id, ``)
+  li.classList.add('task', 'stage', 'flex-container', 'task-item', 'flex-xy-center')
+  /
 
   //add to DOM
-  li.appendChild(label)
-  li.appendChild(checkbox)
+
   li.appendChild(textbox)
+  li.appendChild(editButton)
   tasksHTML.appendChild(li)
   taskCount.innerText = Number(taskCount.innerText)+1
 
   textbox.focus()
 }
 
+/*
+Allows Task editing for corresponding task
+*/
+function editTask(click){
+  let textbox =click.currentTarget.previousElementSibling
+  textbox.readOnly = !textbox.readOnly
+  console.log('textbox')
+
+  textbox.focus()
+}
+
+/*
+To signify that textbox is done editing
+*/
 function textBoxCheck(event){
+  console.log(event.key)
   switch (event.key){
     case 'Enter':
+    console.log('enter')
       event.currentTarget.blur()
       if(event.currentTarget.parentElement.classList.contains('stage')){
         console.log("make new stage");
         addListen()
       }
+      break
+    case 'Backspace':
+      console.log('backspace')
+      if(event.currentTarget.value==''){
+        event.currentTarget.classList.remove('strikethrough')
+        event.currentTarget.parentElement.classList.remove('complete')
+      }
+      break;
+
+    //supposedly for mac?
+    case 'Delete':
+      console.log('backspace')
+      if(event.currentTarget.value==''){
+        event.currentTarget.classList.remove('strikethrough')
+        event.currentTarget.parentElement.classList.remove('complete')
+      }
+      break;
   }
+}
+
+/*
+Styles content with strikethrough
+gives parent container class complete
+*/
+function completeTask(event) {
+  if(event.currentTarget.value!==''&& event.currentTarget.readOnly) {
+    event.currentTarget.classList.toggle('strikethrough')
+    event.currentTarget.parentElement.classList.toggle('complete')
+  }
+}
+
+/*
+Fires when focus is removed
+*/
+function removeFocus(event) {
+  event.currentTarget.blur
+  event.currentTarget.readOnly = true
 }
 
 
