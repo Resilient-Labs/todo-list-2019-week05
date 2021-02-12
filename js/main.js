@@ -55,7 +55,7 @@ function reset(){
 
 //Removes all completed items
 function clear(){
-  let completedTasks = Array.from(tasksHTML.querySelectorAll('.checked'))
+  let completedTasks = Array.from(tasksHTML.querySelectorAll('.complete'))
   console.log(`found ${completedTasks.length} completed tasks`);
   if(completedTasks.length>0){
     completedTasks.forEach(task => {
@@ -72,20 +72,7 @@ function clear(){
   }
 }
 
-// /*fires when checkbox is clicked*/
-// function checkMe(click){
-//   let checkbox = click.currentTarget
-//   if(checkbox.checked===false){
-//     console.log("I'm not checked");
-//     checkbox.parentElement.classList.remove('checked')
-//     completeCount.innerText = Number(completeCount.innerText)-1
-//   } else {
-//     console.log("I'm checked");
-//     checkbox.parentElement.classList.add('checked')
-//     console.log(`completed tasks: ${completeCount.innerText}`);
-//     completeCount.innerText = Number(completeCount.innerText)+1
-//   }
-// }
+
 
 /*
 Sets up a new task item in dom
@@ -98,8 +85,6 @@ function stageTask() {
   editButton.addEventListener('click', editTask)
   editButton.innerText = "EDIT"
 
-  // let hoverSection = document.createElement('section')
-  // hoverSection.classList.add('hover-items')
 
   let textbox = document.createElement('input')
   textbox.setAttribute( 'type', 'text')
@@ -107,19 +92,14 @@ function stageTask() {
   textbox.setAttribute('placeholder', 'What should I do?')
   textbox.setAttribute('size', '30?')
   textbox.setAttribute('max-length', '30')
-  // textbox.setAttribute('readOnly', 'true')
   textbox.addEventListener('keyup', textBoxCheck)
   textbox.addEventListener('click', completeTask)
   textbox.addEventListener('blur', removeFocus)
 
-
-
   let li = document.createElement('li')
   li.classList.add('task', 'stage', 'flex-container', 'task-item', 'flex-xy-center')
-  /
 
   //add to DOM
-
   li.appendChild(textbox)
   li.appendChild(editButton)
   tasksHTML.appendChild(li)
@@ -180,6 +160,16 @@ function completeTask(event) {
   if(event.currentTarget.value!==''&& event.currentTarget.readOnly) {
     event.currentTarget.classList.toggle('strikethrough')
     event.currentTarget.parentElement.classList.toggle('complete')
+    if (event.currentTarget.parentElement.classList.contains('complete')) {
+      completeCount.innerText = Number(completeCount.innerText)+1
+    } else {
+      completeCount.innerText = Number(completeCount.innerText)-1
+    }
+  }
+  //if list item is empty, focus on item to enter task
+  else if (event.currentTarget.value==''&& event.currentTarget.readOnly) {
+    event.currentTarget.readOnly = false
+    event.currentTarget.focus()
   }
 }
 
@@ -208,6 +198,20 @@ function removeFocus(event) {
 //
 //
 
+// /*fires when checkbox is clicked*/
+// function checkMe(click){
+//   let checkbox = click.currentTarget
+//   if(checkbox.checked===false){
+//     console.log("I'm not checked");
+//     checkbox.parentElement.classList.remove('checked')
+//     completeCount.innerText = Number(completeCount.innerText)-1
+//   } else {
+//     console.log("I'm checked");
+//     checkbox.parentElement.classList.add('checked')
+//     console.log(`completed tasks: ${completeCount.innerText}`);
+//     completeCount.innerText = Number(completeCount.innerText)+1
+//   }
+// }
 
 // /* Do this later
 // ToDoList Constructor

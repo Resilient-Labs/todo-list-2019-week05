@@ -211,3 +211,16 @@ h2 {
 .task + .task {
   margin-top: 1rem;
 }
+
+.hover {
+  opacity: .25;
+  box-shadow: none;
+  position: absolute;
+  margin-top: 1rem;
+  right: 15.5%;
+}
+
+.hover:hover,
+input:hover + .hover {
+  opacity: 1;
+}
