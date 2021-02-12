@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+body{
+  background-image: url("https://i.pinimg.com/originals/0f/c3/66/0fc366d67d9a75839731d9efd9a3eb3a.jpg");
+ background-size:cover;
+}
+#todoApp{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+  background-color:white;
+   
+}
+header{
+	background-color:rgb(65,120,161);
+	color: white;
+	border-bottom: 5px solid rgb(65,120,161);
+  padding: 22px;
+  
+
+}
+input{
+  text-indent:14px;
+	height: 30px;
+	width: 90%;
+	margin-top: 12px;
+	font-size:18px;
+	
+}
+h1{
+  line-height: 3.5rem;
+}
+
+.pic{
+  width:25%;
+  position: absolute;
+  left:70%;
+  top:25%;
+}
+.pic2{
+  width:25%;
+  position: absolute;
+  left:70%;
+  top:55%;
+
+}
+
+#fresh{
+  width:50px;
+  height:31px;
+	position: relative;
+  top:-32px;
+  left:90%;
+	background-color:rgb(100,94,125);
+	color:white;
+	font-size:15px;
+  font-weight: bolder;
+}
+
+#wrap{
+	width: 100%;
+	border-left: 5px solid #f9f9f9;
+	border-right: 5px solid #f9f9f9;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+ width: 100%;
+	min-height: 60px;
+	padding: 6px 15px;
+	border-bottom: 3px solid #e6e6e6;
+	font-size: 20px;
+	line-height: 30px;
+	color: #444; 
+}
+button{
+	cursor: pointer;
+	height: 40px;
+	width: 44px;
+}
+.ticks{
+	height: 40px;
+	width: 70px;
+	float: right;	
+}
+.ticks button{
+  float:right;
+	border:none;
+	background-color: white;
+}
+.strikeOut{
+	background-image:url("https://www.vhv.rs/dpng/d/152-1520149_png-trash-can-transparent-background-trashcan-clipart-png.png");
+	background-size: contain;
+  background-repeat: no-repeat;
+  margin-left:5px;
+  border-radius: 1px;
+
+
+}
+.finish{
+	background-image: url("https://p7.hiclipart.com/preview/123/283/730/check-mark-computer-icons-download-checkmark-circle.jpg");
+	background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    right:70%;
+    top:-40px;
+    border-radius: 30px;
+  
+}
+#ready{
+	text-decoration: line-through;
+  color:rgb(143, 10, 10);
+  font-weight: bold;
+}
+ 
+
+
+#pretty{
+	height: 50px;
+	width: 400px;
+	background-color:rgb(65,120,161);
+
+}
+#total{
+  background-color:rgb(85, 139, 180);
+  width: 74%;
+  font-size:12px;
+  color:white;
+  border:3px solid white;
+  font-weight: bolder;
+  text-align:left;
+}
