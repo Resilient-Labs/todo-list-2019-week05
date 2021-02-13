@@ -1,0 +1,197 @@
+/* Got typewriter animation help/code from https://css-tricks.com/snippets/css/typewriter-effect/ */
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 12px;
+}
+body {
+  line-height: 1.4;
+  font-family: 'Helvetica', Arial, sans-serif;
+
+  background-image: url('../assets/bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 100vh;
+  padding: 10%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 15%;
+  background-color: cornflowerblue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Fredoka One', Arial, sans-serif;
+}
+h1{
+  /* border: 1px solid red; */
+  height: 65%;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+}
+header div{
+  /* border: 1px solid pink; */
+  width: 100%;
+  vertical-align: bottom;
+}
+div + div{
+  height: 10%;
+}
+.topi i{
+  font-size: 1rem;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 200%; */
+}
+main{
+  /* border: 1px solid red; */
+
+  width: 40%;
+  height: 90%;
+  background-color: white;
+}
+
+
+main p{
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+  width: 100%;
+}
+main p:hover{
+  text-decoration: line-through;
+}
+main li{
+  border-bottom: 1px solid black;
+  display: flex;
+
+}
+main li i{
+  display: inline-block;
+  color: transparent;
+  font-size: 1.8rem;
+  transform: rotate(-180deg);
+}
+main li i:hover{
+  color: #3271e7;
+}
+
+li:hover .fas{
+  color: cornflowerblue;
+}
+
+.anim{
+  /* border-bottom: 1px solid black; */
+  color: black;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid transparent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin-top: 2%;
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+ section { /*//Lower section where task is entered */
+  display: flex;
+  justify-content: center;
+  flex-direction:  column;
+  /* border: 1px solid black; */
+  width: 40%;
+  background-color: cornflowerblue;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+section p{ /* Add new task */
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  /* border: 1px solid blue; */
+  color: white;
+  font-family: 'Fredoka One', Arial, sans-serif;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+.taskCount{
+  font-family: 'Fredoka One', Arial, sans-serif;
+  font-size: 1rem;
+  color: white;
+  /* border: 1px solid black; */
+}
+div input{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+div i{
+  /* border: 1px solid black; */
+  width: 150%;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2%;
+  background-color: #3271e7;
+}
+div i:hover{
+ background-color: #1858cd;
+}
+#clearC{
+  border-right: 1px solid black;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
