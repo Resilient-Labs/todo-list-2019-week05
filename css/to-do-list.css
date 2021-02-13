@@ -1,0 +1,101 @@
+body {
+  background-color: #e4f0f6;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+h1 {
+  padding-top: 20px;
+  font-family: 'Knewave', cursive;
+  color: #83c0ff;
+  letter-spacing: 2px;
+  font-size: 50px;
+  text-align: center;
+}
+
+ul {
+  width: 90%;
+  margin-bottom: 80px;
+  height: 400px;
+  overflow: scroll;
+}
+
+li {
+  list-style: none;
+  border-bottom: 0.02px solid #e8e8e8;
+  padding: 20px;
+  font-size: 30px;
+}
+
+li,
+input {
+  font-family: 'Coming Soon', cursive;
+}
+
+.container {
+  /* position: relative; */
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+  /* width: 40%; */
+  max-width: 720px;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+}
+
+#things-to-do {
+  border-radius: 10px;
+  height: 35px;
+  width: 35%;
+}
+
+#clear-all,
+#clear-completed {
+  left: 42.5%;
+
+  /* position: absolute; */
+
+  /* bottom: 0; */
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #83c0ff;
+  border-radius: 80px;
+  font-family: 'Coming Soon', cursive;
+}
+
+.hide {
+  display: none;
+}
+
+.to-do-item:hover .hide {
+  display: inline-block;
+}
+
+.delete {
+  color: #83c0ff;
+  font-size: 18px;
+}
+
+.to-do-counter {
+  font-family: 'Coming Soon', cursive;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #83c0ff;
+}
+
+.checkbox {
+  font-size: 20px;
+}
+
+.scroll-note {
+  margin-bottom: 2%;
+  font-family: 'Coming Soon', cursive;
+  color: #83c0ff;
+}
+
+.complete {
+  text-decoration: line-through;
+}

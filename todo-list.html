@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This app helps create a to-do list">
+  <meta name="keywords" content="to-do list">
+
+  <title>To-Do Listz</title>
+
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/to-do-list.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Knewave&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Let's Crush Today!</h1>
+
+  <div class="container">
+    <div class="to-do-counter">
+      Number of things to do :
+      <span class="number-of-things-to-do"> </span>
+    </div>
+
+    <input type="text" id="things-to-do">
+    <section class="list">
+      <ul id="todo-list-items">
+      </ul>
+    </section>
+
+    <p class="scroll-note">Scroll to view 6+ projects</p>
+    <button id="clear-all">Clear All</button>
+    <button id="clear-completed">Clear Completed</button>
+
+  </div>
+
+  <script type="text/javascript" src="js/to-do-list.js"></script>
+</body>
+
+</html>
