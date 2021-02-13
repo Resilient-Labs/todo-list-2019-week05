@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: url('../images/Listbackground.png') no-repeat center;
+  background-size: cover;
+  font-family:cursive
+}
+
+a:link, a:active, a:visited {
+  color: inherit
+}
+
+.outerContainer {
+  display: flex;
+  width: 680px;
+  margin: 0 auto;
+}
+
+.titleSection  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.titleSection h3 {
+  color:red;
+  font-size: 1.6rem;
+  visibility: hidden;
+}
+
+.mainContainer {
+  width: 680px;
+  height: 655px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.inputArea {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+input[type="text"] {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid black;
+  width: 500px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.fa-pencil-alt:before {
+  content: "\f303";
+  color: black;
+  font-size: 3rem;
+  margin-left: 20px;
+}
+
+.listArea {
+  width: 100%;
+  height:530px;
+  display: flex;
+  justify-content: center;
+}
+
+#listItems {
+  padding-top: 20px;
+}
+
+.list {
+  color: black;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.crossOutItem{
+  text-decoration: line-through;
+  color: black;
+}
+
+.extraOptions {
+  width: 100%;
+  height: 60px;
+
+}
+
+.extraOptions {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.clear {
+  width: 100%;
+}
+.clear a {
+  display: block;
+}
+.removeAll {
+  width: 100%;
+}
+
+.fa-trash:before {
+    content: "\f1f8";
+    color: black;
+    font-size: 2rem;
+}
+
+.fa-eraser:before {
+    content: "\f12d";
+    color: black;
+    font-size: 2rem;
+}
