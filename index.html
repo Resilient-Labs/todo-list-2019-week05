@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Carpe Diem</title>
+</head>
+<body>
+    <header>
+        <h1>Carpe Diem Todo List</h1>
+        <h2>Tomorrow isn't guaranteed, so let's conquer today!</h2>
+    </header>
+    <section class="info">
+        <h2>Add what you need to get done below</h2>
+    </section>
+    <section class="taskTotal">
+        <h2>Total Tasks: <span id="taskTotal">0</span> </h2>
+        
+    </section>
+    <section class="input">
+        <form action="">
+            <input id="userTask" type="text" placeholder="Enter Task Here!">
+        </form>
+        <section class="listBackground">
+            <ul id="taskList">
+            
+            </ul>
+        </section>
+    </section>
+    <section class="add">
+        <button id="addTask">Add Task</button>
+    </section>
+    <section class="clearButtons">
+        <button id="clearAll">Clear All</button> 
+        <button id="clearCompleted">Clear Completed</button>
+    </section>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
