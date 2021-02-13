@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+   background-color: rgba(180,216,202,255);
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* the transform can help with positioning */
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgb(104, 103, 103);
+    width: 465px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(174,136,39,255);
+}
+h1{
+    margin: 12px 0;
+}
+input{
+    padding: 6px 4px;
+    width: 70%
+}
+button{
+    padding: 7px 14px;
+    background-color: rgba(180,216,202,255);
+    border: none;
+    border-radius: 50px;
+    
+}
+.element-list{
+    height: 550px;
+    overflow-y: auto;
+}
+ul{
+    padding: 15%;
+}
+li{
+    list-style: none;
+    padding: 10px 5px;
+    background-color: rgba(180,216,202,255);
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgb(2, 126, 134);
+    border-radius: 3px;
+    transition: .4s;
+    
+}
+button:hover{
+    background-color: rgb(65, 117, 76);
+}
+li:hover{
+    background-color:rgb(65, 117, 76);
+}
+.checked{
+    text-decoration: line-through 4px;
+    background-color: rgb(27, 27, 22);
+}
+.buttons{
+    width: 40%;
+    background-color: rgba(180,216,202,255);
+    border: none;
+    border-radius: 50px;
+    
+}
+.buttons:hover{
+    background-color: rgb(65, 117, 76);
+}
