@@ -1,0 +1,152 @@
+@media only screen and (max-width: 500px){
+  .outerContainer {
+    width: 500px;
+    height: 720px;
+  }
+
+  .titleSection h3 {
+    display: none;
+  }
+
+  input[type='text']{
+    width: 300px;
+  }
+  .inputArea {
+    margin-top: 50px;
+    padding-top: 60px;
+  }
+
+  .listArea {
+    height: 400px;
+  }
+
+ 
+}
+
+@media (min-width: 501px) and (max-width: 700px){
+   .outerContainer {
+    width: 500px;
+    height: 720px;
+  }
+
+  input[type='text']{
+    width: 350px;
+    
+  }
+  .inputArea {
+    margin-top: 50px;
+    padding-top: 60px;
+    margin-left: 50px;
+    
+  }
+
+  .listArea {
+    height: 400px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 950px){
+  .outerContainer {
+  /* width: 500px; */
+  height: 720px;
+  }
+
+  input[type='text']{
+    width: 400px;
+  }
+  .inputArea {
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 30px;
+  }
+
+  .listArea {
+    height: 400px;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1150px){
+  .outerContainer {
+  /* width: 500px; */
+  height: 720px;
+  }
+
+  input[type='text']{
+    width: 400px;
+  }
+  .inputArea {
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 50px;
+  }
+
+  .listArea {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1151px) and (max-width: 1250px){
+  .mainContainer {
+    width: 650px;
+  }
+
+  .titleSection {
+    margin-top: 100px;
+  }
+  .outerContainer {
+  /* width: 500px; */
+  height: 720px;
+  }
+
+  input[type='text']{
+    width: 400px;
+  }
+  .inputArea {
+    /* margin-top: 50px; */
+    padding-top: 00px;
+    margin-left: 50px;
+  }
+
+  .listArea {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1251px) and (max-width: 1400px){
+   .mainContainer {
+    width: 650px;
+  }
+
+  .titleSection {
+    margin-top: 80px;
+  }
+  .outerContainer {
+  /* width: 500px; */
+  height: 720px;
+  }
+
+  input[type='text']{
+    width: 400px;
+  }
+  .inputArea {
+    /* margin-top: 50px; */
+    padding-top: 00px;
+    margin-left: 50px;
+  }
+
+  .listArea {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1800px){
+  .listArea {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1801px) and (max-width: 2000px){
+  .listArea {
+    height: 700px;
+  }
+}
