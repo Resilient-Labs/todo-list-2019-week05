@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image: url(dps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    font-family: 'Zilla Slab Highlight', cursive;
+    border: 3px solid red;
+    background-color: white;
+    width:512px;
+    margin-left: 35.5%;
+    margin-bottom: 27px;  
+    font-size: 54px;
+}
+header h2{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    border: 3px solid red;
+    width:525px;
+    background-color: black;
+    margin-left: 35%; 
+    color: white; 
+    font-size: 27px;
+    margin-bottom: 27px;
+}
+
+.info{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    border: 3px solid red;
+    width:350px;
+    background-color: white;
+    margin-left: 40%; 
+    color: black; 
+    /* font-size: 27px; */
+}
+
+.taskTotal{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    border: 3px solid red;
+    width:175px;
+    background-color:black;
+    margin-left: 18%; 
+    color: white; 
+    /* font-size: 27px; */
+}
+
+.input{
+    margin-left: 46%; 
+    
+}
+input{
+    margin-bottom: 27px;
+}
+
+
+.add button{
+    margin-left: 65%;
+    padding:18px;
+    border:3px solid red;
+    border-radius: 100%;
+    background-color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 18px;
+    margin-bottom: -27px;
+}
+
+.clearButtons button:nth-of-type(1){
+    margin-left: 42%;
+    padding:18px;
+    border:3px solid blue;
+    border-radius: 100%;
+    background-color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 18px;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 18px;
+}
+.clearButtons button:nth-of-type(2){
+    padding:18px;
+    box-shadow: plum;
+    border:3px solid blue;
+    border-radius: 100%;
+    background-color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 18px;
+    display: inline;
+    margin-top: 18px;
+}
+
+button:hover{
+    background-color: turquoise;
+}
+.clearButtons button:hover {
+    background-color: turquoise;
+}
+
+.completed{
+    text-decoration: line-through;
+
+}
+
+li{
+    list-style: none;
+}
+
+.listBackground ul li{
+    max-width: 15rem;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+}
