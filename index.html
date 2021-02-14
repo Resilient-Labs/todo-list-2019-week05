@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+			<meta name="viewport" content="width=device-width, initial-width=1">
+
+		<title>Todo List</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Todo List</h1>
+		<section class="buttons">
+
+			<form class="userInputSection" action="index.html" method="post">
+				<label for="addItem">List Item</label>
+				<input class="userInput" type="text" name="addItem" placeholder="List Item">
+			</form>
+			<button class="addListItem" type="submit" name="Add Item">Add Item</button>
+			<button class="clearCompletedListItems" type="button" name="Clear Complete">Clear Complete</button>
+			<button class="clearAllListItems" type="button" name="Clear All">Clear All</button>
+		</section>
+
+		<section class="listItems">
+			<ul class="listStart">
+			</ul>
+		</section>
+
+		<section class="count">
+			<h2>Total ToDo:<span class="currentCount"></span></h2>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
