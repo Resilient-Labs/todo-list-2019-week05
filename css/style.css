@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+input, button, form{
+    font-family: "Shadows Into Light", helvetica, sans-serif;
+    font-size: 2rem;
+}
+body{
+  background-image: url(../img/background.jpeg);
+  background-repeat: no-repeat;
+}
+html{
+  font-size: 62.5%;
+  font-family: "Shadows Into Light", helvetica, sans-serif;
+}
+
+h1{
+  color: rgb(250, 250, 250);
+  font-size: 6rem;
+  text-align: center;
+}
+label{
+  color: rgb(250, 250,250);
+}
+li{
+  font-size: 2rem;
+  width: 50%;
+}
+
+section{
+  height: 15rem;
+}
+.buttons{
+  margin-top: 2%;
+  text-align: center;
+}
+.listItems{
+  background-image: url(../img/paper.jpeg);
+  background-repeat: no-repeat;
+  height: 50rem;
+  margin-left: 30%;
+  width: 75%;
+}
+
+.amListItem{
+  color: rgb(65, 83, 175);
+  margin-left: 5%;
+  padding-top: 2rem;
+}
+.count{
+  color: rgb(250,250,250);
+  font-size: 3rem;
+  margin: 2% 0 0 30%;
+}
+.crossOff{
+  text-decoration: line-through;
+}
+
+.remove{
+  display: none;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
