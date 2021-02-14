@@ -1,0 +1,229 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  text-align: center;
+  background: url(https://media.giphy.com/media/a692I53FP9XtvM4YCc/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Source Code Pro', monospace;
+  height: 917px;
+}
+
+.mainBlock{
+  height: 650px;
+  width: 32%;
+  border: 5px solid hotpink;
+  background-color: rgba(255,255,255,.60);
+  margin-left: 38%;
+  margin-right: 3px;
+  border-radius: 6%;
+  margin-top: 2.5%;
+  float: left;
+}
+form{
+  margin-top: 2%;
+  margin-left: 7%;
+}
+input{
+  padding: .7% 0% .5%.5%;
+  font-size: 17px;
+  background-color: rgba(255,255,255,.60);
+  border: 1px solid hotpink;
+  height: 42px;
+  width: 30%;
+}
+h1 {
+  font-size: 2rem;
+  border: 2px solid hotpink;
+  background-color: rgba(255,255,255,.60);
+  width: 25%;
+  color: rgb(153,67,87);
+  border-radius: 15%;
+  padding: 1% 2% 1% 2%;
+  display: inline-block;
+  margin-left: 36%
+  }
+
+button{
+  background-color: rgba(255,255,255,.50);
+  border: 1px solid hotpink;
+  font-size: 20px;
+  padding: 0.5%;
+  font-weight: 800;
+  color: rgb(115,126,92);
+}
+.quote{
+  background-color: rgba(255,255,255,.50);
+  height: 120px;
+  width: 300px;
+  float: left;
+  border: 5px solid hotpink;
+  margin: 1% 4.5% 5% 4.5%;
+  border-radius: 15%;
+}
+.quote h2{
+    color: rgb(21,76,121);
+    font-weight: 800;
+}
+li{
+  font-size: 25px;
+  text-align: left;
+  color: rgb(33,19,13);
+}
+span {
+  font-size: 20px;
+  font-weight: 800;
+  border: 3px solid hotpink;
+  background-color: rgba(255,255,255,.50);
+  color: rgb(79, 49, 95, 1);
+  padding: 10px;
+  border-radius: 13%;
+  margin-bottom: 29px;
+  float: right;
+  margin-top: 6%;
+  margin-right: 3%;
+}
+button:hover{
+  background-color: lavender;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body{
+    text-align: center;
+    background: url(https://media.giphy.com/media/a692I53FP9XtvM4YCc/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Source Code Pro', monospace;
+    height: 871px;
+  }
+  .quote {
+    background-color: rgba(255,255,255,.50);
+    height: 120px;
+    width: 300px;
+    float: left;
+    border: 5px solid hotpink;
+    margin: 1% 3.5% 5% 3.5%;
+    border-radius: 15%;
+  }
+  .mainBlock {
+    height: 650px;
+    width: 35%;
+    border: 5px solid hotpink;
+    margin-left: 35%;
+    margin-right: 3px;
+    border-radius: 6%;
+    margin-top: 2.5%;
+    float: left;
+  }
+
+}
+@media (min-width: 501px) and (max-width: 1024px){
+  body{
+    text-align: center;
+    background: url(https://media.giphy.com/media/a692I53FP9XtvM4YCc/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Source Code Pro', monospace;
+    height: 1347px;
+  }
+  .quote {
+    height: 120px;
+    width: 300px;
+    float: left;
+    border: 5px solid hotpink;
+    margin: 9% 32.5% 5% 36.5%;
+    border-radius: 15%;
+  }
+  input {
+    padding: .7% 0% .5%.5%;
+    font-size: 17px;
+    border: 1px solid hotpink;
+    height: 61px;
+    width: 44%;
+  }
+  button{
+    border: 1px solid hotpink;
+    font-size: 20px;
+    padding: 1.5%;
+  }
+  h1 {
+    font-size: 3rem;
+    margin: 4.5% 0% 3% 8%;
+    border: 5px solid hotpink;
+    width: 34%;
+    border-radius: 15%;
+    padding: 1% 2% 1% 2%;
+  }
+  .mainBlock {
+    height: 810px;
+    width: 75%;
+    border: 5px solid hotpink;
+    margin-left: 15%;
+    margin-right: 0%;
+    border-radius: 6%;
+    margin-top: 5%;
+  }
+  form {
+  margin-left: 0%;
+  }
+  span{
+    font-size: 25px;
+    border: 5px solid hotpink;
+    padding: 10px;
+    border-radius: 13%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 24%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body{
+    text-align: center;
+    background: url(https://media.giphy.com/media/a692I53FP9XtvM4YCc/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 127%;
+    font-family: 'Source Code Pro', monospace;
+    height: auto;
+  }
+  form{
+    margin-left: 0%;
+  }
+  .mainBlock{
+    height: 600px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  input{
+    width: 94%;
+  }
+  button{
+    margin-top: 5%;
+  }
+  h1{
+    display: block;
+    margin-left: 28%;
+    width: 44%;
+  }
+  span{
+    margin-bottom: 3%;
+    margin-top: 0%;
+    margin-right: 11%;
+  }
+  .quote{
+    margin: 4% 20% 2% 20%;
+  }
+}
