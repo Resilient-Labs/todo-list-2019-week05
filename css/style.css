@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box
+  }
+  
+  .clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .alignright {
+    float: right;
+    padding: 0 0 10px 10px;
+  }
+  
+  .alignleft {
+    float: left;
+    padding: 0 0 10px 10px;
+  }
+  
+  body {
+    color: #1f610e;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+
+.container {
+    width: 100%;
+    height: 750px;
+    background-image: url(../images/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 100%;
+    padding-top: 35px;
+    /* margin-left: 250px; */
+    font-size: 45px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: rgb(204, 125, 35);
+}
+
+.toDoSec , .nonCompSec , .clearSec{
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid royalblue; */
+}
+
+input{
+    width: 25%;
+    height: 5;
+}
+.newClass {
+    text-decoration: line-through;
+}

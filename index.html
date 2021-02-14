@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container">
+
+        <!-- insert Tasks -->
+        <header>
+            <h1>TO DO<span class="strike">UBT</span> </h1>
+            <h3></h3>
+              </header>
+        <section class="toDoSec">
+            <h2>Insert Task Below, Click on Task after its Completed </h2>
+            <input id="enterTask" type="text" placeholder="Insert Task" >
+            <button id="submit" ><i class="fas fa-plus">Add</i></button>
+            <!-- <select id="filterList">
+                <option value="text">All</option>
+                <option value="text">Almost There</option>
+                <option value="text">Did It !</option>
+            </select> -->
+
+        </section>
+
+        <!-- To do Tasks -->
+
+        <section class="nonCompSec">
+            <h2>You're Almost There, Don't Give Up</h2>
+            <ul id="uncompletedList">
+                <!-- <li id="uncompItem">
+                    <input type="checkbox" checked="">
+                    <label></label>
+                    <input type="text">
+                </li> -->
+            </ul>
+        </section>
+     
+
+        <!-- Completed Tasks -->
+
+        <!-- <section class="compSec">
+            <h2>Did It !</h2>
+            <ul id="completedList">
+                <li>
+                    <input type="checkbox" checked="">
+                    <label></label>
+                    <input type="text">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+            </ul>
+
+        </section>
+         -->
+        <!-- Clear Section -->
+
+        <section class="clearSec">
+            <button id="clearAll" type="button">
+                Clear All
+            </button>
+            <button id="clearComp" type="button">
+                Clear Completed
+            </button>
+        </section> 
+
+  
+
+    </section>
+   
+    <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
