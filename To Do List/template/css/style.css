@@ -1,0 +1,157 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-size: 3rem;
+  font-family: 'Lovers Quarrel',sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background-image: url("libraryBackground.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 800px;
+     background-size: cover;
+}
+html{
+  font-size: 10px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+article{
+  width: 48%;
+  height: 630px;
+  margin: 9% 0 0 26%;
+  background-image: url("oldBook.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  float: left;
+  background-size: cover;
+}
+#taks{
+  width: 100%;
+  height: 48px;
+  display: flex;
+  float: left;
+  margin-bottom: 25px;
+  justify-content: center;
+  padding-top: .8em;
+}
+#taks input{
+  margin-right: 2.8em;
+  border-radius: 18px;
+  outline: none;
+  background: rgba(76, 175, 80, 0.3);
+  font-weight: 700;
+  box-shadow: 1px 4px 17px 7px;
+}
+#taks button{
+  width: 7%;
+  border-radius: 18px;
+  outline: none;
+  background: rgba(76, 175, 80, 0.3);
+  font-weight: 700;
+  box-shadow: 1px 4px 17px 7px;
+}
+#taks button:hover{
+  color: whitesmoke;
+}
+#list{
+  width: 85%;
+  height: 363px;
+  display: flex;
+  float: left;
+  margin: 1.7rem 0 2.4rem 8%;
+
+}
+#actualList{
+  overflow-y: auto;
+}
+#clear{
+  width: 100%;
+  height: 177px;
+  float: left;
+  /* display: flex;
+  justify-content: center; */
+}
+#clear button{
+  background: rgba(76, 175, 80, 0.3);
+  font-weight: 700;
+  box-shadow: 1px 4px 17px 7px;
+  border-radius: 18px;
+  margin: 0 5%;
+  outline: none;
+  height: 50px;
+  float: left;
+}
+#clear button:hover{
+  color:white
+}
+ul{
+  width: 100%;
+  height: 420px;
+  float: left;
+  list-style: none;
+}
+li{
+  width: 100%;
+  height: 80px;
+  float: left;
+  list-style: none;
+  font-size: 8rem;
+
+  font-family: 'Lovers Quarrel',sans-serif;
+}
+#listLeft{
+  height: 106px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  font-size:74px;
+  font-family: 'Lovers Quarrel',sans-serif;
+}
+.completed{
+   text-decoration: line-through;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
