@@ -1,0 +1,514 @@
+*{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Bree Serif', serif;
+}
+
+.mainDo{
+  background-image: url('../pic/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 120rem;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.secBan{
+  height: 13rem;
+}
+
+.secBan h1{
+  font-size: 5rem;
+  color: white;
+  padding-top: 10%;
+}
+
+.secBan h2{
+  font-size: 2.5rem;
+  color: white;
+  padding-top: 5%;
+}
+
+.secBeg{
+  height: 5rem;
+  width: 100%;
+  margin-top: 3%;
+
+}
+
+
+
+.secTotal{
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.h2Task{
+  font-size: 2.5rem;
+  padding-right: 1%;
+}
+
+.h2Total{
+  font-size: 2.5rem;
+}
+
+.secDo{
+  display: flex;
+  flex-direction: column;
+  border: .1rem solid black;
+  border-radius: 10%;
+  height: 60rem;
+  width: 70%;
+} 
+
+.secForm{
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  margin-top: 5%;
+}
+.formTask{
+  width: 70%;
+  height: 3rem;
+}
+.inpForm{
+  height: 2.5rem;
+  width: 80%;
+  border: .1rem solid white;
+  font-size: 2rem;
+}
+
+.buttAdd{
+  height: 2.5rem;
+  width: 25%;
+  font-size: 1.5rem;
+
+}
+
+.ulDo{
+  width: 100%;
+  /* border: .1rem solid black; */
+}
+
+.liDo{
+  height: 3rem;
+  width: 100%;
+  color: white;
+  font-size: 3rem;
+  /* border: .1rem solid black; */
+}
+
+.aFinish{
+  margin-left: 5%;
+}
+
+.aDelete{
+  margin-left: 5%;
+}
+
+
+.secButt{
+  height: 5rem;
+  
+}
+
+.aFinish{
+  height: 3rem;
+  width: 20%;
+}
+
+.far.fa-check-square{
+  color: green;
+}
+
+.far.fa-check-square:hover{
+  background-color: green;
+}
+
+.fas.fa-times-circle{
+  color: black;
+}
+
+.fas.fa-times-circle:hover{
+  background-color: red;
+}
+
+
+.aDelete{
+  height: 4rem;
+  width: 20%;
+}
+
+.aRemove:hover{
+  background-color: red;
+}
+
+.liStyle{
+  text-decoration: line-through;
+  text-decoration-color: green;
+}
+
+.secClearButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.buttClear, .buttComp{
+  font-size: 2rem;
+
+}
+
+@media only screen and (max-width: 20rem){
+
+  .secBan{
+    height: 8rem;
+  }
+  
+  .secBan h1{
+    font-size: 1rem;
+    color: white;
+    padding-top: 20%;
+  }
+  
+  .secBan h2{
+    font-size: 1rem;
+    color: white;
+    padding-top: 10%;
+  }
+  
+  .secBeg{
+    height: 5rem;
+    width: 100%;
+  
+  }
+  
+  
+  .secTotal{
+    display: block;
+    height: 5rem;
+    width: 100%;
+
+  }
+  
+  .h2Task{
+    display: block;
+    font-size: 1rem;
+    padding-right: 1%;
+    width: 100%;
+  }
+  
+  .h2Total{
+    display: block;
+    padding-top: 7%;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .secDo{
+    width: 95%;
+  } 
+  
+  .secForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 8rem;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .formTask{
+    width: 80%;
+    height: 3rem;
+  }
+  .inpForm{
+    height: 2.5rem;
+    width: 80%;
+    border: .1rem solid white;
+    font-size: 2rem;
+  }
+  
+  .buttAdd{
+    display: block;
+    height: 2rem;
+    width: 55%;
+    font-size: 1rem;
+  
+  }
+  
+  .ulDo{
+    width: 100%;
+    /* border: .1rem solid black; */
+  }
+  
+  .liDo{
+    height: 3rem;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    /* border: .1rem solid black; */
+  }
+  
+
+  
+  .secClearButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  .buttClear, .buttComp{
+    font-size: 1rem;
+}
+}
+
+@media (min-width: 20rem) and (max-width: 32rem){
+
+  .secBan{
+    height: 8rem;
+  }
+  
+  .secBan h1{
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 20%;
+  }
+  
+  .secBan h2{
+    font-size: 1rem;
+    color: white;
+    padding-top: 10%;
+  }
+  
+  .secBeg{
+    height: 5rem;
+    width: 100%;
+  
+  }
+  
+  
+  .secTotal{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .h2Task{
+    font-size: 1.5rem;
+    padding-right: 1%;
+  }
+  
+  .h2Total{
+    font-size: 1.5rem;
+  }
+  
+  .secDo{
+    width: 95%;
+  } 
+  
+  .secForm{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .formTask{
+    width: 60%;
+    height: 3rem;
+  }
+  .inpForm{
+    height: 2.5rem;
+    width: 80%;
+    border: .1rem solid white;
+    font-size: 2rem;
+  }
+  
+  .buttAdd{
+    height: 2rem;
+    width: 35%;
+    font-size: 1rem;
+  
+  }
+  
+  .ulDo{
+    width: 100%;
+    /* border: .1rem solid black; */
+  }
+  
+  .liDo{
+    height: 3rem;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    /* border: .1rem solid black; */
+  }
+  
+  .aFinish{
+    margin-left: 5%;
+  }
+  
+  .aDelete{
+    margin-left: 5%;
+  }
+  
+  
+  .secButt{
+    height: 5rem;
+    
+  }
+  
+  .aFinish{
+    height: 3rem;
+    width: 20%;
+  }
+  
+  .far.fa-check-square{
+    color: green;
+  }
+  
+  .far.fa-check-square:hover{
+    background-color: green;
+  }
+  
+  .fas.fa-times-circle{
+    color: black;
+  }
+  
+  .fas.fa-times-circle:hover{
+    background-color: red;
+  }
+  
+  
+  .aDelete{
+    height: 4rem;
+    width: 20%;
+  }
+  
+  .aRemove:hover{
+    background-color: red;
+  }
+  
+  .liStyle{
+    text-decoration: line-through;
+    text-decoration-color: green;
+  }
+  
+  .secClearButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  .buttClear, .buttComp{
+    font-size: 1rem;
+}
+
+}
+
+@media (min-width: 32rem) and (max-width: 60rem){
+  .secBan{
+    height: 17rem;
+  }
+  
+  .secBan h1{
+    font-size: 3rem;
+    color: white;
+    padding-top: 20%;
+  }
+  
+  .secBan h2{
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 10%;
+  }
+  
+  .secBeg{
+    height: 5rem;
+    width: 100%;
+  
+  }
+  
+  
+  .secTotal{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .h2Task{
+    font-size: 2.5rem;
+    padding-right: 1%;
+  }
+  
+  .h2Total{
+    font-size: 2.5rem;
+  }
+  
+  .secDo{
+    width: 95%;
+  } 
+  
+  .secForm{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .formTask{
+    width: 60%;
+    height: 3rem;
+  }
+  .inpForm{
+    height: 2.5rem;
+    width: 80%;
+    border: .1rem solid white;
+    font-size: 2rem;
+  }
+  
+  .buttAdd{
+    height: 3rem;
+    width: 35%;
+    font-size: 1.7rem;
+  
+  }
+  
+  .ulDo{
+    width: 100%;
+    /* border: .1rem solid black; */
+  }
+  
+  .liDo{
+    height: 3rem;
+    width: 100%;
+    color: white;
+    font-size: 2.3rem;
+    /* border: .1rem solid black; */
+  }
+  
+
+
+  .buttClear, .buttComp{
+    font-size: 1.8rem;
+}
+
+}
+
