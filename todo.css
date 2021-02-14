@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    height: 1000px;
+    background-image: linear-gradient(rgb(85, 240, 180), skyblue);
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+}
+
+.notepad{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1209px;
+    height: 844px;
+    text-align: center;
+    /* box-shadow: 0 2px 8px rgb(0 255 255); */
+
+}
+.note{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(104,198,229,255);
+    width: 500px;
+    height: 800px;
+    background-image: linear-gradient(rgba(0,5,28,255), rgba(4,48,96,255));
+
+}
+h1{
+    margin: 20px 0;
+}
+.buttons{
+    margin: 12px 0;
+}
+
+input{
+    padding: 6px 4px;
+    width: 65%;
+}
+input::placeholder{
+    color: orange;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+}
+button{
+    padding: 7px 14px;
+    background-color: mediumspringgreen;
+    border: none;
+    color: white;
+}
+button:hover{
+    background-color: mediumturquoise;
+}
+.listing{
+    height: 550px;
+    overflow-y: auto;
+}
+ul{
+    padding: 15px;
+}
+li{
+    list-style: none;
+    padding: 7px 5px;
+    margin: 4px 0;
+    /* box-shadow: 0 2px 8px rgba(255, 255, 255, 0.7); */
+    transition: 0.5s;
+    width: 95%;
+}
+.crossout, .editbtn{
+    float: right;
+}
+.crossout{
+    margin-left: 5px;
+}
+
+.cross{
+    text-decoration: line-through red;
+}
