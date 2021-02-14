@@ -1,0 +1,78 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body{
+  background-image: url("/Users/resilient/Desktop/the day filler/img/back.jpg");
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Great Vibes', Helvetica, Arial, sans-serif;
+  background-size: cover;
+}
+ h1 {
+   margin-left: 70%;
+   margin-top: 4%;
+   font: 'Great Vibes';
+   font-size: 120px;
+   color: lightblue;
+   float: left;
+ }
+
+ input {
+   margin-left: 13%;
+   height: 4rem;
+   width: 20rem;
+   font-size: 3rem;
+ }
+
+ button {
+   margin-left: 14%;
+   height: 2rem;
+   width: 7rem;
+   margin-top: 27%;
+ }
+
+ h2 {
+  margin-left: 14%;
+  color: gold;
+ }
+
+li {
+  color: BLUE;
+  font-size: 35px;
+  margin-left: 35%;
+}
