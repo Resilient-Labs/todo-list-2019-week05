@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="toDoList.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title> The To-do list</title>
+  </head>
+  <body>
+    <h1> Khorally's To Do List</h1>
+    <section class= "container">
+      <section class= "left">
+        <h2>Items To Complete: <span class="countElement"></span></h2>
+        <button class="clear" type="button" name="button"> clear all</button>
+        <button class = "clearCompleted" type="button" name="button"> clear completed </button>
+        <ul class = "list"></ul>
+      </section>
+
+      <section class = "right">
+
+        <form class="int" action="index.html" method="post">
+            <h2>Add a New Task</h2>
+            <input class="input" type="text" name="" placeholder= "insert new task here..." value="">
+            <button class= "button" type="button" name="button">Add</button>
+        </form>
+      </section>
+
+
+
+    </section>
+
+
+    <script src="toDoList.js" charset="utf-8"></script>
+  </body>
+</html>
