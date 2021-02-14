@@ -1,0 +1,63 @@
+/* .listing{
+
+    text-decoration: line-through;
+} */
+
+body{
+
+    background-image: url(diary-gift-roses-frame.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 800px;
+    background-position: center;
+}
+
+
+.main{
+    
+    top:50%;
+    left:50%;
+    transform: translate( -50% ,-50%);
+    height: 700px;
+    position: absolute;
+    padding-top: 35%;
+}
+
+p{
+   
+    height: 200px;
+    width: 200px;
+}
+
+input{
+
+   
+    
+}
+
+.listing{
+
+    text-decoration: line-through;
+}
+
+.buttons{
+
+    
+}
+ p{
+   
+    height: 200px;
+    width: 200px;
+ }
+
+/* 
+.buttons{
+
+    border: solid 2px red;
+}
+.main{
+    border: solid 3px palevioletred;
+width: 40%;
+ 
+
