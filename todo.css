@@ -1,0 +1,203 @@
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+  }
+  body{
+      background-image: url(hpbackground.jpg);
+      background-size: cover;
+  }
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background-color:transparent;
+    font-size: 18px;
+    transition: 0.2s;
+    font-family: 'Reggae One', cursive;
+    color: green;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  ul li:nth-child(odd) {
+    background: transparent;
+  }
+   ul li:hover {
+    background: #ddd;
+  }
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  input {
+    border: none;
+    border-radius: 0;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    background: goldenrod;
+  }
+  h2{
+      text-align: center;
+      font-family: 'Reggae One', cursive;
+      color: green;
+  }
+  #addButton {
+    padding: 10px;
+    width: 8%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    margin-left: 244px;
+}
+
+  
+  #addButton:hover {
+    background-color: #bbb;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+#frame{
+    height: 700px;
+    width: 100%;
+    border: 1px solid green;
+    background-image: url(hpbackground.jpg);
+}
+#toDoBox{
+    height: 400px;
+    width: 60%;
+    border: 2px solid silver;
+    margin-left: 257px;
+    margin-top: 76px;
+    background-color: rgb(171,120,65);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.evanesco{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 20px;
+    transition:0.2s;
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.evanesco li :checked{
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color:white;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  h2{
+      text-align: center;
+      color: green;
+      font-family: 'Reggae One', cursive;
+  }
+  input{
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  .addButton {
+    padding: 10px;
+    width: 25%;
+    background: white;
+    color: rgb(94, 90, 90);
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  li{
+      list-style: none;
+      font-size: 20px;
+      font-family: 'Reggae One', cursive;
+      color: green;
+      margin: 8px;
+  } */
