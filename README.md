@@ -1,22 +1,28 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✍🏾 To Do List 📋
 
-### Goal: Build a Simple Todo List
+This project required some research of properties and methods that I had not used prior, but all the more I learned through it! I wanted to keep it simple, yet effective! As I learn more about OOP, I plan to redo the todo list from scratch. Would love some feedback!
 
-### How to submit your code for review:
+&emsp;
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="https://github.com/DashlinS/todo-list-2019-week05/blob/answer/gifs/todoDemo.gif" width="700">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://thechecklist.netlify.app/)
+
+## How Its Made 
+
+**Languages used:** Html, CSS, Javascript
+
+# What I Learned
+
+I learned how to create elements using the DOM and target them to manipulate how they behave.
+I also learned how to use functions/methods, such as the `ForEach`, to target each list item separately. 
+I researched and learned more about `createElement`, `textContent`, `appendChild` to name a few. Excited to see whats next and how I can improve this and future projects!
+
+### My Other Projects 
+
+Check out some of my other work using the DOM!
+
+* [Horoscope](https://github.com/DashlinS/Horoscope)
+* [Calculator](https://github.com/DashlinS/calculator)
+* [Slot Machine](https://github.com/DashlinS/SlotMachine/tree/answer)
+* [Rock, Paper, Scissors](https://github.com/DashlinS/rock-water-fire)
