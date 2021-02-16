@@ -4,7 +4,7 @@ This project required some research of properties and methods that I had not use
 
 &emsp;
 
-<img src="https://github.com/DashlinS/todo-list-2019-week05/blob/answer/gifs/todoDemo.gif" width="700">
+<img src="https://github.com/DashlinS/ToDo_List/blob/answer/gif/todoDemo.gif" width="700">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://thechecklist.netlify.app/)
 
