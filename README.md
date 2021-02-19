@@ -10,7 +10,7 @@ Link:  https://hillary-todolist.netlify.app/
 
 Tech used: HTML CSS JS
 
-<img src="/ToDoListRemix2/img/ToDoList.PNG" alt="ToDoList" style="height: 100px; width:100px;"/>
+<img src="/img/ToDoList.PNG" alt="ToDoList" style="height: 100px; width:100px;"/>
 
 Lesson Learned:
 
