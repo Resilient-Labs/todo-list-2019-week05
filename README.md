@@ -1,22 +1,8 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+Project: ToDo List
 
-### Goal: Build a Simple Todo List
+Goal: Build a Simple Todo List
 
-### How to submit your code for review:
+This todo list can add any task you type in and press the add button. Your tast will be printed on the book as well as a counter to track the total number of tasks you need to do.
+Whiel you do some tasks you are able to click on any task to cross it off and when you're completely done with those, clean it up with the clear completed button that will showcase only the tasks you need to do. Once you're finished with all of your tasks simply press the clear list to remove all of the items on the list.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![Screenshot](ToDoList.jpg)
