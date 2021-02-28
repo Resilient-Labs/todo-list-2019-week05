@@ -26,3 +26,4 @@ Check out some of my other work using the DOM!
 * [Calculator](https://github.com/DashlinS/calculator)
 * [Slot Machine](https://github.com/DashlinS/SlotMachine/tree/answer)
 * [Rock, Paper, Scissors](https://github.com/DashlinS/rock-water-fire)
+* [Tic-Tac-Toe](https://github.com/DashlinS/tic-tac-toe/tree/answer)
