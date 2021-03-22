@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+html {
+  font-size: 62.5%;
+  margin: 0%;
+  padding: 0%;
+  font-family:'PT Sans', sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Push.png);
+}
+button {
+  font-family: 'PT Sans', sans-serif;
+}
+#mainBody{
+  border: 5px solid white;
+  height: 80vh;
+  width: 90vw;
+  margin: 7% auto;
+  background-color: rgba(0,0,0,.35);
+  border-radius: 1%;
+  max-width: 75rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* display: flex; */
+}
+#addButton{
+  width: 25%;
+  margin: 2vw 2vw 0vw 3vw;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 24px;
+}
+#addButton:hover{
+  color: black;
+  border: white;
+}
+#deleteButton{
+  width: 25%;
+  margin: 2vw 0vw 0vw 0vw;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 23px;
+}
+#deleteButton:disabled{
+  color: lightgray;
+  cursor: not-allowed;
+}
+#deleteButton:hover{
+  color: black;
+  border: white;
+}
+#crossButton{
+  width: 25%;
+  margin: 2vw 3vw 0vw 2vw;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 23px;
+}
+#crossButton:hover{
+  color: black;
+  border: white;
+}
+#crossButton:disabled{
+  color: lightgray;
+  cursor: not-allowed;
+}
+.task {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid white;
+  color: white;
+  width: 90%;
+  margin: 0% 5% 0% 5%;
+  font-size: 23px;
+}
+#disabledTask{
+  background-color: rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid white;
+  color: white;
+  width: 90%;
+  margin: 0% 5% 0% 5%;
+  font-size: 23px;
+}
+.task.disabled{
+  display: none;
+}
+.task.completed.disabled{
+  display: none;
+}
+.task.completed{
+  color: gray;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+#disPlay{
+  width:70%;
+  height: 50px;
+  margin:auto;
+  text-align:center;
+  clear: both;
+  background-color: rgba(0, 0, 0, 0.35);
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+}
