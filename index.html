@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+  <section id="main" class="readable-width main">
+    <h1>ToDoList</h1>
+    <section class="stats flex-container flex-xy-center">
+      <h2>Current Tasks: <span id="task-count">0</span></h2>
+      <h2>Completed Tasks: <span id="complete-count">0</span></h2>
+
+    </section>
+    <section class="buttons flex-container flex-xy-center" >
+      <button id="reset-button" class="reset" type="button" name="button">Reset</button>
+      <button id="clear-complete-button" class="clear-completed" type="button" name="button">Clear Completed</button>
+    </section>
+    <ul id="list-items" class="list-items">
+      <!-- <li id='task-1'class="task stage flex-container task-item flex-xy-center">
+        <section class="hover-items flex-container">
+          <button class="hover edit" type="button" name="button"></button>
+
+        </section>
+
+        <input class="task-box" size="30" max-length="30" type="text" name="" value="" placeholder="What should I do?">
+      </li> -->
+    </ul>
+    <section class="add-section">
+      <button id="add-task" class="add-task" type="button" name="button">+</button>
+    </section>
+    <button class="info-button">...</button>
+  </section>
+  <aside>
+
+  <h4 id="projectTitle">Welcome to to My Project</h4>
+  <div class="external-links"><a id="portfolio-link" class="portfolio-link" href="http://jpmbvistro.netlify.app/" target='_blank'> More of my work</a></div>
+  <h5>To-do List</h5>
+  <p>Description Here</p>
+  <div id="profile-container" class="profile-container"><img src="img/profile-picture.jpg" alt="Profile Picture"></div>
+  <h5>About Me</h5>
+  <p>A software engineer based in Boston, I combine archipelagic design and my diasporic experiences to compose engaging, complex, and intuitive applications.</p>
+  <div class="portfolio-link"><button id="portfolio-link" class="portfolio-link" href="http://jpmbvistro.netlify.app/" target='_blank'>Work with me</button><div>
+
+  <a id="hide-aside" class="hide-aside"></a>
+
+
+</aside>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+
+<!-- Old task item
+<button class="hover complete" type="button" name="button"></button>
+  <li id='task-1'class="task stage flex-container task-item flex-xy-center">
+  <label for="check-1"></label>
+  <input id="check-1" class="check-box" type="checkbox" name="" value="">
+  <input class="task" size="30" max-length="30" type="text" name="" value="" placeholder="What should I do?">
+</li> -->
