@@ -1,22 +1,19 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
 
-### Goal: Build a Simple Todo List
+# To-Do-List
+This is a simple to-do-list that takes in a list of activities that an individual can add their tasks for the day.
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![alt tag](to-do-LIST.png)
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+
+
+## Lessons Learned:
+
+I learned that with every project, no matter what the simplicity you have to pay attention to detail.
+
+

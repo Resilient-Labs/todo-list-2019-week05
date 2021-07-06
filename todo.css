@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row1{
+  height: 10%;
+  width: 40%;
+  background-color: green;
+}
+
+ol{
+  list-style: none;
+}
+
+.row2{
+  height: 60%;
+  width: 40%;
+  background-color: yellow;
+}
+
+.row3{
+  height: 17%;
+  width: 40%;
+  background-color: green;
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+p{
+  text-align: center;
+  font-style: oblique;
+  font-weight: 700;
+  FONT-SIZE: 19PX;
+
+}
+
+#remainingTasks{
+  color: white;
+}
+
+#clearCompletedTasks{
+  margin-left: 46%;
+  HEIGHT: 7VH;
+  WIDTH: 28%;
+  FONT-SIZE: 17PX;
+  FONT-WEIGHT: 800;
+}
+
+#clearAllTasks{
+  margin-left: 2%;
+  HEIGHT: 7VH;
+  WIDTH: 21%;
+  FONT-SIZE: 17PX;
+  FONT-WEIGHT: 800;
+}
+/* form{
+  margin-top: 2%;
+  width: 81%;
+  margin-left: 2%;
+  background-color: coral;
+  height: -webkit-fill-available;
+} */
