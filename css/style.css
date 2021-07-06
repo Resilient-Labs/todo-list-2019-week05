@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #eafff5;
+  font-family: 'EB Garamond', serif;
+}
+
+.title{
+  transform: translateY(160px);
+  font-size: 22px;
+  color: #3e9dbd;
+  text-decoration: underline;
+  -webkit-text-stroke: .5px #25596e;
+}
+
+.containerAll{
+  display: block;
+  text-align: center;
+  background-image: url('../img/frame3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 700px;
+}
+
+ /* to-do input */
+#form{
+   margin-bottom: 20px;
+ }
+
+.list{
+  transform: translateY(196px);
+}
+
+.actionBtn{
+  transform: translateY(245px);
+}
+
+#input{
+  margin-right: 15px;
+  height: 28px;
+  border: 2px solid #d9cbae;
+  border-radius: 2px;
+  font-family: 'EB Garamond', serif;
+}
+
+#enterBtn{
+  width: 45px;
+  height: 35px;
+  font-size: 20px;
+  border: 2px double #d9cbae;
+  border-radius: 18px;
+  background: #4e8787;
+  color: #d0ebdd;
+
+}
+
+ /* crossed out li */
+.crossOut{
+  text-decoration: line-through;
+  color: #306060;;
+}
+
+ul li{
+  list-style: none;
+  color: green;
+  font-weight: bold;
+  padding: 2px 0 3px 0;
+  background: rgb(181 223 226 / 36%);
+  width: 630px;
+  margin: auto;
+  border-top: 1px solid rgb(110 180 185 / 36%);
+  border-bottom: 1px solid rgb(110 180 185 / 36%);
+}
+
+/* task counter for list  */
+#itemCounter{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Clear all button and task completion button */
+#clearBtn{
+  height: 35px;
+  width: 70px;
+  margin-right: 30px;
+}
+
+#clearItems{
+  height: 35px;
+  width: 115px;
+}
+
+#clearBtn , #clearItems{
+  background: #b5dfe2;
+  border: 2px solid #4e8787;
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #254142;
+}

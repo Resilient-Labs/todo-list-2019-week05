@@ -1,22 +1,27 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✔️ Week05 Project: Todo List
 
-### Goal: Build a Simple Todo List
+# How It's Made:
+### Tech used: 
+**HTML, CSS & JavaScript**. 
 
-### How to submit your code for review:
+Wrote up pseudo code and had to think about the layout of the HTML and how it would interact with the JS. Selected variables from the HTML, from there were able to reference them to the main function in the JS.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![To Do List Final](todo.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+# Lessons Learned:
+With this project, I discovered how to create elements and how to append the li to the parent with .appendChild(); I also implmented createTextNode and how to use the forEach(); to get rid of all li with a certain class. I created more functions compared to previous work and being that their is a lot of possible solutions that it'll take time to build up to having some really dry code. 
+
+# Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+Slot Machine:  https://github.com/Kim-Flores/slot-machine-2019-week05/tree/answer
+
+Horoscope: https://github.com/Kim-Flores/Horoscope
+
+Calculator: https://github.com/Kim-Flores/Simple-Calculator
+
+Parchment Stone or Blade: https://github.com/Kim-Flores/Parchment-Stone-Blade
