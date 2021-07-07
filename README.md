@@ -2,21 +2,8 @@
 
 ### Goal: Build a Simple Todo List
 
-### How to submit your code for review:
+### This is an online Todo-List which I made interactive via javascript. The latest version of HTMl and CSS were used.
+You can use this project to keep track of things you need or need to get done
+Link to My project: https://awesome-lumiere-c37e35.netlify.com 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![](toDo%20list/background.jpg)

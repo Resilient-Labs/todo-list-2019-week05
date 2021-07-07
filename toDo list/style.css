@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  /* height:200px; */
+  height:auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color:  #99badd;
+  background: url("background.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ text-align: center;
+}
+
+h1{
+  color:white;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 7%;
+}
+.topBlackPart{
+  height:100px;
+  height: auto;
+  width:40%;
+  /* background-color:white; */
+margin-bottom: 18px;
+}
+#input{
+  width:70%;
+  border-radius: 10px;
+  color:black;
+  outline: none;
+  font-family: sans-serif;
+background-color: none;
+}
+
+#Add{
+  border-radius: 10px;
+font-family: sans-serif;
+outline: none;
+font-family: 'Zhi Mang Xing';
+font-size: 15PX;
+
+}
+.whiteSide{
+  min-height: 100px;
+  height:auto;
+  width:40%;
+  /* border:1px solid white; */
+  color:black;
+  margin-bottom: 36px;
+}
+.bottomBlackPart{
+  min-height:50px;
+  height:auto;
+  width:40%;
+
+}
+
+
+.completed{
+  text-decoration: line-through;
+  color:grey;
+}
+li{
+  color:black;
+  font-family:  'Zhi Mang Xing';
+  font-size: 20px;
+}
+#clearAll{
+  width:30%;
+  font-size: 15px;
+  font-family: 'Zhi Mang Xing';
+  outline: none;
+  border-radius: 10px;
+}
+#clearCompleted{
+  width:30%;
+  font-size: 15px;
+  font-family: 'Zhi Mang Xing';
+  outline: none;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+p{
+  color:black;
+  font-family: 'Zhi Mang Xing';
+  font-size: 25px;
+  background-color: white;
+
+}
+span{
+  color: red;
+}
