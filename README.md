@@ -1,22 +1,22 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ Week05 Bootcamp2019 Project: To Do List
 
-### Goal: Build a Simple Todo List
+This is a daily task tracker. You can add tasks, remove them if they are no longer applicable, check them when you are finish, clear completed tasks, and clear all tasks. The number of remaining tasks are tracked to help you organize your day!
 
-### How to submit your code for review:
+Link to Project: https://daily-tasks-tracker.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Project Image](/pic/todo.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+### How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+This project allows the user to add list items to their list. The user types in their task in an input and click a button named 'Add Tasks.' Then, their task will appear. This is achieved through adding an event listener on the button. Once the button is clicked, a new list element is created and will appear.
+
+
+### Lesson Learned
+
+I learned how to use classes to influence the page's content and functionality. For example, there is a 'Clear Completed' button that will clear all tasks that the user has indicated are finished. In order to clear only the completed tasks, and not the ones still in progress, I added a class named 'completed', when the user clicks the complete icon to the specified item. Then, when the user clicks the 'Clear Completed' button, only tasks with the class of 'completed' will be removed.
+
+###
+
