@@ -1,0 +1,84 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+section {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  width: 30%;
+  border: 2px double white;
+  margin: 10% 0;
+  padding: 10px 0 10px 10px;
+  border-radius: 5px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(238, 238, 238);
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+ul {
+  background-color: white;
+  list-style: none;
+  padding: 0 10px;
+  color: black;
+  font-size: 1rem;
+}
+span {
+  padding: 0;
+}
+button,
+input {
+  height: 30px;
+  font-weight: bold;
+}
+
+/******************************************
+/* ADDITIONAL STYLES media que
+/*******************************************/
