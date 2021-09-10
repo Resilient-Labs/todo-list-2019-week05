@@ -1,0 +1,72 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* SITE CSS */
+body {
+    background: #A3BBAD;
+}
+body > section{
+    margin: 8em auto;
+    text-align: center;
+    height: 50vh;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+h1 {
+    margin: .5em;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+    font-size: .75em;
+
+}
+.error {
+    display: none;
+    font-size: .75em;
+    background: #72353f;
+    padding: 1em;
+}
+.toDo, .buttons {
+    display: flex;
+    flex-direction:column;
+    box-shadow: 5px 5px 15px 0px rgba(160, 160, 160, 0.60);
+    border-radius: 15px;
+    color: white;
+    padding: 2em;
+    background: #357266;
+}
+#inputTask {
+    border: 0;
+    border-radius: 5px;
+    height: 2em;
+    margin: 30px 7px;
+}
+#inputTask:hover{
+    background: #d9f7e6;
+}
+#addTask, #clearCompleted, #clearAll {
+    margin: 7px;
+    padding: 10px;
+    width: 15em;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#addTask:hover, #clearCompleted:hover, #clearAll:hover {
+    background: #b6ddd5;
+    cursor: pointer;
+}
+#addTask:active, #clearCompleted:active, #clearAll:active {
+    background: #51ad9b;
+}
