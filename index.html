@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section>
+        <section class="buttons clearfix">       
+            <label for="task">Input task</label>
+            <input type="text" name="task" id="inputTask">
+            <input type="submit" name="add" id="addTask" value="Add Task">
+            <input type="submit" name="clearCompleted" value="Clear Completed" id="clearCompleted">
+            <input type="submit" name="clearAll" value="Clear all tasks" id="clearAll">
+        </section>
+        <section class="toDo clearfix">
+            <h1>To Do List</h1>
+            <p>You have <span id="numberOfTasks">no </span>tasks left to do.</p>
+            <ul>
+            </ul>
+        </section>
+        
+    </section>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
