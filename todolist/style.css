@@ -1,0 +1,96 @@
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+  body{
+      background-image: url("blueback.png");
+      background-repeat:no-repeat;
+  }
+
+.top{
+    text-align: center;
+}
+
+.top h2{
+    font-size: 28px;
+    margin-top: 25px;
+    background: black;
+    margin-left: 205px;
+    margin-right: 205px;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+}
+
+.whole{
+    bordeR: 3px solid black;
+    height: 415px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    background: white;
+}
+
+.bottom{
+    height: 70px;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.theList{
+    height: 195px;
+}
+
+.bottom button{
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+
+.bottom span{
+    color: rgb(251, 109, 69);
+}
+
+.bottom p{
+    margin-top:0;
+}
+
+#enterList {
+    padding: 5px;
+    font-style: italic;
+    font-weight: 700;
+    width: 25%;
+    margin-right: 8px;
+}
+
+#addIt {
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
