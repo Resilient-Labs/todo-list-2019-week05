@@ -3,7 +3,7 @@ const submit = document.querySelector('#submit')
 const ul = document.querySelector('#list')
 const todoLeft = document.querySelector('span')
 
-
+//Create Todo.
 submit.addEventListener('click', toDo => {
     toDo.preventDefault()
     let li = document.createElement("li");
@@ -13,6 +13,7 @@ submit.addEventListener('click', toDo => {
     letfTodo()
 })
 
+// Mark completed
 ul.addEventListener('click', completed => {
     if (completed.target.tagName == 'LI') {
         completed.target.classList.toggle("completed")
@@ -20,6 +21,7 @@ ul.addEventListener('click', completed => {
     letfTodo()
 })
 
+// Clear/Delete listItems
 document.querySelectorAll('button').forEach(e => e.addEventListener('click', clear => {
     let whatToClear = clear.target.getAttribute('data-value')
     if (whatToClear == 'clear') {
@@ -31,6 +33,7 @@ document.querySelectorAll('button').forEach(e => e.addEventListener('click', cle
     }
 }))
 
+// left todo counter function
 function letfTodo() {
     let listItems = ul.getElementsByTagName('li').length
     let completedItems = ul.getElementsByClassName('completed').length
