@@ -1,0 +1,35 @@
+.hide{
+    text-decoration: line-through;
+}
+
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1560195307-95127677e806?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-position: cover;
+}
+
+button{
+    border-radius: 10%;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+    rgba(255, 99, 71, 0.8),
+    rgba(255, 48, 231, 0.5));
+}
+
+#theList{
+    margin: 11% 25% 10% 25%;
+}
+
+.inputSection{ 
+    width: 500px;
+    color: white;
+}
+
+.theListSection{
+    border: black 1px solid;
+    width: 500px;
+    color: white;
+}
