@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    width: 48rem;
+    height: 32rem;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: 8px;
+    left: 60px;
+    font-size: 4rem;
+    text-shadow: 2px 2px grey; 
+    font-family: 'Cedarville Cursive', 'sans -serif';
+    color: white;
+}
+h2{
+    position: relative;
+    top: -39px;
+    left: 76px;
+    font-size: 1.25rem;
+}
+body p{
+    text-align: center;
+    margin: 0;
+    font-size: .75rem;
+}
+.top{
+    padding: 5px;
+    padding-top: 35px;
+}
+.firstDirection{
+    padding-top: 15px;
+}
+#add{
+    float: right;
+    background-color: transparent;
+    border: none;
+    font-size: 1.25rem;
+}
+.middle{
+    height: 20rem;
+}
+#list{
+    font-size: 1.5rem;
+}
+.bottom{
+    text-align: center;
+}
+.bottom p{
+    font-size: 1.25rem;
+    padding-bottom: 30px;
+}
+input{
+    width: 87%;
+    height: 28px;
+    margin-right: 5px;
+    margin-left: 10px;
+    border: none;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 0.288)
+}
+input:focus {
+    background-color: lightgrey;
+}
+#toDoCount{
+    color: red;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+button{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#clear{
+    margin-right: 1.25rem;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-image: none;
+    }
+   
+}
