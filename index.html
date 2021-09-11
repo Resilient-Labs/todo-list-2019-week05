@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Your description goes here">
+        <meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>To-Do List</title>
+		<!-- external CSS link -->
+		<!--<link rel="stylesheet" href="css/normalize.css">-->
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./css/reset.css">
+    </head>
+  
+    <body>
+        <section id="main" class="readable-width main">            
+            <section class="stats flex-container flex-xy-center">
+                <h2>Current Tasks: <span id="task-count">0</span></h2>
+                <h2>Completed Tasks: <span id="complete-count">0</span></h2>
+            </section>
+            <section class="buttons flex-container flex-xy-center" >
+                <button id="reset-button" class="main-action reset" type="button" name="button">Clear</button>
+                <button id="clear-complete-button" class="main-action clear-completed" type="button" name="button">Clear Completed</button>
+            </section>
+            <ul id="list-items" class="list-items"></ul>
+            <section class="add-section">
+                <button id="add-task" class="main-action add-task" type="button" name="button">+</button>
+            </section>
+        </section>
+  
+        <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
