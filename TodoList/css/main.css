@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+    border:1px solid black;
+}
+
+section:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+h1{
+    text-align:center;
+}
+
+section{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.crossout{
+    text-decoration:line-through;
+    color:grey;
+}
