@@ -1,0 +1,100 @@
+.zebra{
+    text-decoration: line-through 5px;
+    color: rgb(255, 5, 5);
+}
+
+
+body{
+    background: linear-gradient(rgba(217, 255, 5, 0.349),rgba(129, 255, 129, 0.514), rgba(217, 255, 5, 0.349));
+    height: 90vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 250px;
+    
+}
+
+.container{
+    border: rgba(163, 255, 43, 0.281) 1px solid;
+    padding: 50px;
+    border-radius: 5%;
+    background: linear-gradient( rgb(246, 181, 28),rgba(189, 132, 0, 0.918),rgba(149, 105, 1, 0.876));
+    box-shadow: 3px 3px 3px 3px;
+}
+
+
+button{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px 1px;
+    background: rgb(244, 253, 253);
+}
+
+
+button:hover, li p{
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.clearfix:after {
+     content: " ";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+p{
+    color: white;
+}
+
+
+li{
+    list-style: none;
+    overflow-wrap:break-word;
+}
+
+li p{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    list-style: none;
+    line-height: 20px;
+}
+
+
+input{
+    height: 40px;
+}
+
+input::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inform{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
