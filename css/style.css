@@ -1,0 +1,77 @@
+h1{
+  text-align: center;
+  font-size:8vh;
+  font-family: 'Lobster', cursive;
+  color:#414a4c;
+}
+
+body{
+  background-color:#F7CAC9;
+}
+
+form{
+  text-align: center;
+  margin-top: 2%;
+  border-color: transparent;
+}
+
+form input, form button{
+  font-size:1.2rem;
+  border:none;
+}
+
+form button{
+  margin-left:-0.1%;
+}
+
+form button{
+  color:rgb(127, 205, 205);
+  background: white;
+  cursor: pointer;
+ 
+}
+
+form button:hover {
+  background:rgb(127, 205, 205);
+  color:white;
+}
+
+.todo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list{
+  width:30%;
+  list-style: none;
+}
+
+.todo{
+  margin:0.5rem;
+  background:white;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+
+}
+
+.fa-trash-alt{
+  pointer-events: none;
+}
+
+.todo li{
+  flex:1;
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+.fa-check-square{
+  pointer-events: none;
+}
+
+.counterButton{
+  text-align: center;
+}
