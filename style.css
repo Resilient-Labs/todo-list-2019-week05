@@ -1,0 +1,12 @@
+body{
+	background-image: url("yello.jpeg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+head, body{
+	text-align: center; 
+}
+
+
