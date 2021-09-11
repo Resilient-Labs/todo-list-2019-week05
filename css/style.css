@@ -1,0 +1,121 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: black;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  .clear {
+   clear: both;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+.strikeThrough{
+    text-decoration: line-through;
+}
+
+body{
+    background: url("wallpaper4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;    
+}
+
+
+
+
+/* main{
+    border: 3px solid rgb(98, 202, 245);
+    border-radius: 5px;
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    margin-top: 8.6%;
+    margin-left: 18%;
+} */
+
+input{
+    margin-top: 5%;
+    margin-left: 12%;
+    height: 50px;
+    width: 500px;
+    font-size: 20px;
+    border-color: pink;
+    border-style: solid;
+    border-radius: 2%;;
+}
+
+.tasks{
+    border: 1px solid transparent;
+    height: 25rem;
+    width: auto;
+}
+
+
+#addItem{
+    height: 50px;
+    width: 150px;
+    margin-left: 5%;
+    font-weight: 700;
+}
+
+.clearSection{
+    border: 1px solid transparent;
+    margin-left: 35%;
+    margin-top: -7%;
+}
+
+#clearList{
+    height: 40px;
+    width: 150px;
+    font-weight: 700;
+}
+
+#clearCompleted{
+    height: 40px;
+    width: 170px;
+    font-weight: 700;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+p{
+    margin-left: 4%;
+}
+/* credit: https://codepen.io/jweden/pen/bLzHK */
+
+main{
+width:1000px;
+ height:600px;
+ position:relative;
+ background: rgb(254, 1, 154);
+ overflow:hidden;
+ margin-top: -15%;
+ margin-left: 20%;
+ padding:20px;
+ border-radius:0 0 0 30px/45px;
+ box-shadow:
+   inset 0 -40px 40px rgba(0,0,0,0.2),
+   inset 0 25px 10px rgba(0,0,0,0.2),
+   0 5px 6px 5px rgba(0,0,0,0.2);
+ line-height:1.7em;
+ font-size:19px;
+ mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC)
+}
