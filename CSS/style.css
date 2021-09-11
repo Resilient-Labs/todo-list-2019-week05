@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+
+}
+
+html{
+  background: white;
+}
+.middle{
+  width: 300px;
+  border: 3px rgb(153,80,47);
+ text-align: center;
+}
+
+
+
+ul{
+  height: 361px;
+  background-color:  rgba(153, 81, 47, 0.185);
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 300px;
+  background-image: url(Browny.jpg);
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
