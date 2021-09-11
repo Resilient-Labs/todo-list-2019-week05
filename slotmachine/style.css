@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+  }
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    line-height: 1;
+}
+
+
+body {
+
+}
+h1 {
+    color: gray;
+}
+
+main {
+    width: 70%;
+    height: 800px;
+    display: flex;
+    margin: auto;
+    border: 2px solid aqua;
+
+}
+
+main > section {
+    width: 200px;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid aqua;
+    margin: auto;
+
+}
+
