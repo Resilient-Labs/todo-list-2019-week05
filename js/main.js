@@ -41,18 +41,22 @@ function taskLeftToDo(){
    let count = lists.getElementsByTagName('li').length
    let completedList = lists.getElementsByClassName('strikeThrough').length
       console.log(count, completedList)
-   document.querySelector('#taskLeft').innerHTML = count - completedList
+      document.querySelector('#taskLeft').innerHTML = count - completedList
    
 }
 //function that removes the completed tasks
 function removeCompleted(){
-    document.querySelectorAll('.strikeThrough').forEach(element => element.remove())
+   document.querySelectorAll('.strikeThrough').forEach(element => element.remove())
 }
 
 
 // clear list
-function clearList(){
+function clearList(event){
    document.querySelector('ul').innerHTML ="";
+
+   if(event){
+      document.querySelector('#taskLeft').innerHTML = 0
+   }
 }
 
 //cite: https://www.codegrepper.com/code-examples/javascript/clear+list+javascript
