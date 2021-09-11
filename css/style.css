@@ -1,0 +1,123 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url('background.png');
+}
+
+div{
+  margin-top: 10%;
+
+}
+
+#main{
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  background-color: rgb(254 250 240);
+  width: 25rem;
+  height: 40rem;
+  border-radius: 5%;
+  margin: auto;
+}
+
+h1{
+  padding-top: 7%;
+  padding-left:10%;
+  font-weight:600;
+  font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+  text-transform: lowercase;
+  font-size: 3rem;
+}
+
+form{
+  padding-left: 10%;
+}
+
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding-right:8%;
+  
+}
+ul li{
+  border-bottom: 1px solid rgb(133 163 82);
+}
+
+ul li p{
+  padding-left:none;
+  padding: 1%;
+
+}
+
+.strikeThrough{
+ text-decoration:line-through; 
+}
+
+p{
+  padding-left: 10%;
+}
+#toDoListTasks{
+ border:none;
+ height: 1.5rem;
+ width: 15.5rem;
+ border: .1rem solid black;
+}
+#addButton{
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  text-transform: lowercase;
+  background-color: rgb(133 163 82);
+  border:none;
+  height: 1.5rem;
+  width: 4rem;
+
+}
+
+#taskListArea{
+  width: auto;
+  height: 25rem;
+}
+
+#bottomButtons{
+  padding-left: 10%;
+
+}
+
+#clearList{
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  border:none;
+  height: 1.5rem;
+  width: 6rem;
+  background-color: rgb(133 163 82);
+  text-transform: lowercase;
+
+}
+#removeCompleted{
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  border:none;
+  height: 1.5rem;
+  width: 13.5rem;
+  background-color: rgb(133 163 82);
+  text-transform: lowercase;
+
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

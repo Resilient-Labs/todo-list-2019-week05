@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>To Do List</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,600;1,300&display=swap" rel="stylesheet">		
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div>
+		<section id="main">
+			<h1>To Do List:</h1>
+				<form>
+					<input id="toDoListTasks" type="text" onfocus="this.value=''">
+					<button id="addButton" type="button" placeholder="To Do List">Add</button>
+				</form>
+				<section id="taskListArea">
+				<ul id="placeToPutTasks"></ul>
+				</section>
+				<section>
+					<p>You have <span id="taskLeft"> 0 </span> task left.</p>
+				</section>
+				<section id="bottomButtons">
+					<button id="clearList">Clear</button>
+					<button id="removeCompleted">Remove Completed</button>
+				</section>
+
+		</section>
+	</div>
+	
+		
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
