@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Your description goes here" />
+		<meta name="keywords" content="one, two, three" />
+
+		<title>TO-DO List</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="bodyCont">
+			<header>
+				<h1>TO-DO List</h1>
+			</header>
+
+			<section class="mainListCont">
+				<section class="listControls">
+					<p class="remainingTodos"></p>
+					<button class="clearCompleteBtn controlBtn">Clear Completed</button>
+					<button class="clearListBtn controlBtn">Clear All</button>
+				</section>
+
+				<section class="listCont">
+					<section class="addItem">
+						<input type="text" class="userInput" placeholder="To-Do" />
+
+						<button class="submitBtn">+</button>
+					</section>
+
+					<div class="todoListCont">
+						<ul class="todoList"></ul>
+					</div>
+				</section>
+			</section>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
