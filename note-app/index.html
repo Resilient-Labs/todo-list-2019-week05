@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>Notes</h1>
+				<form>
+					<input type="text" id="title" placeholder="Title"/>
+					<textarea id="note-text" placeholder="What Are Your Thoughts?"></textarea>
+					<button id='addNote'>Add Note</button>
+				</form>
+			</div>
+		</header>
+		
+		<section>
+			<div class='container'>
+				<h2>Notes</h2>
+				<div id="notes" class='notes'>
+					<div id='note'>
+						<p class='note-number'>Note 1</p>
+						<h3 class='note-title'>Hello World</h3>
+						<p class='note-text'>Some Note text</p>
+						<button class='note-btn'>Delete Note</button>
+						<button class='note-btn edit-btn'>Edit Note</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
