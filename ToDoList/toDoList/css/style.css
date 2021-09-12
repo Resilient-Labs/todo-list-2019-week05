@@ -1,0 +1,73 @@
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+
+body{
+    background-color:  #3f3834; 
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    color:#9da7a2;
+
+
+  }
+
+  h2 {
+    font-family: 'Allison';
+    font-style: italic;
+
+  }
+
+img{
+  width: 1000px;
+  height: 300px;
+  clear: both;
+  border: 4px dashed;
+  margin: 0px 25px;
+}
+
+section form{
+  text-align: center #9da7a2;
+}
+
+.addBtn{
+  width: 100px;
+  border: 1px solid black;
+  background-color: #9da7a2;
+  padding: 5px;
+  text-align: center;
+}
+
+.removeBtn{
+  width: 100px;
+  border: 1px solid black;
+  background-color: #9da7a2;
+  padding: 5px;
+  text-align: center;
+}
+
+button :hover{ 
+  background-color: deeppink;
+
+}
+
+
+ul li{
+list-style: none;
+
+}
+
+button:hover{
+    background-color: #9da7a2;
+}
