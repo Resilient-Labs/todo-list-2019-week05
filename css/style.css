@@ -1,0 +1,10 @@
+.itemCompleted{
+    text-decoration-line: line-through;
+    color: lightgray;
+}
+ul{
+    list-style-type: none;
+}
+.itemCleared{
+    display: none;
+}
