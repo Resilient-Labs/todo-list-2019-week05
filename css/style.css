@@ -1,0 +1,137 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: rgb(212, 212, 212);
+	font-size: 1.8rem;
+	background: rgb(26, 27, 28);
+	font-family: 'Roboto', sans-serif;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.bodyCont {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/* border: 2px solid red; */
+	margin: auto;
+	max-width: 800px;
+}
+
+.mainListCont {
+	display: flex;
+	flex-direction: row;
+}
+
+.listControls {
+	width: 30%;
+	max-height: 50rem;
+}
+
+.controlBtn {
+	width: 95%;
+	color: cornflowerblue;
+	background: rgb(26, 27, 28);
+	padding: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.listCont {
+	width: 70%;
+	padding-left: 1.5rem;
+}
+
+.addItem {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
+
+.userInput {
+	background-color: rgb(39, 39, 40);
+	color: rgb(212, 212, 212);
+	width: 90%;
+	padding-left: 2rem;
+}
+
+.submitBtn {
+	background: transparent;
+	border: none;
+	padding: 0;
+	color: cornflowerblue;
+	font-size: 4rem;
+	width: 10%;
+}
+
+.submitBtn:hover {
+	cursor: pointer;
+}
+
+.todoList {
+	display: flex;
+	flex-direction: column-reverse;
+	list-style-type: none;
+	margin-top: 0;
+	padding-left: 0;
+	width: 90%;
+}
+
+li {
+	border-bottom: 2px solid rgb(66, 66, 66);
+	padding: 1.2rem;
+	padding-left: 2rem;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
