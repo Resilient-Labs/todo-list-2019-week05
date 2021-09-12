@@ -1,0 +1,25 @@
+.crossout{
+  text-decoration: line-through;
+  color: gold;
+
+}
+.clear{
+  display: none;
+}
+
+#header{
+  height: 12.5rem;
+  width: 30%;
+  border: 0.063rem solid black;
+  overflow-wrap: break-word;
+}
+
+
+.scale:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
