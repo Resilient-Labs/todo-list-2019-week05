@@ -1,0 +1,91 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+  /* BASE STYLES
+/*******************************************/
+.displayFlex{
+  display:flex;
+}
+
+.crossedOut{
+  text-decoration: line-through;
+}
+
+.blackBorder{
+  border:1px solid black;
+}
+
+body{
+  background-color: rgb(14, 31, 60) ;
+
+}
+
+.snorlaxHead{
+  width:50%;
+  margin:auto;
+  text-align: center;
+}
+
+.todolistBody{
+  width:50%;
+  text-align: center;
+  margin:auto;
+  margin-top: 100px;
+  background-color: rgb(255, 248, 241);
+  border:1px solid black ;
+  border-radius: 50%;
+}
+
+.pokeCounter{
+  text-align: center;
+  color:white;
+  margin-top: 100px;
+}
+
+/* .buttonColor{
+  background-color: rgb(36, 94, 255) ;
+  border: none;
+  color: white;
+  text-decoration: none;
+} */
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* HEADER*/
+header {
+  flex-direction: column;
+  height:50px;
+  width:100%;
+
+}
+
+.itemsForm{
+  width: 100%;
+  text-align: center;
+
+}
+.addToButton{
+  width: 100%;
+  text-align: center;
+}
+
+.listItems{
+  text-align: center;
+  list-style:none;
+  list-style-image: url("../img/Poke_Ball.jpg");
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+

@@ -8,7 +8,7 @@
 // Toggling some sort of completed class
 // Todo left is total minus completed
 
-//---------------------Keitaros advice
+//---------------------Keitaros advice:
 
 
 // create click events for the add to list button  //these lines will only run once because they are outside a function.
@@ -30,7 +30,7 @@ function cowabunga () {
     document.querySelector('#input').value = '';  //this assigns the input an empty string.
 
     allItems = document.querySelectorAll('li').length - document.querySelectorAll('.crossedOut').length;  //.length always returns a number
-    document.querySelector('#leftToDo').innerHTML = allItems;
+    document.querySelector('#leftToDo').innerHTML = `Task Counter: ${allItems}`
 
     createLi.addEventListener('click', () => {  // learn concept of nested functions
         createLi.classList.add('crossedOut')
@@ -45,7 +45,7 @@ function highFive (){
    document.querySelectorAll('.crossedOut').forEach(element => element.remove())
    
    allItems = document.querySelectorAll('li').length - document.querySelectorAll('.crossedOut').length
-    document.querySelector('#leftToDo').innerHTML = allItems
+    document.querySelector('#leftToDo').innerHTML = `Task Counter: ${allItems}`
 
 }
 
@@ -54,7 +54,7 @@ function missleLaunch (){
     document.querySelectorAll('li').forEach(element => element.remove()) 
 
     allItems = document.querySelectorAll('li').length - document.querySelectorAll('.crossedOut').length
-    document.querySelector('#leftToDo').innerHTML = allItems
+    document.querySelector('#leftToDo').innerHTML = `Task Counter: ${allItems}`
 
 }
 
