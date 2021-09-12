@@ -42,6 +42,7 @@ function clearList(){
     counter-=li.length
   let span = document.querySelector("span")
    span.innerText = counter.innerHtml = 0
+   counter = 0
 }
 
 function greyout(e){
