@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 900px;
+  background-image: url("ipad.jpeg");
+  background-size: 105%;
+  display: grid;
+  place-items: center;
+}
+.container {
+  height: 408px;
+  width: 38%;
+  margin-left: 30px;
+  margin-top: 113px;
+  background: white;
+  position: relative;
+}
+
+.mainHeader {
+  width: 100%;
+  height: 80px;
+  opacity: 0.8;
+  background-color: rgb(156, 156, 202);
+  color: white;
+  display: grid;
+  place-items: center;
+  text-transform: capitalize;
+}
+.contentText {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  height: 45px;
+  font-size: 21px;
+  border: none;
+  width: 90%;
+  border-bottom: 2px solid lightgray;
+  outline: none;
+  background: transparent;
+  padding: 0 10px;
+  color: rgb(28, 4, 54);
+}
+.contentText::placeholder {
+  color: rgb(138, 138, 194);
+}
+.lists {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  list-style-type: none;
+  height: 120px;
+  width: 260px;
+  overflow: auto;
+}
+.lists li {
+  height: 50px;
+  width: 100%;
+  margin: 4px 0;
+  position: relative;
+  left: 0;
+  border: 1px solid #1f3148;
+  overflow: hidden;
+}
+.button {
+  width: 20%;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  outline: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.8s ease-in;
+}
+.clearList {
+  width: 25%;
+  height: 50px;
+  position: absolute;
+  left: 180px;
+  bottom: 20px;
+  outline: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.8s ease-in;
+}
+.clearDone {
+  width: 25%;
+  height: 50px;
+  position: absolute;
+  left: 370px;
+  bottom: 20px;
+  outline: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.8s ease-in;
+}
+.button {
+  background: transparent;
+  border: 3px solid rgb(138, 138, 194);
+  color: #aeaeae;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.clearList {
+  background: transparent;
+  border: 3px solid rgb(138, 138, 194);
+  color: #aeaeae;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.clearDone {
+  background: transparent;
+  border: 3px solid rgb(138, 138, 194);
+  color: #aeaeae;
+  font-size: 18px;
+  border-radius: 8px;
+}
