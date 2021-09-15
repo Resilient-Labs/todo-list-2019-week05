@@ -20,7 +20,10 @@ button{
 }
 
 #theList{
-    margin: 11% 25% 10% 25%;
+    /* margin: 11% 25% 10% 25%; */
+    Position: absolute;
+    top:130px;
+    left:300px;
 }
 
 .inputSection{ 
@@ -29,7 +32,38 @@ button{
 }
 
 .theListSection{
-    border: black 1px solid;
     width: 500px;
     color: white;
+}
+
+/* media queries */
+
+/* mobile */
+@media all and (min-width: 200px) and (max-width: 800px){
+    body{
+        background-image: url(/Users/resilientcoders/Desktop/rc/potfolio/todo-list-2019-week05/iphone.jpeg);
+        background-repeat:no-repeat;
+    }
+    #theList{
+        position: static;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .theListSection{
+        width: 300px;
+        color: white;
+    }
+
+}
+
+/* tablets */
+
+@media (min-width: 800px) and (max-width: 1280px) {
+
+}
+
+/* desktops */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px){ 
+
 }
