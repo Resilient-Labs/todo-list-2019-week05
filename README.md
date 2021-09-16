@@ -1,7 +1,7 @@
 # To Do List Project
 This is my to do list where you can add items to a list and cross them off when completed. 
 
-**Link to project:** duanetodo.netlify.app
+**Link to project:** https://duanetodo.netlify.app
 
 ![alt tag](https://user-images.githubusercontent.com/88947459/133686216-6d149ac9-8bcd-4353-a20f-f9727dc03bee.PNG)
 
