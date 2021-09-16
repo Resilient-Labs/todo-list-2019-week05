@@ -3,7 +3,7 @@ This is a project for creating a task list. You can add tasks to a list, mark of
 
 **Link to project:** https://optimistic-benz-e4a984.netlify.app
 
-<img src="img/live_screenshot.jpg">
+<img src="img/live_screenshot.png">
 
 ## How It's Made:
 
