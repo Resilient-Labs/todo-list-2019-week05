@@ -3,8 +3,7 @@
  To-Do List application that allows the user to dynamically add tasks, mark tasks as completed, clear completed tasks and remove all tasks.
 
 
-![To-Do List Demo](/css.img/todo-list-project-preview.gif)
-Format: ![To-Do List Project](https://github.com/cat-goncalves/todo-list-2019-week05)
+![To-Do List Demo](https://github.com/cat-goncalves/todo-list-2019-week05/blob/answer/css/img/todo-list-project-preview.gif)
 
 
 How It's Made:
