@@ -1,22 +1,22 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To Do List Project
+This is my to do list where you can add items to a list and cross them off when completed. 
 
-### Goal: Build a Simple Todo List
+**Link to project:** duanetodo.netlify.app
 
-### How to submit your code for review:
+![alt tag](https://user-images.githubusercontent.com/88947459/133686216-6d149ac9-8bcd-4353-a20f-f9727dc03bee.PNG)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript,
+
+I started off with just a notepad background. Then i added an event listener for each button. Then i wrote a function that adds a new item to the list, a function that issues a strikethough and changes the text to red when clicked and finally a clear and clear completed function. one clears everything from the notepad and the other only clears the texts that are strikethough. 
+
+<!-- ## Optimizations
+*(optional)* -->
+
+<!-- You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews! -->
+
+## Lessons Learned:
+
+The learning curve for me on this project was figuring out how to target the elements and adding a creating a new function for the strikethough text. 
