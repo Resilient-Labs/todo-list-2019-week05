@@ -14,10 +14,6 @@ toDoButton.addEventListener('click', add)
 toDoList.addEventListener('click', erase)
 filterOption.addEventListener('click', filterTodo)
 filterAll.addEventListener('click', eraseAll)
-//counter button
-
-
-
 
 function add(event) {
   event.preventDefault();
@@ -38,27 +34,20 @@ function add(event) {
   toDoList.appendChild(toDoSection);
   toDoInput.value = '';
   updateCount();
-  
-}
+  }
 
 function erase(e) {
   const item = e.target;
   if (item.classList[0] === "delete-btn") {
     const todo = item.parentElement;
     todo.remove();
-    
-  }
+    }
 
   if (item.classList[0] === "complete-btn") {
     const todo = item.parentElement;
     todo.classList.toggle('completed');
-    
-  
-
-  }
+    }
   updateCount();
-  
-
 }
 
 //   I got this example from google, it uses the target method to select the button and then creates a new variable which is the parent element corresponding section. It then runs a remove method on the variable which gets rid of the entire section created by the submit function. 0 corresponds to the first class I believe.
