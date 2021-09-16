@@ -6,6 +6,7 @@ This is my simple To Do List project! Users can add individual list items via th
 
 <img src="todo.png"></img>
 
+Link to live site: [https://danielmtran-todolist.netlify.app/?]
 
 ### How It's Made:
 
