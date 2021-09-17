@@ -4,8 +4,6 @@ A project where the task was to create a to-do list with the following features:
 
 ![A test image](simpletodolist.png)
 
-<img src="simpletodolist.png">
-
 ### How It’s Made
 
 <b>Langs used:</b> HTML, CSS and Javascript
