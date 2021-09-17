@@ -14,7 +14,3 @@ Using click event. I created a function that takes in the input value and then c
 
 No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or fuck yeah I did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
 
-<h2> Examples </h2>
-Take a look at these couple examples that I have in my own portfolio:
-
-<bold>Slot Machine:</bold> https://github.com/martecodes/slot-machine-2019-week05.git
