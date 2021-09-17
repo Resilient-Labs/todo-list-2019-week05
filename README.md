@@ -1,7 +1,8 @@
 # Ricamura's toDO
 A project where the task was to create a to-do list with the following features: tells you what you need to do, strikethrough and a delete all. 
 <b>link to project</b> https://ricamuratodolist.netlify.app/
-<img src='/Users/resilientcoders/Desktop/rc/potfolio/todo-list-2019-week05/simpletodolist.png' alt='#'>
+
+![A test image](simpletodolist.png)
 
 <img src="simpletodolist.png">
 
