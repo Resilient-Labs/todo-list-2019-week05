@@ -39,9 +39,9 @@ button{
 /* media queries */
 
 /* mobile */
-@media all and (min-width: 200px) and (max-width: 800px){
+@media screen and (min-width: 200px) and (max-width: 800px){
     body{
-        background-image: url(/Users/resilientcoders/Desktop/rc/potfolio/todo-list-2019-week05/iphone.jpeg);
+        background-image: url('../iphone.jpeg');
         background-repeat:no-repeat;
     }
     #theList{
@@ -58,12 +58,12 @@ button{
 
 /* tablets */
 
-@media (min-width: 800px) and (max-width: 1280px) {
+@media (min-width: 801px) and (max-width: 1200px) {
 
 }
 
 /* desktops */
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px){ 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1600px){ 
 
 }
