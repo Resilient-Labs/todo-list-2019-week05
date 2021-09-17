@@ -1,22 +1,18 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Ricamura's toDO
+A project where the task was to create a to-do list with the following features: tells you what you need to do, strikethrough and a delete all. 
+<b>link to project</b> https://ricamuratodolist.netlify.app/
 
-### Goal: Build a Simple Todo List
+![A test image](simpletodolist.png)
 
-### How to submit your code for review:
+### How It’s Made
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<b>Langs used:</b> HTML, CSS and Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+With the html, I created two buttons, one for entering a list item and another for clearing the whole list. I placed two empty p tag elements that I could target with Javascript. 
+in javascript, I created four functions. The first function is for the button which adds a list to the item via an if else statement that calls the create list function is nothing is in the input. The second function creates the list. Inside of that function I used dom methods to create the list items that print the user's inputs. Boom, you have a list. The fourth function is for the clear all button, which cleared the entire list by targeted the created lis. The third function is to hide your completed tasks. inside of that, it also tells you how many lines of of tasks you have left. 
+
+### optimizations
+
+### Lessons Learned
+
+
