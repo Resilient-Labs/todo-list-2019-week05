@@ -4,8 +4,11 @@
     	<meta charset="utf-8">
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,400;0,700;1,200&display=swap" rel="stylesheet">
 
-		<title>Blank Template</title>
+		<title>To Do List</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
@@ -13,7 +16,7 @@
 	</head>
 	<body>
 
-		<div>
+		<div class="wholeToDOList">
 			<h1>To Do List</h1>
 			
 			<section id="textBoxSubmit">
@@ -23,13 +26,15 @@
 			</section>
 
 			<section>
-				<ul></ul>
+				<div class="listDiv">
+					<ul></ul>
+				</div>
 			</section>
 
 			<section> 
-				<p>You have <span>0</span> on your todo list</p>
-				<button id="clearAllButton">Clear List</button>
-				<button id="clearCompletedButton">Clear Completed</button>
+				<p>You have <span>0</span> items on your todo list</p>
+				<button class="bottomButtons" id="clearAllButton">Clear List</button>
+				<button class="bottomButtons" id="clearCompletedButton">Clear Completed</button>
 			</section>
 
 

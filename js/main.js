@@ -18,7 +18,6 @@ function submitAddToList(){
 
     let newItem = document.querySelector('input')
     let addList = document.createElement('li')
-
     addList.innerText = newItem.value
     document.querySelector('input').value=''
 

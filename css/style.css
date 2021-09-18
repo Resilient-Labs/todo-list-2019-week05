@@ -4,79 +4,133 @@
 
 /* Box Model Hack */
 *{
-  box-sizing: border-box;
-}
+     box-sizing: border-box;
+   }
+   
+   /* Clear fix hack */
+   .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+   }
+   
+   .clear {
+        clear: both;
+   }
+   
+   .alignright {
+        float: right;
+        padding: 0 0 10px 10px; /* note the padding around a right floated image */
+   }
+   
+   .alignleft {
+        float: left;
+        padding: 0 10px 10px 0; /* note the padding around a left floated image */
+   }
+   /*1px  = 0.0625rem
+   10px = 0.625rem
+   12px = 0.75rem
+   14px = 0.875rem
+   16px = 1rem (base)
+   18px = 1.125rem
+   20px = 1.25rem
+   24px = 1.5rem
+   30px = 1.875rem
+   32px = 2rem*/
+   
+   /*.bodyCont {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        max-width: 1350;
+   }*/
+   
+   /******************************************
+   /* BASE STYLES
+   /*******************************************/
+   
+   body {
+        color: #000;
+        font-size: 12px;
+        line-height: 1.4;
+        font-family: Helvetica, Arial, sans-serif;
+        background-size: cover;
+        background-image: url(../css/images/Ipad.png);
+        background-position-x: 0em;
+        background-position-y: -16em;
+        background-repeat: no-repeat;
+        font-family: 'Noto Serif Display', serif;;
+   }
+   
+   
+   /******************************************
+   /* LAYOUT
+   /*******************************************/
+   .wholeToDOList{
+        margin: 4em 0em 0em 18em;
+        height: 50em;
+        width: 56em;
+        border-radius: 4em;
+        text-align: -webkit-center;
+        background: #f2e7dd;
+        border: 2px solid #a67758;
+        }
+     .listDiv{
+          height: 17em;
+          width: 45em;
+          background-color: #f9f5f2;
+          overflow-y:auto;
+          position:relative;
+          margin-top: 2em;
+          border-radius: 2em;
+          text-align: initial;
+     }
+     h1{
+          font-size: 5em;
+          color: #a67758;
+     }
+   ul{
+        list-style: circle;
+        list-style-position: inside;
+        color: #2e1c0d;
+        font-weight: 700;
+        font-size: 1.2em;
+   }
+   input{
+        width: 20em;
+        border: 1px solid;
+        border-radius: 1em;
+        height: 3em;
+   }
+   p,span{
+        font-size: 2em;
+        margin: 1em 0 1em 0;
+   }
+   button{
+        width: 11em;
+        height: 3em;
+        background-color: #a67758;
+        border: 1px solid;
+        border-radius: 1em;
+        color: #f2e7dd;
+        font-weight: 700;
+        font-size: 1.2em;
+   }
+   .bottomButtons{
+     margin: 0em 1em 2em 1em;
+     font-size: 1.2em;
+   }
+   .completed{
+        text-decoration: line-through;
+        list-style: none;
+        color: #a67758;
+   }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
-.alignright {
-	float: right;
-	padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-	float: left;
-	padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-/*1px  = 0.0625rem
-10px = 0.625rem
-12px = 0.75rem
-14px = 0.875rem
-16px = 1rem (base)
-18px = 1.125rem
-20px = 1.25rem
-24px = 1.5rem
-30px = 1.875rem
-32px = 2rem*/
-
-/*.bodyCont {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	max-width: 1350;
-}*/
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-div{
-     height: 600px;
-     width: 400px;
-     border: 5px solid green;
-     text-align: center;
-}
-ul{
-     list-style: none;
-     color: green;
-}
-.completed{
-     text-decoration: line-through;
-}
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+   /******************************************
+   /* ADDITIONAL STYLES
+   /*******************************************/
+   
