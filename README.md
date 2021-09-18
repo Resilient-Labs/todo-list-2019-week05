@@ -14,9 +14,17 @@
   - (1 to 5 no 3) I feel good about my code
   - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# 🎰 Week05: Todo List
+
+Technology used is HTML, CSS & JAVASCRIPT
+
+### Goal: Build a  Todo List
+
+Build a To Do List which allows useres to list out things and cross them off as they are complete. 
+
+### How to submit your code for review:
+
+## Link to project
+https://miriam-to-do.netlify.app/
+
+![image](toDo.png)
