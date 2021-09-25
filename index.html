@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do-List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1b23973fb1.js" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='css/reset.css'>
+  <link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+  <header>
+    <h1>So you need a To-Do-List?</h1>
+  </header>
+  <form onsubmit="return false">
+    <input type='text' class='todo-input'>
+    <button class="todo-button" type="submit">
+      <i class="fas fa-plus-square"></i>
+    </button>
+    <button class="deleteAll">
+      <i class="fas fa-filter"></i>
+    </button>
+    <button class="deleteEverything">
+      <i class="fas fa-ban"></i>
+    </button>
+    <button class="counterButton">
+      0 left
+    </button>
+  </form>
+  <section class='todo-container'>
+    <ul class='todo-list'>
+
+    </ul>
+  </section>
+ 
+
+<script src="main.js"></script>
+</body>
+</html>
