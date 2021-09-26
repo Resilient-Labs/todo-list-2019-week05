@@ -6,4 +6,4 @@
 
 Link to project <a href="https://natashatorres.netlify.app/to-do-list/index.html">here</a>!
 
-Built a simple to-do-list application that allows user to add items to a list, mark item when completed, a button to clear completed task and a button to clear entire list, and a feature that keeps count of the amount of items left to do. 
+Built a simple to-do-list application that allows user to add items to a list, mark item when completed, a button to clear completed tasks, a button to clear entire list, and a feature that keeps count of the amount of items left to do. 
