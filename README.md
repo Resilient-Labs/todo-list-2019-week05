@@ -1,22 +1,9 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Project: Todo List
 
-### Goal: Build a Simple Todo List
+<img width="1481" alt="todolistportfolio" src="https://user-images.githubusercontent.com/88988494/134819674-605a4339-3735-40c3-b0a6-4a3cd6a0f340.png">
 
-### How to submit your code for review:
+# Tech Used: HTML, CSS, JS
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Link to project <a href="https://natashatorres.netlify.app/to-do-list/index.html">here</a>!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Built a simple to-do-list application that allows user to add items to a list, mark item when completed, a button to clear completed task and a button to clear entire list, and a feature that keeps count of the amount of items left to do. 
