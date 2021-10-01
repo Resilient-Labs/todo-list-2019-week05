@@ -2,7 +2,7 @@
 
 <img width="1481" alt="todolistportfolio" src="https://user-images.githubusercontent.com/88988494/134819674-605a4339-3735-40c3-b0a6-4a3cd6a0f340.png">
 
-# Tech Used: HTML, CSS, JS
+# Tech used: HTML, CSS, JS
 
 Link to project <a href="https://natashatorres.netlify.app/to-do-list/index.html">here</a>!
 
