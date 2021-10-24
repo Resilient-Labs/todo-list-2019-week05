@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+
+		<title>To Do List</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>To-Do List</h1>
+		<!-- <p>Enter a task below and click to cross it off of the list. </p> -->
+		<input id='inputTask' type="text" placeholder='Enter a Task'>
+		<button id='addTask'>Add to List</button>
+		<section class="listArea clearfix">
+			
+			<div class="lines"></div>
+
+			<ul class="list" id="list" >
+
+			</ul>
+		</section>
+		<h2>You have <span id='remaining'>0</span> tasks remaining</h2>
+		
+		<button id="clearAll">Clear List</button>
+		<button id="clearCompleted">Clear Completed</button>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+

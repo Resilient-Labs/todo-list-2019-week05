@@ -1,22 +1,19 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ To-Do List Project 📋
 
-### Goal: Build a Simple Todo List
+ To-Do List application that allows the user to dynamically add tasks, mark tasks as completed, clear completed tasks and remove all tasks.
 
-### How to submit your code for review:
+## Link to Project: https://todo-list.catgoncalves.com/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![To-Do List Demo](https://github.com/cat-goncalves/todo-list-2019-week05/blob/answer/css/img/todo-list-project-preview.gif)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
+
+
+## Optimizations:
+I planned for use cases to improve the user experience such as preventing the submission of empty tasks and allowing the user to add new tasks using both the button and an "enter" keyup event.
+
+
+## Lessons Learned:
+To create this project I used new skills to dynamically create elements and classes in the DOM. I took this learning a step further by implementing forEach() and event delegation for the first time. I look forward to utilizing these new tools in future projects.
