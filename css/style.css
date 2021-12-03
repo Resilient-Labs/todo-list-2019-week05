@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clear {
+	clear: both;
+}
+
+
+
+li {
+    list-style-type: none;
+    margin: 0% 0% 0% 45%;
+    padding: 0%;
+    text-align: left;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+.hidden {
+    display: none;
+}
+body {
+    text-align: center;
+}
