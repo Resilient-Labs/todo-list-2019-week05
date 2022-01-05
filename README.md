@@ -1,22 +1,8 @@
 # ✅ Week05 Bootcamp2019 Project: Todo List
 
 ### Goal: Build a Simple Todo List
+To-Do List application where a user can add tasks and filter through completed and uncompleted tasks. Includes a counter and a delete all button. Built with HTML, CSS & JavaScript.
+<p align="center"> <a href="https://karim-todo-list.netlify.app/">Link: https://karim-todo-list.netlify.app//</a></p>
+<p align="center"><img src="css/Screenshot (12).png" height=300px></p>
+<p align="center"><strong>Built with HTML, CSS, JavaScript</strong></p>
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
