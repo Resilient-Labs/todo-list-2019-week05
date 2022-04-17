@@ -1,0 +1,61 @@
+*{
+   box-sizing: border-box;
+}
+
+#inputBox{
+    width: 25%;
+    
+}
+
+#inputBox, #submit{
+    margin-top: 35px;
+}
+
+.ListofTasks1{
+    margin-top: 200px;
+    height: 80px;
+    padding-left: 35%;
+    background: rgba(0, 0, 0, 0.781);
+}
+
+.ListofTasks2{
+    height: auto;
+    padding-left: 35%;
+    background: white;
+    
+}
+
+.buttonsToPress{
+    height: 100px;
+    padding-left: 35%;
+    background: rgba(0, 0, 0, 0.781);
+}
+
+@media all{
+    body{
+        max-height: 200px;
+    }
+}
+
+
+ul{
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+li:hover {
+	background: rgba(0, 0, 0, .04);
+	cursor: pointer;
+}
+
+.strikeOut{
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+h4, span{
+    color: white;
+    padding-top: 20px;
+}
+
+
