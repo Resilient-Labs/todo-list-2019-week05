@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todolist</title>
+</head>
+<body>
+    <form action="">
+        <h1>Do It!</h1>
+        <input id="todoInput" type="text">
+        <button id="submitBtn">Submit</button>
+    </form>
+    
+    <ul id="todoList"></ul>
+    <section>
+        <p>You have <span id="howMany"></span> tasks left to complete</p>
+        <button id="clearList">Clear List</button>
+        <button id="clearCompleted">Clear Completed</button>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+</html>
