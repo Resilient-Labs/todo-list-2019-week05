@@ -9,7 +9,6 @@
     <title>Todo List</title>
 </head>
 <body>
-	<iframe src="music/nintendog.mp3" allow="autoplay" loop="true"></iframe>
     <section id="container">
 			<h1>Todo List</h1>
         <section id="top">
@@ -29,7 +28,12 @@
                 <button type="button" id="clearCompletedBtn">Clear Finished</button>
             </section>
         </section>
+        <audio controls autoplay muted loop>
+            <source src="music/nintendog.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+          </audio>
     </section>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main.js" class="audio"></script>
 </body>
 </html>
+
