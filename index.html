@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/289010acce.js" crossorigin="anonymous"></script>
     <title>Todo List</title>
 </head>
 <body>
+	<embed src="music/nintendog.mp3" loop="true" autostart="true" width="2" height="0">
     <section id="container">
+			<h1>Todo List</h1>
+		<span></span>
         <section id="top">
             <input type="text" id="inputText">
-            <button type="button" id="addBtn">Add to List</button>
+            <button type="button" id="addBtn">Add to List<i class="fa-solid fa-pencil"></i></button>
         </section>
         <section id="middle-sec">
             <section>
@@ -22,8 +26,8 @@
         <section id="bottom-sec">
             <section>
                 <p>You have <span id="todosLeft">0</span> todos left.</p>
-                <button type="button" id="clearBtn">Clear List</button>
-                <button type="button" id="clearCompletedBtn">Clear Completed</button>
+                <button type="button" id="clearBtn">Clear All</button>
+                <button type="button" id="clearCompletedBtn">Clear Finished</button>
             </section>
         </section>
     </section>

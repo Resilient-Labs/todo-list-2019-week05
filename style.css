@@ -1,8 +1,114 @@
+* {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    margin-top: 64px;
+    background-image: url("http://images6.fanpop.com/image/photos/41200000/Nintendogs-Desktop-Wallpaper-nintendogs-41234734-1280-1024.png");
+}
+
+
+h1 {
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 16px 8px;
+    text-shadow: 2px 2px #37a304;
+    border-bottom: 2px solid black;
+    background-color: rgb(21,39,38);
+}
+
+
+
+
+#container {
+    border: 1px solid black;
+    background-color: rgb(236,226,147);
+    opacity: .8;
+}
+
+
 ul {
 	list-style: none;
+    padding: 16px 4px;
 }
+
+ul li:first-child {  
+    border-top: 3px solid rgb(189,210,156);
+
+}
+
+li {
+    border-bottom: 3px solid rgb(189,210,156);
+    padding: 16px 8px;
+    margin: 8px;
+    font-size: 1.5rem;
+}
+
+
+p {
+    padding: 16px;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+span {
+    font-size: 1.5rem;
+    font-style: normal;
+    color: white;
+
+}
+
+button {
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+i {
+    margin-left: 8px;
+}
+
+#top {
+    padding: 16px 8px;
+}
+
+input {
+    padding: 8px;
+}
+
+#addBtn {
+    background-color: rgb(16, 123, 16);
+}
+#addBtn:hover {
+    opacity: .9;
+}
+
+
+#clearBtn {
+    background-color: rgb(220, 6, 6);
+}
+#clearBtn:hover {
+    opacity: .9;
+}
+
+
+#clearCompletedBtn {
+    background-color: rgb(2, 2, 179);
+}
+#clearCompletedBtn:hover {
+    opacity: .9;
+}
+
 
 .lineThrough {
     text-decoration: line-through;
+    color: rgb(68, 68, 68);
 }
+
 
