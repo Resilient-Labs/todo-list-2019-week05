@@ -1,0 +1,65 @@
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.strikeThrough {
+  text-decoration: line-through;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  background-color: black;
+  color: maroon;
+  margin-bottom: 1rem;
+}
+.line {
+  text-align: left;
+  font-size: 2rem;
+}
+body {
+  background-image: url(../images/shanghai.jpg);
+  background-size: 110%;
+}
+ul {
+  font-family: "Beau Rivage", cursive;
+  font-weight: bold;
+}
+input {
+  width: 70%;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+button {
+  width: 30%;
+  font-size: 1.7rem;
+  border-radius: 10%;
+  color: white;
+  background-color: black;
+  border: 0;
+  margin-bottom: 1rem;
+}
+section {
+  height: fit-content;
+  width: 33%;
+  min-width: 200px;
+  text-align: center;
+  background-color: gray;
+  min-height: 300px;
+  margin-left: 1%;
+  border-radius: 10%;
+}
+p {
+  font-size: 7rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-family: "Beau Rivage", cursive;
+  font-weight: bold;
+  color: white;
+}
+
+@media all and (max-width: 950px) {
+  button {
+    font-size: 1rem;
+  }
+}
