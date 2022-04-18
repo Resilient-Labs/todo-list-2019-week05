@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section class="headBox">
+            <h1>Don't hurry, be happy!</h1>
+            <p>Time to slow down and make a plan! Use this list to write your tasks or items! Clear the item when you're done! Efficiency comes better when you take your time.</p>
+        </section>
+        <section class="headImg">
+            <img src="images/sloth4.png" alt="A sloth throwing a paper airplane" class="sloth4">
+        </section>
+    </header>
+    <main>
+        <section class="addToList" >
+            <img src="images/sloth3.png" alt="sloth lounging" class="sloth3">
+            <form action="#">
+                <input type="text" id="addItem" placeholder="type here...">
+                <button id="addBtn">Add to List</button>
+            </form>
+        </section>
+        <section class="listHere">
+            <ul id="taskList"></ul>
+        </section>
+        <section class="listSettings">
+            <p class="status">You have <span id="leftOver"></span> todos left.</p>
+            <button class="clearList">Clear List</button>
+            <button class="clearCompleted">Clear Completed</button>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url("../images/bkgd.jpg");
+    padding: 3%;
+}
+
+/* Clearfix Hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* Header Styling */
+
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #809c45, #2e4214);
+    color: black;
+    opacity: .85;
+}
+
+header section {
+    float: left;
+    width: 50%;
+}
+
+.headBox {
+    padding: 2%;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.sloth4 {
+    height: 250px;
+}
+
+/* Button & Form Styling */
+
+input {
+    background: #a5aa73;
+    height: 40px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+button {
+    background: #2e4214;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 1.25rem;
+    text-decoration: underline dotted #4b6522;
+    color: #a5aa73;
+    font-weight: 700;
+}
+
+/* Main Body Styling */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.addToList, .listHere, .listSettings {
+    text-align: center;
+}
+
+ul, .listSettings {
+    background: rgb(165,170,115, .85);
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 2% 1% 2% 33%;
+    color: #2e4214;
+    width: 30%;
+    line-height: 3rem;;
+}
+
+.lineTime {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.listSetting {
+    margin: 0 40%;
+    padding: 1%;
+    font-size: 1.25rem;
+}
+
+.status {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sloth3 {
+    height: 205px;
+}
+
+/* Media Queries */
+
+@media (min-width: 428px) and (max-width: 1025px) {
+    .headBox {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        width: 50%;
+        margin: 2% 1% 2% 24%;
+    }
+}
+
+@media all and (max-width: 427px) {
+    .headImg {
+        display: none;
+    }
+
+    .headBox {
+        width: 100%;
+        font-size: 1.50rem;
+        padding: 2% 4%;
+    } 
+
+    ul {
+        margin: 0;
+        width: 100%;
+    }
+
+    button {
+        height: 35px;
+        font-size: 1.15rem;
+        padding: 3%;
+        margin-bottom: 5%;
+    }
+
+    input {
+        width: 50%;
+    }
+}
