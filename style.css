@@ -1,0 +1,93 @@
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+} 
+
+.crossOut { 
+    text-decoration: line-through;
+    color: brown
+    ;
+}
+
+main { 
+    background-image: url("toilet.jpg");
+    background-repeat: none;
+    height: 1000px;
+}
+
+h1 { 
+    text-align: center;
+    font-weight: 700;
+    font-size: 5rem;
+        color: brown;
+    margin-left: 10%; 
+    font-family: 'Anton', sans-serif;
+    margin-bottom: -3%;
+    margin-top: 0%;
+}
+
+main>div { 
+    display:flex;
+    /* flex-direction: column;    */
+}
+
+img { 
+    flex:1;
+}
+
+/* img+div { 
+    flex: 4;
+} */
+
+.poop { 
+    display: flex; 
+    flex: 4;
+    justify-content: center;
+    align-content: center;
+    margin-right: 6%;
+    margin-top: 10%;
+}
+
+.shitList { 
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 55%;
+}
+
+ul, .tasks { 
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+}
+
+.buttonOne, .flush { 
+    font-family: 'Anton', sans-serif;
+    top: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#input { 
+    height: 1.5rem;
+    width: 90%;
+    margin-bottom: 6%;
+}
+
+.buttonOne { 
+    width: 43%; 
+}
+
+.flush { 
+    width: 48%;
+}
+
+div>img { 
+    margin-left: 14%;
+}
