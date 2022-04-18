@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif, Helvetica;  
+  }
+  
+  /* Clear fix */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ 
+/* body bg */
+
+body{
+    background: linear-gradient(
+        130deg,
+        rgb(247, 94, 170),
+        rgb(221, 94, 200))   
+}
+
+/* white container for entire list */
+
+#container{
+    height: 550px;
+    border: 2px solid white;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* header */
+
+header{
+    background: white;
+    height: 150px;
+    margin: 0%;
+}
+
+h1{
+    border-bottom: 0.5px solid rgb(221, 94, 200);
+    width: 50%;
+    margin: auto;
+    height: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+/* input section */
+
+#enter{
+    height: 50px;
+}
+
+#enter input{
+    height: 35px;
+    width: 55%;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+}
+
+#addList{
+    border: none;
+    border-radius: 4px;
+    width: 20%;
+    background: rgb(221, 94, 200);
+    color: white;
+    height: 35px;
+}
+
+#addList:hover{
+    background: rgb(255, 197, 243);
+}
+
+#addList:active{
+    background: rgb(212, 0, 255);
+}
+
+/* actual list (ul/li) section */
+
+ul{
+    list-style: none;
+}
+
+/* remaining section */
+
+#amount{
+    color: rgb(247, 94, 170);
+    font-size: larger;
+}
+
+/* clear buttons */
+
+#endAll{
+    border: none;
+    border-radius: 4px;
+    width: 25%;
+    height: 40px;
+    background: rgb(212, 0, 255);
+    color: white;
+}
+
+#endAll:hover{
+    background:rgb(241, 168, 255);
+}
+
+#endAll:active{
+    background: rgb(109, 2, 250);
+}
+
+#endComplete{
+    border: none;
+    border-radius: 4px;
+    width: 25%;
+    height: 40px;
+    background: rgb(212, 0, 255);
+    color: white;
+}
+
+#endComplete:hover{
+    background: rgb(241, 168, 255);
+}
+
+#endComplete:active{
+    background: rgb(109, 2, 250);
+}
+
+
+
+
