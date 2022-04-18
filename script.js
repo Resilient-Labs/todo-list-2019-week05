@@ -5,7 +5,22 @@ const removeBtn = document.getElementById("remove")
 const eraseAll = document.getElementById("clearAllButton").onclick = clearAllButton;
 const ol = document.querySelector("#listItems")
 ol.addEventListener("click", deleteItems)
+const counter = document.querySelector("#counting")
+let numberOfThingsToDo = 0
 
+
+
+//Increase counter as list items are added
+function increaseCounter() {
+  numberOfThingsToDo += 1
+  counter.innerText = numberOfThingsToDo.toString();
+}
+
+//Reset counter when list is cleared
+function resetCounter() {
+  counter.innerText = "0";
+  numberOfThingsToDo = 0;
+}
 
 // This function adds items to the list
 function addItem(){
@@ -15,6 +30,7 @@ function addItem(){
   li.className = "notThru";
   li.appendChild(document.createTextNode(item));
   ol.appendChild(li);
+  increaseCounter()
 }
 
 //Emily and Vonds helped
@@ -38,6 +54,7 @@ eraseAll.addEventListener("click", function() {
     for(let i=0; i<listedItems.length;i++){
       listedItems[i].style.display="none"
     }
+      resetCounter();
 });
 
 removeBtn.addEventListener("click", function() {
