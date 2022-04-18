@@ -44,7 +44,7 @@ removeBtn.addEventListener("click", function() {
   const list = document.getElementById("listItems");
   const listedItems = list.getElementsByTagName("li");
   const strikeThru = document.getElementsByClassName("thru")
-    for(let i=0; i < strikeThru.length;i++){
-      listedItems[i].style.display="none"
+    for(let i=0; i <strikeThru.length; i++){
+      strikeThru[i].style.display="none"
     }
 });
