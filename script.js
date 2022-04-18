@@ -6,7 +6,7 @@ const eraseAll = document.getElementById("clearAllButton").onclick = clearAllBut
 const ol = document.querySelector("#listItems")
 ol.addEventListener("click", deleteItems)
 const counter = document.querySelector("#counting")
-let numberOfThingsToDo = 0
+let numberOfThingsToDo = 0;
 
 
 
@@ -21,6 +21,14 @@ function resetCounter() {
   counter.innerText = "0";
   numberOfThingsToDo = 0;
 }
+
+
+// if item is striked through decrease counter by number of items striked through
+function decreaseCounter() {
+  numberOfThingsToDo -= 1
+  counter.innerText = numberOfThingsToDo.toString();
+}
+
 
 // This function adds items to the list
 function addItem(){
@@ -40,10 +48,12 @@ function deleteItems(e) {
     e.target.style.textDecoration = "line-through"
     e.target.style.color = "darkgray"
     e.target.className = "thru"
+    decreaseCounter();
   } else if (e.target.classList.contains("thru")) {
     e.target.style.textDecoration = "none"
     e.target.style.color = "black"
     e.target.className = "notthru"
+    increaseCounter();
   }
 }
 
