@@ -1,31 +1,50 @@
-
-//connect clear all button and add button
-//Add Items
-//Cross Out completed
-//Counter for Items
-
 // Connects to the Dom
-// Connects to the Dom
+
 document.getElementById("addButton").onclick = addItem;
-let eraseAll = document.getElementById("clearAllButton").onclick = clearAllButton;
+const removeBtn = document.getElementById("remove")
+const eraseAll = document.getElementById("clearAllButton").onclick = clearAllButton;
+const ol = document.querySelector("#listItems")
+ol.addEventListener("click", deleteItems)
+
 
 // This function adds items to the list
 function addItem(){
-  let item = document.getElementById("inputValue").value;
-  let ol = document.getElementById("listItems")
-  let li = document.createElement("li");
-
+  const item = document.getElementById("inputValue").value;
+  const ol = document.getElementById("listItems")
+  const li = document.createElement("li");
+  li.className = "notThru";
   li.appendChild(document.createTextNode(item));
   ol.appendChild(li);
 }
 
-// This function removed all the items
+//Emily and Vonds helped
+// This function crosses out items
+function deleteItems(e) {
+  if (e.target.classList.contains("notThru")) {
+    e.target.style.textDecoration = "line-through"
+    e.target.style.color = "darkgray"
+    e.target.className = "thru"
+  } else if (e.target.classList.contains("thru")) {
+    e.target.style.textDecoration = "none"
+    e.target.style.color = "black"
+    e.target.className = "notthru"
+  }
+}
+
+//Clears everything-clear button
 eraseAll.addEventListener("click", function() {
-  // let listedItems = **Find the build in method() that will select all the li**
-  let list = document.getElementById("listItems");
-  let listedItems = list.getElementsByTagName("li");
-  let i; // i will literate through the loop and delete the items
-    for(i=0; i<listedItems.length;i++){
+  const list = document.getElementById("listItems");
+  const listedItems = list.getElementsByTagName("li");
+    for(let i=0; i<listedItems.length;i++){
+      listedItems[i].style.display="none"
+    }
+});
+
+removeBtn.addEventListener("click", function() {
+  const list = document.getElementById("listItems");
+  const listedItems = list.getElementsByTagName("li");
+  const strikeThru = document.getElementsByClassName("thru")
+    for(let i=0; i < strikeThru.length;i++){
       listedItems[i].style.display="none"
     }
 });
