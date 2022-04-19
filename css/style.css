@@ -34,8 +34,8 @@ button {
   color: rgb(58, 101, 62);
   border: 1px solid rgb(58, 101, 62);
   border-radius: 10px;
-  height: 25px;
-  width: 10%;
+  min-height: 25px;
+  min-width: 10%;
 }
 
 input {
