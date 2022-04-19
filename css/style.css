@@ -1,0 +1,111 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  padding-top:30px;
+  text-align: center;
+  color:rgb(46, 4, 66);
+  font-size:25px;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: rgb(231, 136, 212);
+}
+#addTask{
+  color:white;
+  background: rgb(131, 130, 130);
+  border-radius: 3px;
+  border:none;
+  font-size:15px;
+  align-items: center;
+  margin-right:30px;
+  clear:both;
+  height:30px;
+}
+
+form input{
+  font-style: italic;
+  font-size: 15px;
+  text-emphasis-color: red;
+}
+ul li{
+  color:rgb(66, 2, 61);
+  padding:10px;
+  font-size:20px;
+  
+}
+body{
+  font-weight: bold;
+  background:linear-gradient(rgb(218, 180, 205));
+  font-family: 'Pacifico';
+}
+footer button{
+  color:white;
+  background: rgb(131, 130, 130);
+  border-radius: 3px;
+  border:none;
+  font-size:15px;
+  align-items: center;
+  margin-left: 80px;
+  float:left;
+  height:30px;
+
+}
+
+.yup{
+  float:left;
+  width:20%;
+  margin-top:290px;
+  
+}
+.main{
+  height:350px;
+}
+footer{
+  display:inline-block;
+  clear:both;
+  height:50px;
+}
+#container{
+  margin-top: 30px;
+  background:rgb(235, 202, 230);
+  width:30%;
+  border-radius: 3px;
+  border:none;
+  height:520px;
+  margin-top:25px;
+  margin:auto;
+}
+
+img{
+  float:right;
+  width:30%;
+}
+
+p{
+  text-align: center;
+  color:rgb(97, 22, 84);
+  font-size: 20px;
+  font-style: italic;
+}
+
+form{
+  padding-left:150px;
+}
+header img{
+  clear:both;
+}
