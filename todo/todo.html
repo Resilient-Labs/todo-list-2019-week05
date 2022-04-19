@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>To Do List</title>
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="css/todo.css">
+
+</head>
+<body>
+
+  <main>
+    <section class="topSec">
+      <form>
+        <input id="newToDoEntry" type="text">
+      </form>
+
+      <button id="addLiBtn">Add To List</button>
+    </section>
+
+    <section class="midSec">
+        <ul id="toDoList">
+        </ul>
+    </section>
+
+    <section class="bottomSec">
+
+      <p>
+        You Have<span id="toDoLeftText"> 0 </span>  To Complete
+    </p>
+
+      <button id="clearList">Clear List</button>
+
+      <button id="clearCompletedBtn">Clear Completed</button>
+    </section>
+  </main>
+  
+
+<script src="js/todo.js"></script>
+</body>
+</html>
