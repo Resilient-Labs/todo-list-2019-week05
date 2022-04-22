@@ -23,3 +23,31 @@ h1{
   height: 25px;
   color: white;
 }
+
+
+p {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  padding: 5px;
+  color: white;
+}
+
+button {
+  border-radius: 7px;
+  color: gray;
+  background: white;
+  border-style: none;
+  margin: 7px;
+}
+
+#inputValue {
+  border-radius: 7px;
+  color: gray;
+  background: white;
+  border-style: none;
+  margin: 7px;
+}
+
+#listItems {
+  color: white;
+}
