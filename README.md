@@ -1,6 +1,6 @@
 ### Task Tracker
 
-![Task Tracker](https://files.slack.com/files-pri/T03SUKX53-F03BJDH8EM9/todo-list.png)
+![Task Tracker](https://kai-diramio.netlify.app/images/toDoList3%20copy.jpg)
 
 ### Goal: Build a To-Do List
 
