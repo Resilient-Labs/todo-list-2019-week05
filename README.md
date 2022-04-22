@@ -1,7 +1,7 @@
 # TODO LIST
 A todo list where you can list your tasks for the day.
 
-**Link to project:** https://aesthetic-conkies-4e55d1.netlify.app/
+**Link to project:** https://rc-todo-list.netlify.app/
 
 
 ## How It's Made:
