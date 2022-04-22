@@ -51,3 +51,7 @@ button {
 #listItems {
   color: white;
 }
+
+ol {
+  padding: 0;
+}
