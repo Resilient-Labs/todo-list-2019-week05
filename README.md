@@ -3,6 +3,8 @@ A todo list where you can list your tasks for the day.
 
 **Link to project:** https://rc-todo-list.netlify.app/
 
+![final](https://user-images.githubusercontent.com/88361309/164591900-80749e78-5678-4e9b-840e-ac69be0c1fe7.png)
+
 
 ## How It's Made:
 
