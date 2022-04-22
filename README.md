@@ -1,6 +1,6 @@
 ### Task Tracker
 
-![Task Tracker](../todo-list.png)
+![Task Tracker](https://files.slack.com/files-pri/T03SUKX53-F03BJDH8EM9/todo-list.png)
 
 ### Goal: Build a To-Do List
 
