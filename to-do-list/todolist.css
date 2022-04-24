@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    background-image: url(./images/scroll.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Calligraffitti', cursive;
+}
+h1{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 50px;
+}
+.inputbox{
+    position: relative;
+    top: 450px;
+    left: 550px;
+}
+.btn1{
+    position: relative;
+    top: 490px;
+    left: 420px;
+}
+
+.unlist{
+    text-decoration: line-through; 
+    
+}
+ul{
+    
+    width: 70%;
+    margin-left: 190px; 
+    list-style: square;
+}
+
+ul li {
+    color: green;
+    font-size: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: inline-block;
+   
+}
+.hidden{
+    display: none;
+}
+.btn2{
+    position:fixed;
+    top: 760px;
+    left: 620px;
+
+}
+#hidden{
+    position: fixed;
+    top: 800px;
+    left: 590px;
+}
+
+@media all and (min-width:200px) and (max-width:550px){
+
+html{
+    background-image: url(./images/scroll.jpeg);
+}
+h1{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.inputbox{
+    position: relative;
+    top: 150px;
+    left: 170px;
+    width: 30%;
+}
+.btn1{
+    position: relative;
+    top:180px;
+    left: 60px;
+
+}
+.btn2{
+    position: fixed;
+    top:300px;
+    left: 225px;
+
+}
+ul li {
+    color: green;
+    font-size: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+    left: -140px;
+    top: -60px;
+    display: inline-block;
+   
+}
+}
+@media all and (min-width:551px) and (max-width:850px){
+    .inputbox{
+        position: relative;
+        top: 240px;
+        left: 270px;
+        width: 30%;
+    }
+    h1{
+        font-size: 25px;
+        margin-top:80px;
+    }
+    .btn1{
+        position: relative;
+        top:280px;
+        left: 100px;
+    
+    }
+    .btn2{
+        position: relative;
+        top:280px;
+        left: 290px;
+    
+    }
+    ul li {
+        color: green;
+        font-size: 20px;
+        margin-left: 25px;
+        cursor: pointer;
+        position: relative;
+        left: -140px;
+        top: -50px;
+        display: inline-block;
+       
+    }
+
+}
+@media all and (min-width:851px) and (max-width:980px){
+
+    .inputbox{
+        position: relative;
+        top: 340px;
+        left: 270px;
+        width: 30%;
+    }
+    ul li{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 25px;
+        margin-top:80px;
+    }
+    .btn1{
+        position: relative;
+        top:380px;
+        left: 100px;
+    
+    }
+    .btn2{
+        position: fixed;
+        top:590px;
+        left: 380px;
+    
+    }
+
+}
