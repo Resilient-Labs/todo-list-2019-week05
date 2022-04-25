@@ -4,6 +4,8 @@ In this project, I create a to-do list where you can add multiple items to your 
 
 **Link to project:** https://ectodo.netlify.app
 
+![todo](https://user-images.githubusercontent.com/102037717/165102933-f1055178-303b-49d6-bc16-e115caa3c22a.png)
+
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
