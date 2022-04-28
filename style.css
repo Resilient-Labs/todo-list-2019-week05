@@ -1,0 +1,57 @@
+body {
+  background-color: #008B8B;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.main {
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  text-align: initial;
+  margin-left: 600px;
+}
+
+h1{
+  width: 100%;
+  height: 25px;
+  color: white;
+}
+
+
+p {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  padding: 5px;
+  color: white;
+}
+
+button {
+  border-radius: 7px;
+  color: gray;
+  background: white;
+  border-style: none;
+  margin: 7px;
+}
+
+#inputValue {
+  border-radius: 7px;
+  color: gray;
+  background: white;
+  border-style: none;
+  margin: 7px;
+}
+
+#listItems {
+  color: white;
+}
+
+ol {
+  padding: 0;
+}
