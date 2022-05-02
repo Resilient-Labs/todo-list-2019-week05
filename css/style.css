@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', Futura, sans-serif;
+    background: lightblue;
+}
+
+
+li {
+    font-size: 16 px;
+    color: black;
+    list-style-type:none;
+}
+
+.completed {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    color: black;
+}
+
+button {
+    font-family: 'Poppins', Futura, sans-serif;
+    border-radius: 6px;
+
+}
