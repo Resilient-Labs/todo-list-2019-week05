@@ -1,0 +1,73 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:lightblue;
+  color: black;
+  min-height: 100vh;
+}
+
+header{
+  font-size: 2rem;
+}
+
+header, form{
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+form input, form button{
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: white;
+}
+
+form button{
+  color:lightblue;
+  background: white;  
+}
+
+.strikeThrough{
+  color: grey;
+  text-decoration: line-through;
+}
+
+.todoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: white; */
+  margin: auto;
+  width: 30%;
+  
+}
+
+.todoList{
+  width: 30%;
+  list-style: none;  
+}
+
+li{
+  margin: .5em;
+}
+
+.total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5em;
+}
+
+.clearList,.clearCompleted{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 10%;
+}
