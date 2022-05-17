@@ -7,15 +7,11 @@ This website lets you make a todo list by typing in items or tasks you may want 
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+I went simple on the HTML with just three buttons, an input value and a section for the list items to formulate. For the JavaScript I made it so everytime you put a word into the input and press the button "Add to list" the word will go into a list and the number of list items you have goes up by one. If you press the "clear list" button all of the items on the list will delete no matter what. If you press the word, a line will cross it out. If there is a line through the word and you press the "clear completed" button the item will be deleted but if it does not have a line through it and you press the "clear complete" button nothing will happen.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I learned that classList allows you to use styling from CSS on an element. 
+
