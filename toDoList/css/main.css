@@ -7,13 +7,42 @@
     
 }
 
-#inputBox, #submit{
-    margin-top: 35px;
+#leftToDo{
+    color: rgb(204, 204, 94);
 }
+
+#inputBox, #submit{
+    margin-top: 6px;
+}
+
+#submit, #clear, #complete{
+    color: black;
+    border-radius: 30px;
+    font-size: .9rem;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background: rgb(204, 204, 94);
+    border-radius: 30px;
+}
+
+#clear:hover{
+    cursor: pointer;
+    background: rgb(204, 204, 94);
+    border-radius: 30px;
+}
+
+#complete:hover{
+    cursor: pointer;
+    background: rgb(204, 204, 94);
+    border-radius: 30px;
+}
+
 
 .ListofTasks1{
     margin-top: 200px;
-    height: 80px;
+    height: 90px;
     padding-left: 35%;
     background: rgba(0, 0, 0, 0.781);
 }
@@ -58,4 +87,11 @@ h4, span{
     padding-top: 20px;
 }
 
-
+.logo{
+    margin-bottom: 0;
+    padding-top: 5px;
+    margin-left: 5%;
+    color: rgb(204, 204, 94);
+    font-style: italic;
+    font-size: 1.5em;
+}

@@ -1,13 +1,22 @@
-### Task Tracker
+# Task Tracker
 
-![Task Tracker](https://kai-diramio.netlify.app/images/toDoList3%20copy.jpg)
+A simple to-do list Application. This app includes the ability for a user to add and/or delete a task and to mark a task complete. 
 
-### Goal: Build a To-Do List
+**Try it out here:** https://tasktracker01.netlify.app
 
-Build a to-do list with the ability to add a task, cross out a task, clear only completed tasks, and clear all tasks. 
+![Task Tracker](https://i.imgur.com/pv6Kbnx.png)
 
-I built a to-do list using HTML,CSS and Javascript. This project involved using Javascript to manipluate the dom and make the website interactive. This website is reponsive on all devices.
+## How It's Made:
 
-Try out my To-do list here!
+**Tech used:** HTML5, CSS, JavaScript
 
-https://tasktracker01.netlify.app
+Task tracker was a great way to apply some fundamental JavaScript concepts like variables, functions and loops. 
+
+## Optimizations
+
+An array could be used as we learned more about those and objects. Will be looking to add and optimize this code in the future.
+
+## Reflections:
+
+This was a fun project to create and test out! It was definitely challengeing, but was really helpful with learning how to apply the JavaScript concepts we learned about during this time.
+
