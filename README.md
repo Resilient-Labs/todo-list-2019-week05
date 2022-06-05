@@ -1,22 +1,17 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+<h1 align="center"> To Do List</h1>
 
-### Goal: Build a Simple Todo List
+<p align="center">
+  A web application where users can add tasks to the to do list and once they are completed they may check it off to put a line through it. All tasks can be cleared when finished.
+</p>
 
-### How to submit your code for review:
+<img width="1333" alt="todolist" src="https://user-images.githubusercontent.com/102041426/171782371-7e77b315-7923-4c05-8845-079428af4774.png">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<h2 align="center"> Languages used</h2>
+<p align="center"> HTML, CSS, Javascript</p>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+
+
+
