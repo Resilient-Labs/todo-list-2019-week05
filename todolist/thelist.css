@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+  ul {
+    margin: 0;
+    padding: 0;
+  } 
+
+body{
+    background-image: url("cool.jpg");
+    color: whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    transition: 0.2s;
+    background-size: contain;
+    
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 70px;
+   
+
+}
+
+.hidden{
+  text-decoration: line-through;
+}
+
