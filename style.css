@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+ul {
+    list-style: ;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
