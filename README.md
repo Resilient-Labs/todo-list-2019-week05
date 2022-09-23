@@ -2,21 +2,6 @@
 
 ### Goal: Build a Simple Todo List
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+A project we were asked to build in order to help us understand the basics of JS even more! A fun and intriguing experience, I will make sure to come back to this and review the exacts steps I took to complete this.
+We were expected to capture the essence of receiving an input and giving back an output! Definitely a little challenging for one of our bigger projects but nothing we couldn't handle with a little reading/ question asking!
+Feel free to experiment/ change code around to your liking I hope you can sleep easier knowing that your chores are written out for later reference!!
