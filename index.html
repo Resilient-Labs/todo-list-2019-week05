@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/289010acce.js" crossorigin="anonymous"></script>
+    <title>Todo List</title>
+</head>
+<body>
+    <section id="container">
+			<h1>Todo List</h1>
+        <section id="top">
+            <input type="text" id="inputText">
+            <button type="button" id="addBtn">Add to List<i class="fa-solid fa-pencil"></i></button>
+        </section>
+        <section id="middle-sec">
+            <section>
+                <ul id="items">
+                </ul>
+            </section>
+        </section>
+        <section id="bottom-sec">
+            <section>
+                <p>You have <span id="todosLeft">0</span> todos left.</p>
+                <button type="button" id="clearBtn">Clear All</button>
+                <button type="button" id="clearCompletedBtn">Clear Finished</button>
+            </section>
+        </section>
+        <audio controls autoplay muted loop>
+            <source src="music/nintendog.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+          </audio>
+    </section>
+    <script type="text/javascript" src="main.js" class="audio"></script>
+</body>
+</html>
+
