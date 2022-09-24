@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    background: dark gray;
+}
+
+h1{
+    text-align: center;
+    background: white;
+
+}
+.strikeThrough{
+    text-decoration: line-through;
+}
