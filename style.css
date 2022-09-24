@@ -1,0 +1,146 @@
+body {
+  background-image: url(./images/cesar-couto-pC2xOplxsVs-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+#task {
+  padding: 1%;
+  width: 24%;
+  border: 0.5px;
+  border-radius: 4px;
+}
+
+.buttons{
+  margin-left: 0%;
+  margin-top: 0.5%;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin-left: -4%;
+  font-size: 1.7rem;
+  color:white;
+}
+
+#addTaskToList{
+  padding: 0.5%;
+  border-radius: 4px;
+  border: 1px;
+}
+
+#clearList{
+  padding: 0.5%;
+  border-radius: 4px;
+  border:1px; 
+ }
+
+#completedTask{
+  padding: .5%;
+  border-radius: 4px;
+  border:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* text-align: center;
+  height:100%;
+  width:100%;
+} 
+/*  */
+/* section h1 {
+  font-family: 'Dancing Script', cursive;
+  margin-top: 4%;
+  font-size: 4rem;
+  text-align: center;
+  margin-left: 10%;
+} */
+/* 
+#task {
+  padding: 1%;
+  width: 24%; */
+/* border: 0.5px; */
+/* border-radius: 4px;
+  margin-left: 10%;
+}
+
+#addTaskToList{
+  padding: 0.5%;
+  border-radius: 4px;
+  /* border: 1px; */
+/* margin-left: 10%;
+  border:1px;
+}
+
+#clearList{
+  padding: 0.5%;
+  border-radius: 4px;
+  margin-top: 30%;
+  margin-left: 0%;
+  border:1px; */
+/* }
+
+#completedTask{
+  padding: .5%;
+  border-radius: 4px;
+  margin-top:24%;
+  border:1px;
+}
+
+.buttons{
+  color:blue;
+  margin-top: -29%;
+}
+
+ul{
+  margin-top: 3%;
+  /* text-align: left; */
+/* margin-left: -15%;
+} */
+
+.strike {
+  text-decoration: line-through;
+}
