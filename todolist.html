@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SIMPLE TO-DO</title>
+        <meta name="create a to-do list" content="simple to-do list">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="todolist.css">
+    </head>
+    <body>
+        <header>
+            <h1>TO DO:</h1>
+        </header>
+        <a class="hide button"> Add Item To List</a>
+        <section class="hidden create">
+                <textarea></textarea>
+                <a class="button" id="add">ADD</a>
+        </section>
+        <section class="list">
+            <ul>
+
+            </ul>
+        </section>
+        <section class="adjust-list">
+            <a class="button" href="#" id="clearCompleted">Clear Completed</a>
+            <a class="button" href="#" id="clearAll">Clear All</a>
+        </section>
+        <script src="todolist.js" async defer></script>
+    </body>
+</html>
