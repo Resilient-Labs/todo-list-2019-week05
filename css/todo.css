@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.listCheckComplete{
+text-decoration: line-through;
+}
+#complete{
+    margin-left: 2%;
+}
