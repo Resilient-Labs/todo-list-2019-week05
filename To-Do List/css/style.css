@@ -1,0 +1,62 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  html {
+    font-size: 62.5%; /* 10px */
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  input {
+    width: 300px;
+    height: 30px;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  button {
+    height: 30px;
+  }
+  body {
+  text-align: center;
+  }
+  
+  
+  p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  li {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  input {
+    margin-bottom: 30px;
+  }
+  
+  .strike {
+    text-decoration:line-through;
+  }
+
+  .hidden {
+    display: none;
+  }
