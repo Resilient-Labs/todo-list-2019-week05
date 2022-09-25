@@ -1,0 +1,85 @@
+/* to do list */
+li{
+    display:block;
+    font-size: 15px;
+    font-family: Noto Sans Mono, Helvetica, sans-serif;
+
+    text-align: center;
+    color:white;
+    margin-right: 11%;
+}
+.strikethrough{
+    text-decoration: line-through;
+    color: purple;
+    display:block;
+    text-align: center;
+}
+body{
+    background: rgb(255, 202, 116);
+}
+input::placeholder {
+    font-family: Noto Sans Mono, Helvetica, sans-serif;
+    font-size: 14px;
+    color:gray;
+}
+input{
+    border-radius: 100px;
+    border: none;
+    margin-top: 7%;
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+input[type="text"]
+{
+    font-family: Noto Sans Mono, Helvetica, sans-serif;
+    font-size: 14px;
+    color:gray;
+}
+section{
+    text-align: center;
+}
+.window {
+    width: 40%;
+    height: 600px;
+    background: white;
+    margin: 30px auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("https://i.pinimg.com/564x/74/0a/b5/740ab5a9ee7ee351584ff25906c7f181.jpg");
+}
+.title {
+	background:rgb(255, 202, 116);
+    width: 40%;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    margin: 30px auto;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(152, 97, 200);
+    margin:0;
+    font-family: Sacramento, Helvetica, sans-serif;
+    margin-bottom: 1%;
+}
+button{
+    background: hotpink;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    border-radius: 100px;
+    font-family: Noto Sans Mono, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#clearAll,
+#hideCompleted{
+    margin-top: 8%;
+}
+
+
