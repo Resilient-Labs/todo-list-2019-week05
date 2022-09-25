@@ -1,0 +1,34 @@
+body {
+	background-image: url(img/notebook2.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+h1 {
+	margin-left: 20%;
+}
+
+.inputOne {
+	margin-left: 17%;
+	margin-top: 2.5%;
+}
+
+#result {
+	border: 2px solid transparent;
+	width: 40%;
+	font-size: 23px;
+	margin-left: 0%;
+}
+
+#clear {
+	margin-left: 22%;
+}
+
+#clearFinish {
+	margin-left: 20%;
+	margin-bottom: 1%;
+}
