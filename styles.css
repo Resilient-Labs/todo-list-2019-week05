@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("todolist.jpg");
+}
+h1{
+    text-align: center;
+    color: rgb(39, 12, 12);
+    text-decoration: dotted;
+    font-family: 'PT Serif', serif;
+    font-size: 300%;
+}
+h2{
+    font-family: 'PT Serif', serif;
+}
+.crossed{
+    text-decoration: line-through;
+}
+section{
+    width: 100%;
+    border: 1px dotted none;
+    text-align: center;
+}
+section li{
+    font-family: 'Satisfy', cursive;
+    font-size: x-large;
+    list-style: none;
+}
+
+.list{
+    width: 100%;
+    border: 1px dotted none;
+    text-align: center;
+    padding: 1%;
+}
+.list button{
+    border-radius: 5px;
+}
+input{
+    border-radius: 5px;
+}
