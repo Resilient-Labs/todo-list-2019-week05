@@ -62,7 +62,7 @@ form {
 }
 
 form input {
-  width: 50%;
+  width: 40rem;
   border-radius: 1rem;
   border: none;
   padding-left: 1rem;
@@ -78,18 +78,17 @@ form button, button {
 
 ul {
   margin-top: 5rem;
-  width: 50%;
   margin: 5rem auto;
+  width: 40rem;
 
 }
 
 li {
   list-style: none;
   margin: 2rem auto;
-  font-size: 2rem;
+  font-size: 2em;
   background: white;
   color: black;
-  width: 100%;
   border-radius: 1rem;
   margin-left: -2rem;
 }
@@ -116,4 +115,17 @@ li {
 button:hover, li:hover {
   opacity: .7;
   cursor: pointer;
+}
+
+@media screen and (max-width: 700px){
+ 
+  form input {
+    border: 1px solid green;
+    width: auto;
+  }
+
+  li {
+    width: 50%;
+    margin-left: 3rem;
+  }
 }
