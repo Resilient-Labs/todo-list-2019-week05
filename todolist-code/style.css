@@ -1,0 +1,89 @@
+html {
+    background-color: rgba(90, 172, 186, 0.502);
+    background-image: url(background.jpg);
+
+}
+
+h1 {
+    text-align:center; 
+    font-family: 'Roboto', sans-serif;
+    color: rgba(18, 18, 18, 0.94); 
+    font-style: italic;
+    font-size: 32px;
+    padding-top: 4%; 
+    font-variant: small-caps;
+}
+
+#listInput {
+    width: 40%; 
+    height: 30px;
+    border-radius: 3%;
+    border-style: none;
+}
+
+#btn {
+    width: 15%; 
+    height: 30px;
+    background-color: rgba(113, 113, 113, 0.615);
+    border-style: none;
+    border-radius: 5%;
+}
+
+input[placeholder="New Task"]{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px; 
+    font-weight: bold;
+}
+
+input[value="Add Item"]{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+
+}
+
+.theActualList {
+    border: 6px rgb(23, 23, 23); 
+    width: 80%; 
+    margin-left: 8%; 
+    margin-top: 2%; 
+    border-style:double;
+
+}
+
+.theList {
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    margin-top: 2%; 
+}
+
+.strike {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 22px; 
+    font-weight: 200;
+    
+}
+
+button {
+    width: 15%; 
+    height: 30px;
+    background-color: rgba(113, 113, 113, 0.615);
+    border-style: none;
+    border-radius: 5%;
+
+}
+
+button>span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+
+}
