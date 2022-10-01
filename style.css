@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.crossthrough{
+    text-decoration: line-through;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-image: url(notebook2.jpg);
+    background-size: cover;
+}
+
+.mainbody {
+    width: 20%;
+    /* display: flex;
+    flex-direction: column;
+    margin: auto; */
+    margin-top: 290px;
+    margin-left: 480px;
+    transform: rotate(-9deg);
+}

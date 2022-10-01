@@ -1,22 +1,17 @@
 # ✅ Week05 Bootcamp2019 Project: Todo List
 
-### Goal: Build a Simple Todo List
+# To Do List
 
-### How to submit your code for review:
+This is a To Do list application that allows users to add tasks that they need to complete to a list. The tasks will then show up on the list, and users call click on the check mark to strikethrough and mark the item as completed. Users are also able to clear out completed tasks and leave the incomplete ones still in the list.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![image](https://user-images.githubusercontent.com/102040536/172032467-34900bb2-0cff-47b3-942a-bac067ff08a3.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+## How It's Made:
+
+Languages/frameworks use: HTML, CSS, JavaScript
+
+## Thoughts:
+
+I don't think I have too many comments on the project - except to say I really like the CSS on this one. Simple but cute!
