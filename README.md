@@ -1,22 +1,15 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+### Hi there 👋, I'm Jasmine the Jazzy Engineer
+#### This is my Slot Machine project
+![This is my Slot machine project](https://jasminedm-slot-machine.netlify.app/)
 
-### Goal: Build a Simple Todo List
+(![Slot Machine](siteSnip.jpg))
 
-### How to submit your code for review:
+This is a basic slot machine game you can play, win and loose! The user begins with a $500 budget and the options to make $5, $50 and $100 bets. If the user makes a bet and doesnt win the bet is subtracted from their total. If the user wins, the bet amount is doubled and added back into their total. The user is not permitted to make a bet larger than their remaining budget. Enjoy!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Skills: HTML / JS 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- 🔭 I’m currently working on giving it some style 
+
+
+
+
