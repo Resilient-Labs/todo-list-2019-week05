@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* border: 1px solid black; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background: #EBC3AB; */
+    background: url("../images/myU7u7UKroOg.gif");
+    background-size: cover;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 4rem;
+    color: #ACEAEB;
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 :hover {
+    margin-top: 0;
+    font-size: 4rem;
+    color: #D4FEFF;
+    font-family: 'Fredoka One', cursive;
+}
+
+main {
+    /* background: #649D9E; */
+    width: 40%;
+    margin: 10% 30%;
+    font-size: 2rem;
+    transition: .5s;
+    padding: 20px 5% 20px 5%;
+    /* the font size scales all text size inside main */
+}
+
+main:hover {
+    /* background: #649D9E; */
+    width: 40%;
+    margin: 10% 30%;
+    font-size: 2rem;
+    padding: 20px 5% 20px 5%;
+    transition: .5s;
+    background: #EBC3AB;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(0, 0, 0,.3);
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+button {
+    border-radius: 10px;
+    transition: 1s;
+    background-color: transparent;
+}
+
+input {
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.6rem;
+    margin: 5px 0;
+}
+
+.crossOut {
+    text-decoration: line-through;
+    color: gray;
+}

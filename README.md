@@ -1,22 +1,20 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# My To Do List
+My fun little project on how to create a to-do-list on web browser.
 
-### Goal: Build a Simple Todo List
+### Link: https://listmytodo.netlify.app/
+![listToDo](https://user-images.githubusercontent.com/102541428/164755744-7cfd180b-85ad-4c62-b146-90c92c43676a.png)
 
-### How to submit your code for review:
+## How it's made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, and JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I wanted to create a to do list that leaves an impression and that also shows my personality.
+With a simple gif and small simple interactions with the page, I created a very cute and memorable website.
+
+## Optimization
+
+There is always things to improve on a project and whats nice about this project is that I believe that it can go in many different directions. I could add little samll text whenever I completed a task, telling me I did a good job or as I complete the task, I can add a seperate list saying what task I completed.
+
+## Lessons Learned
+
+I learned that even something so simple could be something more interesting and fun with a little bit of creative thinking.
