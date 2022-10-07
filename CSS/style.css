@@ -1,0 +1,33 @@
+body{
+    font-size: 1rem;
+    margin: -1%;
+}
+h1{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 11%;
+    margin-bottom: 1%;
+}
+input{
+    padding: 2%;
+    margin-top: 7%;
+    border: 1px solid black;
+}
+h2{
+    font-size: 6rem;
+    color: gold;
+}

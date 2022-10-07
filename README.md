@@ -1,22 +1,14 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+### Hi there 👋, I'm Jasmine the Jazzy Engineer
+#### This is my To Do List project
+![This is my To Do List project](https://jasminedm-todolist.netlify.app/)
 
-### Goal: Build a Simple Todo List
+(![To Do List](siteSnip.jpg))
 
-### How to submit your code for review:
+This is a basic to do list that can be used for many needs like tracking completed task or even a shopping list. The user can input their task or items and add more by pressing the Add Next Item button. when a task or item is completed the user can check it off using the given check boxes for each input. Once all input task are checked, and only when they are all checked off, you can press Done to receive a congratulatory message! The user can press Clear All Task to start all over with a new list! Enjoy!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Skills: HTML / JS 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- 🔭 I’m currently working on giving it some style 
+
+
+
