@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Clearfix Hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+html{
+    font-size: 62.5%;
+    font-family: 'Anton', sans-serif;
+}
+body {
+    background-color: coral;
+
+}
+/* main {
+    display:flex;
+} */
+.top {
+    width:100%;
+    text-align: center;
+    background-image: repeating-conic-gradient(orange 5%, aquamarine 10%, green 12%);
+    padding-bottom: 8%;
+    flex-direction: column;
+  
+}
+
+h1{
+    margin:0;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color:yellow;
+
+}
+
+button {
+    background-color: pink;
+    padding: 1% 3% 1% 3%;
+}
+input {
+    height: 10rem;
+    border-radius: 10rem;
+    font-size: 20px;
+
+}
+
+.amountLine {
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+.tasksAndTitle {
+    width: 100%;
+    margin: 2%;
+    padding:18%;
+    background-image: radial-gradient(ellipse closest-side, pink 15%, limegreen 55%, transparent);
+
+}#saveBtn {
+    display: none;
+}
+
+ul {
+    list-style: none;
+
+}
+li {
+    font-size:40px;
+    text-align: center;
+  
+}
+
+.done {
+    text-decoration: line-through;
+}
