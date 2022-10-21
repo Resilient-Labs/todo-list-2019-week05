@@ -6,7 +6,7 @@
 
 **Link to project:** https://tosolistsimple.netlify.app/
 
-<img width="600" alt="todolistScreenshot copy 2" src="https://user-images.githubusercontent.com/113194307/197115238-acd52f81-2b66-4b82-bc90-9a0596960194.png">
+<img width="600" alt="Screen Shot 2022-10-21 at 12 56 32 AM" src="https://user-images.githubusercontent.com/113194307/197115479-1b5886f1-138f-4c39-bd7e-7ca10c4bce8f.png">
 
 
 ## How It's Made:
