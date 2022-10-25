@@ -1,22 +1,10 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ Week05 Project: Todo List
 
-### Goal: Build a Simple Todo List
+![](todoscreen.png)
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+I created a To-Do List in which the user can type in tasks and add it to a list and can remove the task from the list once they are completed with their task. I used HTML and Javascript in this project.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+link to the project : https://burhan-ali-todolist.netlify.app/
+
+
