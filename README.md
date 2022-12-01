@@ -1,22 +1,5 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To-Do-List
+Simple to do list that allows you to add items through an input and button. Adds items, puts a line through items and has a clear button to remove items.
 
-### Goal: Build a Simple Todo List
+![Screen Shot 2022-10-01 at 12 09 09 PM](https://user-images.githubusercontent.com/112355619/193418253-29400606-40ca-4df4-9784-4336bebafde3.png)
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
