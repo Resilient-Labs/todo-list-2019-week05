@@ -1,0 +1,97 @@
+*{
+   box-sizing: border-box;
+}
+
+#inputBox{
+    width: 25%;
+    
+}
+
+#leftToDo{
+    color: rgb(204, 204, 94);
+}
+
+#inputBox, #submit{
+    margin-top: 6px;
+}
+
+#submit, #clear, #complete{
+    color: black;
+    border-radius: 30px;
+    font-size: .9rem;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background: rgb(204, 204, 94);
+    border-radius: 30px;
+}
+
+#clear:hover{
+    cursor: pointer;
+    background: rgb(204, 204, 94);
+    border-radius: 30px;
+}
+
+#complete:hover{
+    cursor: pointer;
+    background: rgb(204, 204, 94);
+    border-radius: 30px;
+}
+
+
+.ListofTasks1{
+    margin-top: 200px;
+    height: 90px;
+    padding-left: 35%;
+    background: rgba(0, 0, 0, 0.781);
+}
+
+.ListofTasks2{
+    height: auto;
+    padding-left: 35%;
+    background: white;
+    
+}
+
+.buttonsToPress{
+    height: 100px;
+    padding-left: 35%;
+    background: rgba(0, 0, 0, 0.781);
+}
+
+@media all{
+    body{
+        max-height: 200px;
+    }
+}
+
+
+ul{
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+li:hover {
+	background: rgba(0, 0, 0, .04);
+	cursor: pointer;
+}
+
+.strikeOut{
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+h4, span{
+    color: white;
+    padding-top: 20px;
+}
+
+.logo{
+    margin-bottom: 0;
+    padding-top: 5px;
+    margin-left: 5%;
+    color: rgb(204, 204, 94);
+    font-style: italic;
+    font-size: 1.5em;
+}

@@ -1,22 +1,22 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Task Tracker
 
-### Goal: Build a Simple Todo List
+A simple to-do list Application. This app includes the ability for a user to add and/or delete a task and to mark a task complete. 
 
-### How to submit your code for review:
+**Try it out here:** https://tasktracker01.netlify.app
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Task Tracker](https://i.imgur.com/pv6Kbnx.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML5, CSS, JavaScript
+
+Task tracker was a great way to apply some fundamental JavaScript concepts like variables, functions and loops. 
+
+## Optimizations
+
+An array could be used as we learned more about those and objects. Will be looking to add and optimize this code in the future.
+
+## Reflections:
+
+This was a fun project to create and test out! It was definitely challengeing, but was really helpful with learning how to apply the JavaScript concepts we learned about during this time.
+
