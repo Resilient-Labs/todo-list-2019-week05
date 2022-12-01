@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto+Condensed&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<img src="img/yup.jpg" alt="">
+		<section id="container">	
+			<h1>To-Do-List</h1>
+			
+			<form>
+				<input id="input" type="text">
+				<button id="addTask">Add</button>
+			</form>
+
+			<section class="main">
+			<p>Number of Items in List: <span id="message"> 0</span></p>
+
+			<ul id="toDoList"></ul>
+			
+		</section>
+			<footer>
+			<button id= 'removeListItem' type="text"> Clear Completed</button>
+			<button id="removeAll"> Clear List</button>
+			</footer>
+		
+		</section>	
+		<script src="js/main.js"></script>
+	</body>
+</html>

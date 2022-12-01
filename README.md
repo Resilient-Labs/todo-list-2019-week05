@@ -1,22 +1,16 @@
 # ✅ Week05 Bootcamp2019 Project: Todo List
+# My Todo List Project
+This project acts as a user friendly task storage locker for temperory or long term tasks. Users are able to add, delete and clear tasks as they please.
 
-### Goal: Build a Simple Todo List
+**Link to project:https://ddtodolist.netlify.app/ ** 
 
-### How to submit your code for review:
+![alt tag](snip.PNG)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+I utilized my skills in javaScript, HTML and CSS to create what I see as a functional and user-friendly program. Creating functions and Event Listeners to listen for the user's input/click. 
+
+## Lessons Learned:
+I learned how to create HTML elements within javaScript by using document.createElement - and further manipulating the innerText of the tags.
