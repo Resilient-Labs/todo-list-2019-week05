@@ -1,22 +1,17 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ To-do List
+This website lets you make a todo list by typing in items or tasks you may want done. Then when you completed the task you can cross them off as you go. When all tasks are finished you can clear the entire list and start a new one.
 
-### Goal: Build a Simple Todo List
+**Link to project:** kerlinaugustin-todo-list.netlify.app
 
-### How to submit your code for review:
+![todo-list](https://user-images.githubusercontent.com/102834611/168672874-e3785c2c-cbef-49c9-b56d-71f26c8325e0.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+I went simple on the HTML with just three buttons, an input value and a section for the list items to formulate. For the JavaScript I made it so everytime you put a word into the input and press the button "Add to list" the word will go into a list and the number of list items you have goes up by one. If you press the "clear list" button all of the items on the list will delete no matter what. If you press the word, a line will cross it out. If there is a line through the word and you press the "clear completed" button the item will be deleted but if it does not have a line through it and you press the "clear complete" button nothing will happen.
+
+## Lessons Learned:
+
+I learned that classList allows you to use styling from CSS on an element. 
+
