@@ -2,21 +2,9 @@
 
 ### Goal: Build a Simple Todo List
 
-### How to submit your code for review:
+![Screenshot 2022-10-27 105406](https://user-images.githubusercontent.com/113325142/198323930-5a5dba8e-7dd1-44e5-a705-57022fdc4f5c.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This was a to-do-list that is fully functional. This was built using HTML, CSS, and JavaScript. Adding a new item is done by typing it and clicking the "+" button. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+After this, the item is added to the to-do-list. One click on newly added item crosses it out with a line, two clicks on newly added item will make item 
+completely dissappear
