@@ -1,0 +1,90 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  background-color: rgb(69, 69, 69);
+  font-size: large;
+  color: whitesmoke;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 10px;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html
+{
+  display: flex;
+  justify-content: center;
+}
+
+body
+{
+  height: 100%;
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: dashed red 1px;
+  border-radius: 5%;
+}
+
+body > form
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+div, section
+{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+ol
+{
+  display: flex;
+  flex-direction: column;
+}
+
+body > div > ol > li
+{
+  border-bottom: red dashed 1px;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.taskComplete /*font style given by clicking on an 'li'*/
+{
+  text-decoration: line-through;
+}
