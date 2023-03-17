@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="todos.css">
+  <title>To-Do List</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>to-do list</h1>
+    <p>(click "+" to add tasks, "clear" to remove tasks)</p>
+    <input id="inputField" type="text"><button id="addToDo">+</button><button id="clear">Clear</button></input><button
+      id="clearCompleted">Clear Completed</button>
+    <section class="toDos" id="toDoContainer"></section>
+    <h3>
+      left to do: <span id="whatsLeft">0</span>
+    </h3>
+
+  </section>
+  <script type="text/javascript" src="todos.js"></script>
+</body>
+
+</html>

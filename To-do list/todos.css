@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  background-image: url(livingroom.webp);
+  background-size: cover;
+
+ 
+ 
+}
+h1{
+  font-family: 'Pacifico';
+}
+h3{
+  font-family: 'Pacifico';
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.container {
+  background-color: rgb(254	246	240);
+  border: 2px solid rgb(254	246	240);
+  text-align: center;
+  height: 580px;
+  width: 30%;
+  padding: 65px;
+  margin-left: 550px;
+  margin-top: 100px;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+li{
+  list-style: none;
+  font-family: 'Montserrat';
+}
+#inputField{
+  width: 60%;
+  border-radius: 8px;
+  border: 1px solid rgb(71	76	30);
+  margin-bottom: 3px;
+  font-family: 'Montserrat';
+}
+#addToDo{
+  border-radius: 8px;
+  border: 1px solid rgb(71	76	30);
+  font-family: 'Montserrat';
+  background-color: rgb(71	76	30);
+  color: white;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+#clear{
+  border-radius: 8px;
+  border: 1px solid rgb(71	76	30);
+  background-color: rgb(71	76	30);
+  font-family: 'Montserrat';
+  color: white;
+ 
+}
+#clearCompleted{
+  border-radius: 8px;
+  border: 1px solid rgb(71	76	30);
+  background-color: rgb(71	76	30);
+  color: white;
+  font-family: 'Montserrat';
+}
+p{
+  font-family: 'Roboto Condensed';
+}
