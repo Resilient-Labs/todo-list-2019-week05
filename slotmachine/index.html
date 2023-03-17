@@ -13,38 +13,40 @@
 	</head>
 
 	<body>
-		<header>
+		<main>
 			<section id="slotOne" class="slotContainer">
-
+				<img class="slots" id="reel1" src="img/1.png">
 			</section>
 
 			<section id="slotTwo" class="slotContainer">
-
+				<img class="slots" id="reel2" src="img/2.png">
 			</section>
 
 			<section id="slotThree" class="slotContainer">
-
+				<img class="slots" id="reel3" src="img/3.png">
 			</section>
-		</header>
+		</main>
 
 		<section class="buttonContainer">
-		<button id="minButton" type="button">
-			MIN $50
+		<button value="20" id="minButton" type="button">
+			20
 		</button>
 		
-		<button id="resetButton" type="button">
+		<form action=>
+		<button id="resetButton">
 			Reset
 		</button>
+		</form>
 
-		<button id="maxButton" type="button">
-			MAX $1000
+		<button value="100" id="maxButton" type="button">
+			100
 		</button>
 		
 		
 		</section>
-
-		<h2 id="count"> Count: </h2>
-
+		
+		<h2 id="count"> Count: <span id="amount"></span></h2>
+		<h3 id="display"></h3>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
