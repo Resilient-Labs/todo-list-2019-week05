@@ -1,0 +1,31 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+ol{
+  border: 8px solid black;
+  width: 25%;
+  float: left;
+  height: 600px;
+  margin-top: 5%;
+}
+
+section{
+  float: left;
+  width: 100%;
+  
+}
+
+#enter{
+  float: left;
+  
+}
