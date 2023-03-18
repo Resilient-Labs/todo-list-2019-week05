@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background: linear-gradient(
+    rgb(152, 73, 184),
+    rgb(152, 73, 184),
+    rgb(199, 107, 187),
+    rgb(233, 218, 155)
+  );
+  padding-bottom: 100px;
+}
+
+li {
+  font-size: 2.4rem;
+  text-align: left;
+  margin-left: 20%;
+  color: rgb(37, 32, 32);
+}
+
+.strike {
+  text-decoration: line-through;
+  color: rgb(87, 48, 95);
+}
+
+input {
+  border-radius: 30px;
+  border: 4px solid rgb(211, 211, 211);
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(53, 41, 32);
+  box-shadow: -2px 2px 3px 1px rgba(0, 0, 0, 0.651);
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(161, 145, 157);
+}
+
+.submit {
+  background: rgb(120, 64, 156);
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(53, 41, 32);
+  box-shadow: -2px 2px 2px 1px rgba(0, 0, 0, 0.651);
+}
+
+.submit:active {
+  background: rgb(131, 90, 156);
+  color: rgb(34, 24, 17);
+}
+
+header {
+  background: linear-gradient(rgb(146, 80, 172), rgb(120, 64, 156));
+  color: white;
+  height: 100px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 10px solid rgb(34, 24, 17);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom: 7px solid rgb(89, 43, 131);
+  box-shadow: -8px 7px 1px 6px rgb(129, 52, 202);
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin-top: 14px;
+  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.63);
+}
+
+.buttons {
+  padding: 10px;
+  padding-top: none;
+}
+
+.buttons button {
+  margin: 10px;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1.25rem;
+  border: 2px solid rgb(34, 24, 17);
+  box-shadow: -2px 2px 2px 1px rgba(0, 0, 0, 0.651);
+}
+
+.container {
+  text-align: center;
+  border: 10px solid rgb(34, 24, 17);
+  border-top: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 70%;
+  height: 750px;
+  margin: 0 auto;
+  background: linear-gradient(
+    rgb(246, 253, 253),
+    rgb(235, 243, 247),
+    rgb(202, 214, 221)
+  );
+  box-shadow: -8px 7px 1px 6px rgb(129, 52, 202);
+}
+
+#hide {
+  background: rgb(218, 119, 185);
+}
+
+#hide:active {
+  background: rgb(224, 165, 205);
+  color: rgb(34, 24, 17);
+}
+
+#clear {
+  background: rgb(93, 71, 223);
+}
+
+#clear:active {
+  background: rgb(136, 121, 219);
+  color: rgb(34, 24, 17);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: rgb(34, 24, 17);
+}
