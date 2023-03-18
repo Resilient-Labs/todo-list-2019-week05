@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background: gray;
+    border: 1px solid black;
+}
+
+li.statusDone {
+    text-decoration: line-through;
+}
+
