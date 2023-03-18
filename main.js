@@ -34,8 +34,11 @@ function addToList(){
 
 function valeryStrike(e){
     e.target.classList.toggle('strike')
-    let liList = document.getElementsByClassName("liList");
-    count.innerHTML = liList.length
+    if(valeryStrike(e)){
+        let liList = document.getElementsByClassName("liList");
+        count.innerHTML = liList.length
+    }
+    
 }
 
 

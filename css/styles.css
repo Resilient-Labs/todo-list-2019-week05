@@ -32,6 +32,9 @@ body{
     justify-content: center;
     align-items: flex-start;
     margin-top: 50px;
-    height: 400px;
+    /* height: 400px; */
     margin-left: 10%;
+}
+.li {
+    height: 500px;
 }
