@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>To Do List</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+	</header>
+	<section class="Quests">
+		<h1>Quest Log</h1>
+		<form action="">
+			<input id='taskInput' type=text placeholder="Add to your list">
+		</form>
+			<section class = buttons>
+				<button id="submitBtn">ADD</button>
+				<button id="clearAll">Clear All</button>
+				<button id="clearComplete">Clear Complete</button>
+			</section>
+		<ul id="printTask">
+			<li></li>
+		</ul>
+	</section>
+	<section class="bottom">
+		<h2>Quest counter:</h2>
+		<h2 id="counter">0</h2>
+		<img src="img/mushboom.gif" class="music">
+	</section>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- add clear all button and clear completed task button -->
+<!-- counter for tasks with toggle for completion -->
+<!-- toggle click event on li with class complete -->
+<!-- documentquery selector li.length . total li - completed li -->

@@ -1,0 +1,92 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  font-size:62.5%;
+  font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+}
+li{
+  list-style-type: none;
+}
+ul input{
+  margin-left:10px;
+}
+
+.complete{
+text-decoration: line-through;
+color:grey
+}
+
+.Quests{
+  background: url('../img/kindpng_5697892.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+  height:800px;
+  border:.5px solid black;
+  margin-top:100px;
+}
+h1{
+  font-size:4rem;
+  margin-left:40%;
+  margin-top:100px;
+}
+input{
+  margin-left:45%;
+}
+li{
+  margin-left:40%;
+  margin-top:30px;
+}
+
+button{
+  background:red;
+  float:left;
+  COLOR:white;
+}
+.buttons{
+  width:25%;
+  margin-left:45%;
+}
+body{
+  background: url(../img/manatree.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+ 
+}
+h2{
+ color:white;
+  margin:0;
+  background: rgba(0, 0, 0, 0.479);
+  width:10%;
+  height:20px;
+  float:left;
+  border:2px white solid;
+  font-size:1.2rem;
+  
+
+}
+.bottom{
+  float:left;
+    width:100%;
+}
+.music{
+  width:2%;
+}
