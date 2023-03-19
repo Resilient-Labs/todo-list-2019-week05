@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Sono', sans-serif; */
+  background: rgb(238, 231, 217);
+}
+html{
+  font-size: 62.5%;
+}
+.container{
+  height: 800px;
+  border: 1px solid green;
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 10%;
+  background: rgb(238, 231, 217);
+}
+h1{
+  font-family: 'Indie Flower';
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+input{
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin: 0 8% 0 25%;
+  font-size: 2rem;
+}
+p{
+  /* text-align: center; */
+  font-size: 2rem;
+  /* margin: 15%; */
+}
+.vacio{
+   text-align: center;
+   font-size: 2rem;
+   margin: 15%;
+}
+li{
+  list-style: none;
+  font-size: 2rem;
+}
+.listaLista{
+  text-decoration: line-through;
+}
+.exec, #removeDone{
+display: block;
+margin: auto;
+font-size: 2rem;
+}
+span{
+  margin-left: 5%;
+  font-size: 2rem;
+}
+.hidden{
+  display: none;
+}
