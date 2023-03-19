@@ -1,0 +1,60 @@
+
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+body{
+    background-color: rgb(255, 206, 214);
+    text-align: center;
+    background-image: url('todo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h1{
+    color: rgb(0, 0, 0);
+  }
+  
+  h2{
+    color: rgb(0, 0, 0);
+  }
+  
+  #inputField{
+    font-size: 20px;
+  }
+
+  #addToList{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    font-size: 25px;
+  }
+
+  .toDoList{
+    margin-top: 25px;
+  }
+
+ li{
+list-style: none;
+margin: 0;
+font-size: 35px;
+ }
+
+.selected{
+  text-decoration: line-through coral;
+  
+}
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
