@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Tilt Warp', cursive;
+}
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  justify-content: space-around;
+  background-size: cover;
+  height:700px;
+  width:100%;  
+  background-color: yellow; 
+}
+
+
+
+.selected {
+  text-decoration: line-through;
+}  
+
+button {
+  border: radius 30px;
+}
+
