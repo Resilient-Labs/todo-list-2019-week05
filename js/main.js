@@ -9,22 +9,24 @@ const form = document.querySelector('form')
 
 //create a function that creates li's that are inserted into the ol
 function enterTodo (event){
-  event.preventDefault()//this stops page from refreshing when pressing enter
+  //refreshing when pressing enter
   //create variables for tasklist input and li that 
   let items = taskList.value
+  
+  //Thank you Vonds for trim
+  if (items.trim() === ''){
+    return alert("Please enter Task")
+  
+  }
+  event.preventDefault()//this stops page from 
   //convert tasklist into listOfText in HTML
 
+
+  //creates inner text
   let listOfText = document.createTextNode(items)
   let li = document.createElement('li')
   li.appendChild(listOfText) //keeps li's as text
   list.appendChild(li)
-
-  if (items === ''){
-    alert("Please enter Task")
-  }else{
-    form.reset()
-  }
-
 }
 //make sure enter button enters the li's and list below
 enterBtn.addEventListener('click', enterTodo)
@@ -57,3 +59,6 @@ function clearAll(){
 }
 
 clearAllBtn.addEventListener('click', clearAll)
+
+
+//Jada Townsend helped!
