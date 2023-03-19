@@ -18,6 +18,7 @@ function addItem() {
         listItems.appendChild(li)
         warning.innerText = ''
     }
+    userInput.value = ''
     const liItems = document.querySelectorAll('li')
     taskCount.innerText = `Tasks to Complete: ${liItems.length}`
 }
@@ -30,13 +31,20 @@ function removeItem() {
 }
 
 function completedTask(event) {
+    //Byhanka helped me understand how to target specific li's
     const liItems = event.target
     const classes = liItems.classList
     const result = classes.toggle('complete')
 }
 
 function clearComp() {
-    console.log('working')
+    //Ashley helped remind me how to target only complete li's
+    let liComp = listItems.querySelectorAll('.complete')
+        liComp.forEach(remove => {
+            listItems.removeChild(remove)
+        })
+        const liItems = document.querySelectorAll('li')
+        taskCount.innerText = `Tasks to Complete: ${liItems.length}`
 }
 
 function clearAll() {

@@ -164,7 +164,8 @@ li {
     margin-bottom: 15px;
 }
  .complete {
-    text-decoration: line-through;
+    color: gray;
+    text-decoration: black line-through;
  }
 
  /*
