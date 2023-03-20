@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../pictures/typewritter.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+    margin-top: 45px;
+    font-family: Cinzel Decorative;
+    float: left;
+    margin-left: 481px;
+    border-bottom: 8px groove goldenrod;
+}
+
+#submit {
+    margin-left: 26px;
+    border-radius: 50px;
+    background: rgba(89, 108, 98, 0.691);
+    float: left;
+    margin-top: 138px;
+    color: red;
+    border: 5px groove goldenrod;
+}
+
+input {
+    width: 235px;
+    margin-left: 612px;
+    margin-top: 131px;
+    border-radius: 50px;
+    padding-left: 23px;
+    background: rgba(169, 130, 96, 0.725);
+    color: white;
+    float: left;
+    border: 5px groove goldenrod;
+}
+
+ol {
+    /* border: 10px ridge red; */
+    width: 600px;
+    height: 430px;
+    margin-left: 411px;
+    float: left;
+    background: rgba(216, 205, 170, 0.718);
+}
+
+#completeClear {
+    width: 85px;
+    height: 45px;
+    margin-top: 450px;
+    float: right;
+    margin-right: 5px;
+    background: rgb(89, 108, 98);
+    color: goldenrod;
+    border-radius: 15px;
+    border: 5px inset teal;
+}
+
+#clearAll {
+    width: 85px;
+    height: 45px;
+    margin-top: 450px;
+    float: right;
+    margin-right: 245px;
+    background: rgb(89, 108, 98);
+    color: goldenrod;
+    border-radius: 15px;
+    border: 5px inset teal;
+}
+
+span {
+    border: 8px groove goldenrod;
+    width: 107px;
+    float: left;
+    height: 42px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background: rgba(0, 128, 128, 0.378);
+    text-align: center;
+    font-size: 24px;
+}
+
+li {
+    font-size: 3rem;
+    color: white;
+    font-family: Cinzel;
+}
+
+li.crossOut {
+    text-decoration: line-through;
+    text-decoration-color: rgba(199, 0, 0, 0.785);
+    color: gray;
+}
