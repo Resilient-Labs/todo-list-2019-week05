@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+
+body{
+  text-align: center;
+  background-image: url(../img/spongebob.jpg)
+}
+
+h2{
+  color: yellow;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+}
+
+.text{
+  background-color: white;
+  width: 37%;
+  margin-left: 31%;
+  opacity: 0.73;
+}
+
+button{
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
