@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../IMG/notepaper.jpg)
+}
+    h1{
+        margin-top: 3%;
+        font-size: 5rem;
+        text-align: center;
+        font-family: 'Caveat', 'Helvetica', 'sans-serif';
+    }
+    .inPut , .outPut{
+        width: 50%;
+        /* border: 1px solid black; */
+        height: 400px;
+        float: left;
+    }
+    .inPut input{
+        margin-left: 26%;
+        margin-top: 8%;
+        width: 51%;
+        height: 44px;
+        border-radius: 4px;
+        background: url(../IMG/notepaper.jpg);
+    }
+        #todo::placeholder{
+            font-weight: 600;
+            color: black;
+        }
+        .inPut button{
+            width: 28%;
+            height: 36px;
+            margin-left: 37%;
+            margin-top: 1%;
+            border-radius: 4px;
+            font-weight: 600;
+            background: url(../IMG/notepaper.jpg);
+        }
+    .outPutLeft , .outPutRight{
+        width: 50%;
+        /* border: 1px solid black; */
+        height: 400px;
+        float: left;
+    }   
+    .outPutLeft{
+        margin-top: -4%;
+    }
+        .outPutLeft li{
+            font-family: 'Yomogi', 'Verdana', 'Geneva', 'sans-serif';
+            font-size: 1.8rem;
+        }
+        span{
+            font-family: 'Yomogi', 'Verdana', 'Geneva', 'sans-serif';
+            font-size: 2rem;
+            border-bottom: 2.7px solid black;
+        }
+        li.strikeThrough{
+            text-decoration: line-through;
+            color: red;
+        }
+        .outPutRight button{
+            width: 32%;
+            height: 41px;
+            margin-left: -1%;
+            margin-top: 2%;
+            border-radius: 4px;
+            font-weight: 600;
+            background: url(../IMG/notepaper.jpg);
+        } 
+        .outPutR1{
+            width: 100%;
+            /* border: 1px solid black; */
+            height: 56px;
+            margin-top: 6%; 
+        } 
+        .outPutR2{
+            width: 100%;
+            height: 38px;
+            margin-top: 7%;
+        }
+        
+        h2 , h3 {
+            font-family: 'Yomogi', 'Verdana', 'Geneva', 'sans-serif';
+            display: inline;
+        }
+
