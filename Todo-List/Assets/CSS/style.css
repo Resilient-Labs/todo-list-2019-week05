@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+-----------------------------------------------
+Global Stylings 
+-----------------------------------------------
+*/
+html {
+    font-size: 62.5%;
+    background-image: url(https://cdn.wallpapersafari.com/60/51/UujO7L.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhaW4lMjBwYXBlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li {
+    border: 2px dotted black;
+    width: 80%;
+}
+/*
+-----------------------------------------------
+Main Heading Section
+-----------------------------------------------
+*/
+h1 {
+    font-size: 5rem;
+    padding-top: 50px;
+}
+span {
+    color: red;
+    text-decoration: black dashed underline;
+}
+.warning {
+    color: red;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+/*
+-----------------------------------------------
+Input Section
+-----------------------------------------------
+*/
+
+section {
+    margin-bottom: 50px;
+}
+input {
+    font-size: 2.5rem;
+    width: 60%;
+}
+section button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, rgb(15, 151, 15), rgb(18, 17, 17));
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  line-height: 35px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+  margin-left: 5px;
+}
+section button:hover {
+  box-shadow: rgba(32, 165, 32, 0.8) 0 3px 8px;
+}
+.remove {
+    background-image: linear-gradient(-180deg, rgb(206, 19, 19), rgb(16, 15, 15));
+}
+.remove:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+/*
+-----------------------------------------------
+Clear Fields
+-----------------------------------------------
+*/
+
+.clear {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  border-radius: 5px;
+  color: #18181a;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-image: linear-gradient(-180deg, rgb(209, 205, 205), rgb(136, 133, 133));
+  margin: 20px 25px 10px 0;
+}
+.clear:after {
+  content: "Are You Sure?";
+  color: white;
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+  background-image: linear-gradient(-180deg, rgb(206, 19, 19), rgb(16, 15, 15));
+  line-height: 25px;
+}
+.clear:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(6deg) scaleY(1.3);
+}
+.clear:hover {
+    background-image: linear-gradient(-180deg, rgb(163, 159, 159), rgb(115, 113, 113));
+}
+
+/*
+-----------------------------------------------
+Task Counter
+-----------------------------------------------
+*/
+h2 {
+    font-size: 3.5rem;
+    color: red;
+    padding-bottom: 50px;
+}
+
+/*
+-----------------------------------------------
+List Items
+-----------------------------------------------
+*/
+
+li {
+    list-style-position: inside;
+    text-align: left;
+    font-size: 2.5rem;
+    padding: 15px 0 10px 0;
+    margin-bottom: 15px;
+}
+ .complete {
+    color: gray;
+    text-decoration: black line-through;
+ }
+
+ /*
+-----------------------------------------------
+Media Queries
+-----------------------------------------------
+*/
+@media (max-width: 946px) {
+    html {
+        background-repeat: repeat;
+    }
+}
+@media (max-width: 630px) {
+    section input {
+        display: inline-block;
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    section button {
+        margin-right: 50px;
+    }
+}
+@media (max-width: 338px) {
+    section input {
+        display: block;
+        width: 100%;
+    }
+    section button {
+        margin: 0;
+    }
+}
