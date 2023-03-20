@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    --main-bg-dark: black;
+    --off-color-dark: rgb(67, 67, 67);
+    --font-color-dark: white;
+    --main-bg-light: rgb(255, 255, 255);
+    --off-color-light: rgb(176, 176, 176);
+    --font-color-light: blue;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: var(--main-bg-light);
+    height: 100vh;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form + section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#todos, #completed{
+    width: 35%;
+    height: auto;
+    background: var(--off-color-light);
+    border-radius: 10px;
+}
+#todos-list, #completed-list{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--font-color-light);
+}
