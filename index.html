@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <section class="main">
+    <h1>Welcome! Create your own To Do List </h1>
+    <p>Click + to add task</p>
+    <input type="text" id="input" placeholder="Enter Task">
+    <button id="add">+</button>
+    <button id="clear">Clear</button>
+    <button id="clearCompleted">Clear Completed</button>
+  </section>
+  
+
+  <ul id="todo" class="lists"></ul> 
+  <!-- where the to pops up, needs to be displayed as content inside the dom  -->
+
+  <section class="countShow">
+    <p>Total tasks:</p>
+    <p id="count"></p>
+  </section>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
