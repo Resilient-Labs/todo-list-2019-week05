@@ -20,8 +20,6 @@ function addItems(){
     let count = list.querySelectorAll('*').length
     task.innerText = 'You have ' + count + " tasks left."
 
-    
-    
 }
 
  function cancelItems(){

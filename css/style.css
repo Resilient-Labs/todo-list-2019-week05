@@ -15,6 +15,16 @@
   text-decoration: line-through;
 }
 
+body{
+  background-image: url("../img/imgimg.png");
+  text-align: center ;
+}
+ul{
+  font-size: 50px;
+  color: blue;
+  list-style: none;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
