@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    font-family:"Abril Fatface",sans-serif;
+}
+
+body{
+    background:linear-gradient(rgb(238,138,124),rgb(244,185,160))
+}
+
+.border{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:1000px;
+    border:1px solid gray;
+    margin:20px 300px 0 300px;
+    padding-top:30px;
+    color:white;
+}
+
+.clear{
+    margin-top:50px;
+    color:white;
+    background-color:transparent;
+    border:1px solid white;
+    padding:10px 30px;
+}
+
+.listitems{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.strike{
+    text-decoration: line-through;
+}
