@@ -1,0 +1,70 @@
+header, main, aside, section{
+    padding: 1%;
+    width: 100%;
+    color:  rgb(41, 50, 80);
+    font-weight: 700;
+}
+body {
+    padding: 1%;
+   background-color: rgba(103, 128, 159, 0.61);
+   width: 95%;
+   font-size: 16px;
+}
+header, main{
+    width: 95%;
+    margin: none;
+}
+body, header, main {
+    border: 1px rgb(41, 58, 80) solid;
+}
+h2{
+    font-size: 2.75rem;
+}
+header{
+    border-bottom: 5px rgb(41, 58, 80) dotted;
+}
+main{
+    border-top: none;
+    display: flex;
+}
+main>section{
+    width: 75%
+}
+aside{
+    width: 25%;
+    border-left: 1px rgb(41, 58, 80) solid;
+    align-items: center;
+}
+aside>section{
+    margin: 8%;
+}
+
+li{
+    margin: 3%;
+    padding-bottom: 1%;
+    text-transform: capitalize;
+    list-style-type: circle;
+    border-bottom: 1px rgb(41, 58, 80) solid;
+    font-size: 1.563rem;
+    font-weight: 500;
+}
+input, button{
+    width: 80%;
+    padding: 2%;
+    display: block;
+    margin: 2%;
+    border-radius: 6px;
+    background-color:  rgba(103, 128, 159, 0.61);;
+    border-color:  rgba(103, 128, 159, 0.61);
+    color: rgb(41, 50, 80);
+    font-weight: 700;
+}
+input{
+    padding: 4%;
+    width: 72%;
+    background-color: lavender;
+}
+
+.taskdone {
+    text-decoration: line-through;
+}
