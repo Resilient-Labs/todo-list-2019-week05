@@ -6,8 +6,9 @@ const btnRemove = document.querySelector('#itemRemove')
 let taskCountP = document.querySelector('.totalCount')
 let count = 0
 
-function makeAListItem(){
-  if(itemsInput.value === '') {
+function makeAListItem(e){
+   e.preventDefault()
+  if(itemsInput.value.trim() === '') {
     return alert('Do you not know what you need to do?')
   }
   const listItem = document.createElement('li')
@@ -46,15 +47,20 @@ function makeAListItem(){
  function clearAll() {
   document.querySelectorAll('li').forEach(li => li.remove())
   taskCountP.innerText = "Nothing on the list"
+  count = 0
 
  }
 
  function removeDone(){
   document.querySelectorAll('.strike').forEach(li => li.remove())
-
  }
 
 addBtn.addEventListener("click", makeAListItem)
+// addBtn.addEventListener('keypress', e => {
+//   if(e.key === "Enter") {
+//     makeAListItem()
+//   }
+// } )
 showItems.addEventListener('click', crossOffList)
 btnClearAll.addEventListener('click', clearAll)
 btnRemove.addEventListener('click', removeDone)
