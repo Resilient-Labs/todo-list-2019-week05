@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-top:5%;
+    margin-left:30%;
+    background: url(../images/wallpaperflare.com_wallpaper.jpg);
+    background-size:cover;
+}
+    h1{
+        font-family: 'Righteous', 'Helvetica', 'sans-serif'; 
+        font-size: 50px;
+        color: rgb(175,238,238);
+        margin-top:10%;
+        margin-left:20%;
+    }
+    h2{
+        color: rgb(255,20,175);
+        margin-left: 25%;
+    }
+    #count{
+        color: rgb(255,20,175);
+        margin-left: 5%;
+    }
+
+    ul{
+        height:500px;
+        width:30%;
+      
+        }
+        .changeMe li{
+            font-family: 'Edu NSW ACT Foundation', 'Helvetica', 'sans-serif', cursive; 
+            font-size:30px;
+            color: rgb(255,20,175);
+            margin-left: 30%;
+        
+        }
+    
+        li.crossOut{
+            text-decoration: line-through;
+            color: rgb(255,20,234);
+        }
+
+    input[type=text]{
+        padding:10px 250px 10px 10px;
+        margin-right: 3%;
+        margin-left: 10%;
+    }
+
+        button{
+            width: 150px;
+            height: 45px;
+            border-radius: 20px;
+            background-color: rgb(241,187,199);
+        }
+        .btnTwo{
+            margin-left: 3%;
+        }
+        .btnThree{
+            margin-left: 33%;
+        }
