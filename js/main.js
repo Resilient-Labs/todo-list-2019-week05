@@ -8,6 +8,12 @@ const numOfItems = document.getElementById("numOfItems");
 let updatedCount = 0;
 
 // FUNCTIONS
+const enterItem = (e) => {
+  if (e.key === "Enter") {
+    addItem();
+  }
+};
+
 const addItem = () => {
   let input = inputValue;
   if (input.value) {
@@ -46,6 +52,7 @@ const clearItem = () => {
 };
 // EVENT LISTENERS
 addButton.addEventListener("click", addItem);
+inputValue.addEventListener("keypress", enterItem);
 list.addEventListener("click", crossOut);
 clearAll.addEventListener("click", clearItAll);
 clear.addEventListener("click", clearItem);
