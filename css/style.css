@@ -65,3 +65,10 @@ h1{
 .add:active, .clear:active{
     transform: translateY(4px);
 } 
+
+@media (max-width:975px){
+    .border{
+        border:none;
+        margin:0px;
+    }
+}
