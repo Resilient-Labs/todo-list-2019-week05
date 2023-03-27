@@ -3,6 +3,6 @@
 ### Goal: Build a Simple Todo List
 
 
-![alt text](https://github.com/christinabrgs/codewars/blob/main/images/banner.png?raw=true)
+![alt text](https://github.com/christinabrgs/todo-list-2019-week05/blob/answer/img/To_Do_List.jpeg?raw=true)
 
 
