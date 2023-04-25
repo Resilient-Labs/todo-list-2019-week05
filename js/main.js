@@ -9,13 +9,13 @@ const clearCompletedBtn = document.querySelector('#clearCompleted')
 const ul = document.querySelector('#list')
 const span = document.querySelector('span')
 const itemCnt = document.querySelector('#itemCount')
- 
+
 
 // make a function to create lis
 function createLi() {
-    if(userInputForToDos.value === '') {
+    if (userInputForToDos.value === '') {
         return alert('Please enter a to do!');
-    } 
+    }
     const listItem = document.createElement('li');
     listItem.innerText = userInputForToDos.value;
     list.appendChild(listItem);
@@ -56,14 +56,13 @@ function crossOut(event) {
     const liElems = event.target // targeting the event and putting it into a variable
     const classes = liElems.classList // make li element into a class list
     const result = classes.toggle('statusDone')
-    
+
 }
 
 // R&y helped me with this clear completed task section
 function clearCompletedTasks() {
     let completedTask = ul.querySelectorAll('.statusDone') // selects all UL with the class .statusDone applied from line 58
-    for(let i = 0; i < completedTask.length; i++)
-    {
+    for (let i = 0; i < completedTask.length; i++) {
         let li = completedTask[i]  // this is the lis that have the strike through applied 
         ul.removeChild(li) // this removes the lis that have strike-through styling applied
     }

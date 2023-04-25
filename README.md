@@ -1,22 +1,12 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Todo List
+A simple to do list. Users are able to add items, remove completed items, 
 
-### Goal: Build a Simple Todo List
+Link to project:
 
-### How to submit your code for review:
+# How It's Made:
+Tech used: HTML, CSS, JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# Lessons Learned
+This project introduced me to many things: appendChild() and .createElement() specifically were fun discoveries. This project also allowed me to see hoisting in action. I was able to use hoisting to call functions in my code prior to their declaration. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img src="todo-list-project-screenshot.JPG">

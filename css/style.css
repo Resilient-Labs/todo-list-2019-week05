@@ -1,13 +1,62 @@
+/* reused similar styles from other projects */
+
 * {
     box-sizing: border-box;
 }
 
+html { 
+    background: url(crumpled-paper-texture-background.avif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
 .header {
-    background: gray;
+    background: #333;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 li.statusDone {
     text-decoration: line-through;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+body {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 0;
+    background-color: white; 
+    border: none;
+    color: black; 
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer; /* Add cursor pointer on hover, chapGPT suggested this and I thought it looked nice so I tossed it in */
+    border-radius: 5px;
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
