@@ -1,7 +1,8 @@
 # ✅ Week05 Bootcamp2019 Project: Todo List
 ![todolist](https://user-images.githubusercontent.com/116925420/234285738-4a7bd881-a28c-48b2-a753-4db8cc809cf9.png)
 
-Visit: https://simple-do-list.netlify.app
+Visit: https://simple-do-list.netlify.app 
+
 I created a simple to-do list that used HTML, CSS, and JS.
 ### Goal: Build a Simple Todo List
 
