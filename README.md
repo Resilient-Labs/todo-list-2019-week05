@@ -1,7 +1,7 @@
 # Todo List
 A simple to do list. Users are able to add items, remove completed items, 
 
-Link to project:
+Link to project: https://menahassan-todo-list.netlify.app/
 
 # How It's Made:
 Tech used: HTML, CSS, JavaScript
