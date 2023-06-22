@@ -11,48 +11,45 @@
 //put a inner text in each so you can see the task
 
 
-document.querySelector('#subBtn').addEventListener('click', createTodos)
-document.querySelector('#clearBtn').addEventListener('click', reset)
-let counter = document.querySelector('.counter')
-let count = 0
+document.querySelector('#subBtn').addEventListener('click', createTodos);
+document.querySelector('#clearBtn').addEventListener('click', reset);
 
+let counter = document.querySelector('.counter');
+let count = 0;
 
 function createTodos() {
-  const task = document.querySelector('#textInput')
-  let printList = document.querySelector('#todoListOne')
-  if(textInput.value === '') {
-
-        return alert('Please write a task')
-    }
-    else{ const li = document.createElement('li')
-    const p = document.createElement('p')
-    p.innerText = task.value
-    li.appendChild(p)
-    printList.appendChild(li)
-    count++
-    counter.innerText =  + count  + " tasks";
-
-    task.value = ""
-    li.addEventListener('click', crossOut)
-    
+  const task = document.querySelector('#textInput');
+  let printList = document.querySelector('#todoListOne');
+  
+  if (textInput.value === '') {
+    alert('Please write a task');
+    return;
+  } else if (count >= 6) {
+    alert('Maximum limit of 6 tasks reached');
+    return;
+  } else {
+    const li = document.createElement('li');
+    const p = document.createElement('p');
+    p.innerText = task.value;
+    li.appendChild(p);
+    printList.appendChild(li);
+    count++;
+    counter.innerText = count + " tasks";
+    task.value = "";
+    li.addEventListener('click', crossOut);
   }
- }
-
-function reset(){
-let goAway = document.querySelectorAll('li');
-goAway.forEach(li => li.remove());
-goAway = document.querySelectorAll('li').length
-  counter.innerText = + goAway + " tasks";
-
-
 }
 
-
-function crossOut(e){
-  e.target.classList.toggle('vete')
-  let taskTotal = document.querySelectorAll('li').length - document.querySelectorAll('.vete').length
-  count = taskTotal
-  counter.innerText = + taskTotal + " tasks"
-
+function reset() {
+  let goAway = document.querySelectorAll('li');
+  goAway.forEach(li => li.remove());
+  goAway = document.querySelectorAll('li').length;
+  counter.innerText = goAway + " tasks";
 }
 
+function crossOut(e) {
+  e.target.classList.toggle('vete');
+  let taskTotal = document.querySelectorAll('li').length - document.querySelectorAll('.vete').length;
+  count = taskTotal;
+  counter.innerText = taskTotal + " tasks";
+}
