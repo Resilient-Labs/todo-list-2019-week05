@@ -1,35 +1,41 @@
-let input = document.getElementById('input');
-function countLi(){
-	let len = document.getElementById('list').getElementsByTagName('li');
-  let lilength = len.length
-  document.getElementById('leftToDo').innerHTML = (`you have ${lilength} tasks left`);
-}
-function clicky(e){
-  if (e.target.classList.contains('frank')) {
+// let input = document.getElementById('input');
+
+function markForCompletion(e){
+  if (e.target.classList.contains('item')) {
     e.target.classList.toggle('checked')
   }
 }
-document.getElementById('list').addEventListener('click',clicky)
+
+document.getElementById('list').addEventListener('click',markForCompletion)
+
 function addText(){
   let userInput = document.getElementById('input').value;
-  if (userInput !== '') {
-    document.getElementById('list').innerHTML += (`<li class="frank" onclick="clicky()">${userInput}</li>`);
+  if (userInput.trim().length !== 0) {
+    document.getElementById('list').innerHTML += (`<li class="item" onclick="markForCompletion()">${userInput}</li>`);
     input.value = ('');
-    countLi()
+    clearCompleted();
   }
 }
-function clearC(){
-  let frank2 = document.querySelectorAll('li').length - document.querySelectorAll('.checked').length;
-  document.querySelectorAll('.checked').forEach(x=>x.innerHTML='');
-  document.getElementById('leftToDo').innerHTML = (`you have ${frank2} tasks`);
-}
-function clearA(){
-  document.getElementById('list').innerHTML = ('')
-  document.getElementById('leftToDo').innerHTML = (`No more tasks? You've earned a break!`)
+
+function leftToDo(){
+  length = document.querySelectorAll('li').length;
+  document.getElementById('leftToDo').innerHTML = (length > 0 ? `you have ${length} tasks`:`No more tasks! You've earned a break!`);
 }
 
-function EnterKey(z){
+function clearCompleted(){
+  document.querySelectorAll('.checked').forEach(x=>x.remove());
+  leftToDo();
+}
+
+function clearAll(){
+  if (document.querySelectorAll('li').length > 0){
+    confirm("Clear entire list?") ? document.getElementById('list').innerHTML = (''): null;
+    leftToDo();
+  }
+}
+
+function EnterKey(z){ //allows the enter key to add an item to the todo list
    if(z.keyCode == 13){
-   	addText()
+   	addText();
    }
 }

@@ -15,20 +15,18 @@
 		<section id="listContainer">
 
 			<header>
-				<input id="input" type="input" name="" value="" onkeypress='EnterKey(event)' placeholder=" Enter your tasks here">
+				<input id="input" type="input" name="" value="" onkeypress='EnterKey(event)' placeholder="Enter your tasks here">
 				<button id="addInput" type="button" name="button" onclick="addText()">+</button>
 			</header>
 
 			<section id="mid">
-				<ul id="list">
-
-				</ul>
+				<ul id="list"></ul>
 			</section>
 
 			<footer>
 				<h3 id="leftToDo">Lets get some tasks down!</h3>
-				<button id="clearA" type="button" name="button" onclick="clearA()">Clear All</button>
-				<button id="clearC" type="button" name="button" onclick="clearC()">Clear Completed</button>
+				<button id="clearA" type="button" name="button" onclick="clearAll()">Clear All</button>
+				<button id="clearC" type="button" name="button" onclick="clearCompleted()">Clear Completed</button>
 			</footer>
 
 		</section>

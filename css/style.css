@@ -105,7 +105,7 @@ header {
   color: grey;
 }
 
-.frank:nth-child(odd){
+.item:nth-child(odd){
   background-color: #e5e5e5;
 }
 
@@ -114,14 +114,18 @@ button{
   border-radius: 12px;
   border: 0px solid white;
   height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 #input{
   border-radius: 12px;
   border: 0px solid white;
   height: 24px;
+  text-align: center;
 }
 li{
   font-size: 18px;
+  padding: 8px;
 }
 
 footer {
