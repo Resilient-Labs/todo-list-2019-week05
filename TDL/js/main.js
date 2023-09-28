@@ -18,7 +18,7 @@ There's a button. When you click it, we want to add what you typed into our list
     - Click "CC" button and the 'clearCompleted' function removes all crossed out items. */
 
 
-|// this is the smurf for when you press the add button it will run the addItem function;
+// this is the smurf for when you press the add button it will run the addItem function;
 document.getElementById("button").addEventListener("click", addItem);
 
 // this smurf on the input and if you press enter I want it to run the same functionality ass the addItem
