@@ -9,7 +9,7 @@ I wanted to have the buttons perform one action: one button would create new lis
 The second "Clear All" button was established to delete all task items present on the list (whether they were checked off or not). 
 
 ### Lessons Learned :
-- I had some trouble with the toggling of items as "complete" using the checkboxes. In other words, the checkboxes would click and strike through the text present in each to-do list item but when clicked again the "line-through" style I added to each li would not disappear. I had to go through some research and look up the ".checked" property and set it within a conditional with the boolean value of true. This proved to be a simple solution that I was glad to find.
+- I had some trouble with the toggling of items as "complete" using the checkboxes. In other words, the checkboxes would click and strike through the text present in each to-do list item but when clicked again the "line-through" style I added to each li would not disappear. I had to go through some research and look up the ".checked" property, and set it to the class belonging to the checkboxes, within a conditional with the boolean value of true. This proved to be a simple solution that I was glad to find toggled the line-through style in tandem with a checkbox being in "checked" status or not.
 - I also learned about event handling with this project and that there is a way to prevent some elements from behaving their default way using .preventDefault().
 - I learned to implement more debugging practices such as using console.log within my functions/conditionals. I also found adding comments was useful although I could be more concise with those comments.
 
