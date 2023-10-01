@@ -1,0 +1,88 @@
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+    font-family: Young Serif;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+  body{
+    background-image: url("https://i.postimg.cc/FFpkChM6/Green-Natural-Beautiful-Quote-Desktop-Wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  .toDoList h3{
+    font-size: 1.7rem;
+  }
+
+
+
+
+  .crossOut {
+    text-decoration: line-through greenyellow;
+  }
+  
+   img{
+    display: block;
+    height: 300px;
+    margin: 0 auto;
+  }
+  ul{
+    width: 500px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 0;
+    background: white;
+    text-align: center;
+  }
+  li{
+    text-align: center;
+    list-style: none;
+    font-size: 2.3rem;
+  } 
+  
+  .clearButton{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    padding: 15px;
+
+  }
+
+  .clearButton button{
+    width: 100px;
+    height: 50px;
+  }
+
+  .inputSection{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  input{
+    padding: 10px;
+    width: 400px;
+  }
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
