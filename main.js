@@ -40,10 +40,21 @@ function submitToDo(event) {
             }
         }
 
-        //need to find a way to remove the line through so that im able to have it appear and disappear each time I click the checkbox//
-        //clear inputs/page to allow for blank slate in input//
+        let deleteCompletedBtn = document.querySelector('#clearCompleted')
+        deleteCompletedBtn.addEventListener('click', deleteCompleted)
+
+        function deleteCompleted() {
+            if (checkBox.checked === true) {
+                newToDoLi.remove()
+            }
+            else {
+                console.log('Incomplete item found on list')
+            }
+        }
+
+
         userInput.value = ''
-        //create counter for loop to count tasks??????????//
+
     }
 
 }
@@ -53,6 +64,9 @@ function deleteAll() {
     deleteAll.forEach(li => li.remove())
     deleteAll = document.querySelectorAll('li').length
 }
+
+
+
 
 
 
