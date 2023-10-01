@@ -1,0 +1,140 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font: 62.5% 'Gabarito', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #74EBD5 linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.container {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80rem;
+  background: white;
+  border: 1rem solid black;
+  border-radius: 5rem;
+  margin: 20rem auto 0 auto;
+}
+
+#toDoList {
+  padding: 0.5rem;
+  background: white;
+  border-radius: 5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.toDoTitle h1 {
+  font-size: 7.5rem;
+  font-weight: 700;
+  padding: 0 0 1rem 1rem;
+}
+
+.toDoTitle span {
+  text-shadow: none;
+  font-size: 5rem;
+}
+
+.inputAndBtns {
+  width: 100%;
+  display: flex;
+  background: white;
+  padding: 1rem;
+}
+
+.inputAndBtns div {
+  width: 50%;
+}
+
+.inputAndBtns input {
+  width: 100%;
+  font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+  padding-left: 2rem;
+}
+
+.inputAndBtns input, .inputAndBtns button {
+  height: 5rem;
+  font-size: 2rem;
+  border-radius: 5rem;
+  border: .3rem solid black;
+  box-shadow: 0 0.5rem #999;
+}
+
+.inputAndBtns button {
+  font-weight: 700;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.inputAndBtns button:hover {
+  background: black;
+  color: white;
+}
+
+.inputAndBtns button:active {
+  background: black;
+  box-shadow: 0 0.5rem #666;
+  transform: translateY(0.4rem);
+}
+
+.inputAndBtns button:first-child {
+  margin: 0 1rem;
+}
+
+/* toDoTitle STYLING */
+.typed-out {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(20, end) forwards;
+  width: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* search bar styling */
+.inputAndBtns button:hover{
+  animation: shaking 0.2s 0.05s;
+}
+
+@keyframes shaking {
+   0% {transform: rotate(0deg);}
+   20% {transform: rotate(-4deg);}
+   50% {transform: rotate(0deg);}
+   70% {transform: rotate(4deg);}
+   100% {transform: rotate(0deg);}
+}
+
+/* STYLING FOR TASKS */
+#toDoList li {
+  border-radius: 5rem;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#toDoList li:nth-child(even) {
+  margin: 1rem;
+  background: rgb(225, 224, 224);
+  height: 4rem;
+}
+
+.checkBox {
+  margin-right: 1rem;
+}
