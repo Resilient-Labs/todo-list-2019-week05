@@ -1,0 +1,80 @@
+/* all styling was taken from codepen https://codepen.io/johanalkstal/pen/AavgNz && 
+https://codepen.io/beeeees/pen/AJBjKR*/
+
+html {
+	height: 100%;
+}
+body {
+	background: -webkit-linear-gradient(
+			rgba(135, 60, 255, 0.4),
+			rgba(135, 60, 255, 0) 80%
+		),
+		-webkit-linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(
+						255,
+						160,
+						65,
+						0.9
+					)
+					75%);
+}
+
+body {
+	font: normal normal 13px/16px "Open Sans", sans-serif;
+}
+
+.container {
+	padding: 20px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: whitesmoke;
+	border-radius: 5px;
+}
+
+form {
+	display: inline-block;
+}
+
+input {
+	padding: 4px 15px 4px 5px;
+}
+
+#button,
+#CA,
+#CC {
+	display: inline-block;
+	background-color: #fc999b;
+	color: #ffffff;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 2px;
+	padding: 5px 15px;
+}
+
+#button:hover,
+#CC:hover,
+#CA:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+ol {
+	padding-left: 20px;
+}
+
+ol li {
+	padding: 5px;
+	color: #000;
+}
+
+ol li:nth-child(even) {
+	background: #dfdfdf;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+li:hover {
+	cursor: pointer;
+}
