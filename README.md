@@ -1,49 +1,47 @@
-# Slot Machine Game
+# Simple To Do List
 
-A fun and interactive slot machine game built using HTML, CSS, and JavaScript.
-
-![Slot Machine Preview](img/../img%20/preview.png.png)
+A simple, stylish, and interactive To Do List implemented with HTML, CSS, and JavaScript.
 
 ## Features
 
-- **Three spinning reels** with a variety of emojis.
-- **Dynamic balance display** that updates after each spin.
-- **Player betting**: Players can place minimum and maximum bets.
-- **Win/Lose animations**: Feedback is provided based on the outcome of the spin.
+- **Add Tasks**: Click the "Add" button or type and hit Enter in the input field.
+- **Mark Tasks as Completed**: Double-click any item inside our list to either cross it out or return it to normal.
+- **Clear Input**: Click inside the "list" box to clear the input.
+- **Clear All Tasks**: Click the "CA" button to remove all items from the list.
+- **Clear Completed Tasks**: Click the "CC" button to remove only the crossed-out items from the list.
 
-## How to Play
+## How it Works
 
-1. **Place a Bet**:
-   - Click on the **Minimum Bet** button to bet $5.
-   - Click on the **Maximum Bet** button to bet $50.
-2. **Spin the Reels**:
+Here's a basic breakdown of the main functionalities:
 
-   - After placing your bet, click on the **Spin** button.
-   - If all three emojis match, you win! Your balance will increase.
-   - If they don't match, you'll lose the bet amount.
+1. **Add Tasks**: Click the "Add" button or type and hit Enter in the input field.
+2. **Mark Tasks as Completed**: Double-click any item inside our list to either cross it out or return it to normal.
+3. **Clear Input**: Click inside the "list" box to clear the input.
+4. **Clear All Tasks**: Click the "CA" button to remove all items from the list.
+5. **Clear Completed Tasks**: Click the "CC" button to remove only the crossed-out items from the list.
 
-3. **Track Your Balance**:
-   - Your current balance is displayed below the controls.
-   - If your balance is below the bet amounts, the respective bet buttons will disappear.
+### Pseudo Code
 
-## Tech Stack
+Here's a brief idea of how each main function works:
 
-- **HTML**: Used for the structure of the game.
-- **CSS**: Provides the styling and animations.
-- **JavaScript**: Powers the game logic and interactivity.
+- **addItem**: Looks at the input to check if you typed anything. If not, it alerts you to type something. Otherwise, it adds your input to the list and clears the input box.
+- **clearInputOnFocus**: Empties the input box.
+- **pressEnter**: If the Enter key is pressed, it performs the same action as the 'addItem' function.
+- **markItemAsComplete**: Checks if you double-clicked a list item. If yes, it toggles its state (crosses it out or uncrosses it).
+- **clearCompleted**: Looks for all crossed-out items and removes them from the list.
+- **clearAll**: Removes all items from the list.
 
-## Setup and Run
+## Styling
 
-1. **Clone the repository**:
-2.
-3. **Open the game**:
+All styling was sourced from two Codepen designs:
 
-- Simply open `index.html` in your preferred web browser.
+- [Design 1 by Johan Alkstal](https://codepen.io/johanalkstal/pen/AavgNz)
+- [Design 2 by Bees](https://codepen.io/beeeees/pen/AJBjKR)
 
-1. **Enjoy**!
+## Setup
 
-## Future Enhancements
+To use this Todo List:
 
-- Add more emojis and varied reel outcomes.
-- Implement bonus rounds or a jackpot feature.
-- Introduce user account functionalities with saved balances.
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+3. Enjoy your interactive To Do List!
