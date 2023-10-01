@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- create to do list header -->
+    <header>
+        <h1>To-Do List</h1>
+    </header>
+
+    <!-- create add task button -->
+    <section class="task">
+        <input id="addTask" type="text" placeholder="Add Task:">
+        <button id="add" type="button" name="button">+</button>
+    </section>
+
+    <!-- area to list tasks -->
+
+    <h2>Tasks: <span id="placeToPutTasks"></span></h2>
+    <ul id="task-list">
+
+    </ul>
+
+
+    <!-- create two buttons clear all tasks and complete a task -->
+    <div class="doubleC">
+        <section class="clear">
+            <button id="clear" type="button" name="button">Clear All Tasks</button>
+        </section>
+
+        <section class="complete">
+            <button id="complete" type="button" name="button">Completed Tasks</button>
+        </section>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
