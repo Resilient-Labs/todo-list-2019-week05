@@ -1,160 +1,61 @@
+//created variables to target the input box and ul task list.
 
 const taskItem = document.getElementById('task')
 const taskList = document.getElementById('taskList')
 
+//Event listener to add task on click
 document.querySelector('#addTask').addEventListener('click', addMyTask)
 
 
 
 function addMyTask() {
-    // I want to make it so when the user types in the input and presses the add button it adds the input value to the list but only if user inputs value
+    // I want to make it so when the user types in the input and presses the add button it adds the input value to the list but only if user inputs a value other than blank space
     if (taskItem.value === '') {
         document.getElementById('placeToCheck').innerText = 'You need to enter a task!'
+
+        //if user enters an iput it should add that input as a list item to the ul. 
     } else {
-        /*let input = document.createElement('input')
-        let addThatJawn = '<li>' + taskItem.value + '</li>'
-        input.setAttribute('type', 'checkbox')
-        input.innerHTML = addThatJawn
-        taskList.appendChild(input)*/
+      
+        document.getElementById('placeToCheck').innerText = ' '
+
+        //Figure out how to do this off MDN: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
         let li = document.createElement('li')
+
+        //I want to add the list item with an input into the innerHTML, I also want to add a class to use later to clear the inputs
         let addThatJawn = '<input type = "checkbox" class = "delete">' + taskItem.value
         li.innerHTML = addThatJawn
+
+        //Got this idea from FreeCodeCamp: 
+        //https://forum.freecodecamp.org/t/adding-a-string-item-to-an-appendchild-li-element/314070
+        
         taskList.appendChild(li)
-        //let addedTasks = document.querySelectorAll('.delete') // Anais helped me with this code
-       /* for (i = 0; i < addedTasks.length; i++){ // Anais helped with this code
-            addedTasks[i].addEventListener('click', removeTask) // Anais help me with this code
-        }*/
-        //li.classList.toggle('clear')
-        //I want to make it so each time a checkbox is checked it clears the list item
-        /*let checkBox = document.querySelectorAll('.delete')
-        console.log(checkBox)
-        if (checkBox.checked) {
-            checkBox.forEach(() =>{
-                li.classList.toggle('clear')
-            })
-        } else {
-            li.style.display = 'block'
-        }*/
+       
     }
+    // I want the input to clear after an input has been sent in. That way the user starts with a fresh input box. I got this code idea from: https://www.tutorialspoint.com/how-to-clear-the-form-after-submitting-in-javascript-without-using-reset
+
     taskItem.value = ''
 
 }
 
 
+
+//I want to make it so when the user clicks on the checkbox it clear the list item.
+
+//Anais helped me with this code!! 
+//Erica helped me understand this code!!
 taskList.addEventListener('click', function(e) {
     if(e.target.classList.contains('delete')) {
         removeTask(e.target)
     }
 })
 
-/*function deleteMyTask(){ 
-    if(task.target.tagName === "LI"){
-        console.log(srrer)
-        task.target.classList.toggle('clear')
-    }
-}*/
 
+//When the event listener is ran it should remove the list item that contains the checkbox that shows being checked as true
 
 function removeTask(completed){
     completed.parentElement.remove()
     console.log(completed)
 }
 
-//document.querySelector('ul').addEventListener('click', removeTask)
-
-/*function removeTask(click){
-    if(click.target.classList.contains('delete')){
-        let completed = document.querySelector('.delete')
-        completed.className = 'active'
-
-        if(completed.className === 'active'){
-            completed.parentNode.className = 'active' ///This is not my code Anais helped me with thisss!! The Best!!
-        }
-    }
-
-    let completedTasks = document.querySelectorAll('.active')
-    Array.from(completedTasks).forEach(element => element.remove())
-    console.log(completedTasks) 
-    //console.log(e)
-    //const removeItems = document.querySelectorAll('.delete')
-   // let li = document.querySelector('li')
-    //removeItems.forEach((item) => {
-        //if(item.checked === true) {
-       //     li.classList.add('clear')
-   // } 
-   // })
-}*/
-
-/*const ul = document.querySelector('ul')
-
-ul.addEventListener('click', (e) => {
-    e.preventDefault()
-    let li = document.querySelectorAll('li')
-
-    let completed = [];
-    document.querySelectorAll('[type = "checkbox"]').forEach(item =>{
-        if(item.checked === true) {
-            completed.push(item.value)
-            li.classList.toggle('clear')
-        }
-    })
-    console.log(completed)
-})*/
-
-
-
-/*function removeTask(taskDelete){
-    if((taskDelete.target.tagName === 'LI') || (taskDelete.target.tagName === 'INPUT')) {
-        taskDelete.target.classList.toggle('clear')
-    }
-}*/
-
-//I want to make it so whenever a checked box registers as checked, it clears the list item
-//function deleteMyTask() {
-    //let checkBox = document.querySelectorAll('.delete')
-    //console.log(checkBox)
-    //let clear = document.querySelector('.clear')
-    // if(checkBox.checked === true){
-    //console.log('checked')
-    //clear.style.display = 'none'
-    //console.log("clear")
-    //} else{
-    //clear.style.display = 'block'
-    // }
-//}
-
-//deleteMyTask()
-
-
-
-//document.querySelectorAll('#delete').addEventListener('change', deleteMyTask)
-
-//let complete = document.querySelectorAll('#delete')
-//console.log (complete.checked)
-
-//.addEventListener('change', deleteMyTask)
-
-/*function deleteMyTask(){ 
-    let checkBox = document.e('.delete')
-    if(checkBox.checked){
-        console.log('checked')
-    }
-}*/
-
-
-//if (currentTarget.checked) {
-// console.log("Checkbox is checked..");
-//} else {
-// console.log("Checkbox is not checked..");
-// }
-// SO i want for when the checkbox input is checked, the list element is cleared...
-
-//function() {
-// if(this.checked){
-//  console.log("Checkbox is checked..");
-// } else {
-//     console.log("Checkbox is not checked..");
-// }
-
-//}
 

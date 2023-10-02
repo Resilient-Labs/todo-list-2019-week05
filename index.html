@@ -9,27 +9,38 @@
 
     <title>To Do List</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- external CSS link -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div class="full">
+        <h1>To-Do List</h1>
+        <div class="top">
+            <form class="spacea">
+                <input type="text" id='task'>
 
-    <h1>To-Do List</h1>
+            </form>
+            <button id="addTask">+</button>
+        </div>
 
-    <form>
-        <input type="text" id='task'>
-    </form>
-    <button id="addTask">+</button>
+        <div class="list clearfix">
 
-    <form>
-        <ul id="taskList">
+            <form class="spaceb">
+                <ul id="taskList">
 
-        </ul>
-    </form>
+                </ul>
+            </form>
 
-    <h2 id="placeToCheck"></h2>
+            <h2 id="placeToCheck"></h2>
+        </div>
+    </div>
 
 
     <script type="text/javascript" src="js/main.js"></script>
