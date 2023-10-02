@@ -1,0 +1,99 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc; /* Slightly different background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #2d3748; /* Darker text for better contrast */
+}
+
+h1 {
+  text-align: center;
+  color: #4a5568; /* A slightly different shade */
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 30px; /* Increased padding */
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08); /* Softer shadow */
+  border-radius: 12px; /* Increased roundness */
+}
+
+label {
+  display: none; 
+}
+
+input[type="text"] {
+  width: 65%;
+  padding: 10px 15px; /* Increased horizontal padding */
+  border: 1px solid #e2e8f0; /* Softer border color */
+  border-radius: 6px; 
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 25px; /* Wider buttons */
+  border: none;
+  background-color: #a0aec0; /* Neutral button color */
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px; 
+  transition: transform 0.3s; /* Instead of color change, we'll use a subtle scale effect */
+}
+
+button:hover {
+  transform: scale(1.05); /* Subtle growth on hover */
+}
+
+button#removeItems {
+  background-color: #e53e3e; /* Red for remove button */
+}
+
+button#removeItems:hover {
+  transform: scale(1.05); /* Consistency in button hover effect */
+}
+
+/* List Styles */
+ul {
+  margin-top: 25px; /* Increased spacing */
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 15px; /* Increased padding for list items */
+  border: 1px solid #edf2f7; /* Lighter border color */
+  margin-top: 15px; /* Increased spacing between list items */
+  background: #fff;
+  transition: transform 0.3s, box-shadow 0.3s; /* Added transition for box-shadow */
+}
+
+li:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08); /* Shadow below the item */
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
