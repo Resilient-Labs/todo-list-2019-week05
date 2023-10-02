@@ -6,7 +6,7 @@ This is a simple to do list project I created. It allows the user to add tasks t
 ![To Do List Screenshot](images/To-Do-List-screenshot.PNG)
 
 
-Link to project: ![Link](https://to-do-roreecedev.netlify.app/)
+Link to project: https://to-do-roreecedev.netlify.app/
 
 
 ## How It's Made:
