@@ -4,10 +4,10 @@ html {
 
 body {
     box-sizing: border-box;
-    /* background-image: url(imgs/notebook.jpg);
+    background-image: url(desk.jpg);
     background-size: cover;
-    background-repeat: no-repeat; */
-    background: rgb(216, 172, 114);
+    background-repeat: no-repeat;
+    /* background: rgb(216, 172, 114); */
 
 }
 
@@ -38,6 +38,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     margin-top: 5rem;
+    color: white;
 }
 
 
@@ -54,8 +55,8 @@ form {
 }
 
 button {
-    background: rgb(63, 55, 55);
-    color: white;
+    background: rgb(243, 240, 240);
+    color: black;
     margin: 0 1rem;
     border-radius: 0.5rem;
 }
