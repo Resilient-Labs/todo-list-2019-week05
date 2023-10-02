@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+    font-family: sans-serif
+}
+
+
+
+p {
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+
