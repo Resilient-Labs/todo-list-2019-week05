@@ -1,0 +1,37 @@
+
+
+h1{ text-align:center;
+font-weight: 1200;
+border-bottom: solid black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  background-image: url("https://images.unsplash.com/photo-1533109721025-d1ae7ee7c1e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80") ;
+}
+
+
+.container {
+
+  text-align: center;
+  color: white;
+}
+
+.number-of-tasks{
+  color: black
+}
+
+/* .doneTasks{
+  color: gray;
+} */
+
+h1, #count_tasks p, ul{
+  font-size: 2.8em;
+  margin-top: 30px;
+}
+
+.doneTask{
+  text-decoration: line-through;
+}
+
+

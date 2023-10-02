@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This app lets you know today is career skils,class, or the weekend">
+    <meta name="keywords" content="career, class, weekend">
+
+    <title>To Do List</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="assets/css/todo_list.css">
+  </head>
+
+  <body>
+    <div class="container full-width-image">
+      <h1>To Do List ✅</h1>
+
+      <label for="add_task">What do we need to get done today?</label>
+      <input id="input_task" type="text" placeholder="Add your tasks here">
+      <button id="add_task">Add Task</button>
+
+      <button id="clear_tasks">Clear All Tasks</button>
+
+      <button id="completed-tasks">Clear Completed Tasks</button>
+      
+    </div>
+
+    <!-- Below is where youll have your text display when they add to your to do list -->
+    <ul id="todo" class="list">
+    </ul>
+
+    <div class="show_count">
+      <p>total tasks:</p>
+      <p id="count_tasks">0</p>
+    </div>
+    <img class="notebook-img" src="assets/images/notebook-OG-four.jpg">
+ 
+
+    <script type="text/javascript" src="assets/js/todo_list.js"></script>
+
+  </body>
+
+</html>
