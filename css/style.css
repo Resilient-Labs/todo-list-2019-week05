@@ -1,0 +1,65 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family:  'gloria hallelujah', Arial, Helvetica, sans-serif;
+  font-size: 62.5% /* =10px */
+}
+h1{
+text-align: center;
+color: #ff96b3;
+font-weight: bolder;
+font-size: 6rem;
+}
+
+body{
+  background-color: #428b6b;
+  background-image: url(https://cdn.pixabay.com/photo/2021/08/18/18/17/office-6556228_1280.png);
+  background-repeat:repeat;
+}
+/* need to create a container to put elements in, will use the container class in html */
+/* container holding entire list contents */
+.form-container {
+  width: 40rem;
+  padding: 3rem;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fee57e;
+  border-radius: 1rem;
+}
+
+button, form{
+display: inline-block;
+border-radius: 5rem;
+text-align:center;
+font-size: 1.5rem;
+}
+
+button{
+  background: white;
+  border: .1rem solid white;
+  margin: auto .2rem;
+  color: #2daeac;
+}
+
+li{
+  list-style: none;
+  color: #fee57e;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
