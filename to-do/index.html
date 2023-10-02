@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>To-Do List</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section class="container">
+			<div class="toDoTitle">
+				<h1 class="typed-out">To-Do List <span>🚀</span></h1>
+			</div>
+			<div class="inputAndBtns">
+				<div class="input">
+					<input type="text" id="userInput" placeholder="ex: walk my goldfish">
+				</div>
+				<div class="btns">
+					<button id="add">Add</button>
+					<button id="clearAll">Clear All</button>
+				</div>
+			</div>
+			<div>
+				<ul id="toDoList"></ul>
+			</div>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
