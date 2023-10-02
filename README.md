@@ -21,6 +21,6 @@ I used event listeners to the '+' button to run a function to add list elements 
 ## Lessons Learned:
 I learned that you can create elements and append children using js. I had never done that before. I learned how to better use psuedocode to avoid mistake by first thinking through what I want to happen. I also practiced using the console and console.log to better identify when certain parts of my code are or are not running. Overall, I was able to detect my mistakes much faster than my last JS project.
 
-###Examples:
+### Examples:
 Take a look at similar projects!
 Avatar The Last Airbender Slot Machine: https://slot-machine-aang.netlify.app
