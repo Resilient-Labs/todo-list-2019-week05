@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}          /* Background gradient https://www.makeuseof.com/css-background-gradients/ */
+
+
+div, h1, .clear{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+section{
+height: 280px;
+width: 15%;
+text-align: center;
+border: 1px solid black;
+border-radius: 1px;
+}
+
+.head{
+height: 50px;
+width: 100%;
+border: 1px solid black;
+float: left;
+}
+
+.list-items{
+height: 160px;
+width: 100%;
+border: 1px solid black;
+float: left;
+}
+
+.foot{
+height: 70px;
+width: 100%;
+border: 1px solid black;
+float: left;
+}
+
+/* 
+<section class="head">
+<div class="head"></div>
+<div class="list-items"></div>
+<div class="foot"></div>
+</section> */ 
