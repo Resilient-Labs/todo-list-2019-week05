@@ -1,12 +1,10 @@
-# ✅ Week05 Project: Todo List
+# Todo List
 
 <img width="1440" alt="Todo-list" src="https://github.com/JacinthaDev/Todo-list/assets/129231721/e7fe2fbf-2463-49b1-868f-0de37bad418f">
 
 # Simple To-do List
 This is a simple checklist. You can add your tasks, check them off, clear the completed tasks, and clear all tasks.
 View my project here: https://todo-list-rc.netlify.app/
-
-
 
 
 ## How It's Made:
@@ -16,11 +14,9 @@ I used event listeners to the '+' button to run a function to add list elements 
 
 
 
-
-
 ## Lessons Learned:
 I learned that you can create elements and append children using js. I had never done that before. I learned how to better use psuedocode to avoid mistake by first thinking through what I want to happen. I also practiced using the console and console.log to better identify when certain parts of my code are or are not running. Overall, I was able to detect my mistakes much faster than my last JS project.
 
 ### Examples:
 Take a look at similar projects!
-Avatar The Last Airbender Slot Machine: https://slot-machine-aang.netlify.app
+Avatar The Last Airbender Slot Machine: https://github.com/JacinthaDev/Slot-Machine/tree/answer
