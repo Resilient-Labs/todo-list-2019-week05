@@ -10,7 +10,7 @@ View my project here: https://todo-list-rc.netlify.app/
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
 
-I used event listeners to the '+' button to run a function to add list elements to the emply ul element in the html. I created a function to strikethrough the text of any completed items that were checked off. Lastly, the user can clear all completed tasks, and clear the entire list. 
+I used event listeners to the '+' button to run a function to add list elements to the emply ul element in the html. I created a function to strikethrough the text of any completed items that were checked off. Lastly, the user can clear all completed tasks, and clear the entire list. This project was more focused on practicing JavaScript than going deep with CSS design like some of the other projects on my github.
 
 
 
