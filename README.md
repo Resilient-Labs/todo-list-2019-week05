@@ -1,4 +1,7 @@
 # My To-Do List
+
+https://to-do-list-fjh.netlify.app/
+
 I sought to make a simple to do list with simple mechanics that would allow someone to add todos, strike them through by checking a box to show they were completed, uncheck those same input check boxes if they wanted to undo completing a task while removing the strike through, and having a clear all button that would wipe the list and make it blank again. 
 
 ### What I did to build this app:
