@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
     background-image: url(desk.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* background: rgb(216, 172, 114); */
 
 }
@@ -24,6 +24,7 @@ li {
     border: 1px solid black;
     border-radius: 0.5rem;
     background: white;
+    font-weight: bold;
 
 }
 
@@ -59,4 +60,5 @@ button {
     color: black;
     margin: 0 1rem;
     border-radius: 0.5rem;
+    font-weight: bold;
 }
