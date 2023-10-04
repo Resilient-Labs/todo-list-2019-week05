@@ -13,3 +13,4 @@ The second "Clear All" button was established to delete all task items present o
 - I also learned about event handling with this project and that there is a way to prevent some elements from behaving their default way using .preventDefault().
 - I learned to implement more debugging practices such as using console.log within my functions/conditionals. I also found adding comments was useful although I could be more concise with those comments.
 
+![image](https://github.com/fjh321/todo-list-2019-week05/assets/64885403/a0579162-2033-4529-bc65-95dafccd0aa2)
