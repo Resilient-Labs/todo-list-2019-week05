@@ -10,18 +10,17 @@ function addItems(e) {
     let ul = document.getElementById("list-items");
    let li = document.createElement("li");
     li.appendChild(document.createTextNode(userInput));
-    li.setAttribute("id", "element"); // added line
-    const  button = document.createElement('button')// create a button
-    button.setAttribute('id','buttons') //set attribute for button  
-    ul.appendChild(li);
+    const button = document.createElement('button'); // create a button
+    button.textContent = 'Remove'; // set button text
+    button.addEventListener('click', removeItems2); // attach event listener to button
     li.appendChild(button);
-    // document.querySelector('#button').addEventListener('click',removeItems2)
-    document.querySelector('li').innerText= userInput
-    
+    ul.appendChild(li);
     
   }
   // target only one li and remove the listed items that are completed
-  function removeItems2(){
-    
+  function removeItems2(e) {
+    let btn = e.target; // button that was clicked
+    let li = btn.parentNode; // li containing the button
+    let ul = li.parentNode; // ul containing the li
     ul.removeChild(li);
-  }
+}
