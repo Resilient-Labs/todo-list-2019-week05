@@ -15,14 +15,24 @@
 	</head>
 	<body>
 		<h1>To Do List</h1>
+		<p>click on a task if completed</p>
 		<div class="form-container">
-		    <form>
-		        <label for="todolist"></label>
-		        <input type="text" id="inputItems" name="todolist" placeholder="e.g. call doctor" />
-		    </form>
-		    <button id="addButton">Add to List</button>
+			<div id="formAndAddButton">
+		    	<form>
+		    	    <label for="todolist"></label>
+		    	    <input type="text" id="inputItems" name="todolist" placeholder="e.g. call doctor" />
+		    	</form>
+				<button id="addButton">Add to List</button>
+			</div>
+			<div id="clearAndCompleted">
+				<button id="clearAll">Clear All Tasks</button>
+				<button id="clearCompleted">Clear Completed Tasks</button>
+			</div>
+			<ul id="ul">
+				<li></li>
+			</ul>
 		</div>
-		<ul id="ul"></ul>
+		
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

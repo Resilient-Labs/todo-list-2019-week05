@@ -7,29 +7,37 @@
   font-family:  'gloria hallelujah', Arial, Helvetica, sans-serif;
   font-size: 62.5% /* =10px */
 }
-h1{
-text-align: center;
-color: #ff96b3;
-font-weight: bolder;
-font-size: 6rem;
+h1, p{
+  text-align: center;
+  color: #ff96b3;
+  text-shadow: .4rem .6rem rgba(0, 0, 0, 0.4);
+  font-weight: bolder;
+  font-size: 6rem;
 }
-
+p{
+  font-weight: lighter;
+  font-size: 1.5rem;
+  text-shadow: .1rem .2rem rgba(0, 0, 0, 0.7);
+  margin-top: -3rem;
+  font-style: italic;
+  color: #ffffff;
+}
 body{
   background-color: #428b6b;
   background-image: url(https://cdn.pixabay.com/photo/2021/08/18/18/17/office-6556228_1280.png);
   background-repeat:repeat;
 }
+
 /* need to create a container to put elements in, will use the container class in html */
 /* container holding entire list contents */
 .form-container {
   width: 40rem;
-  padding: 3rem;
+  height: auto;
+  /* padding: 3rem; */
   margin: 1rem auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: #fee57e;
   border-radius: 1rem;
+  box-shadow: 1rem 2rem rgba(0, 0, 0, 0.4);
 }
 
 button, form{
@@ -39,20 +47,56 @@ text-align:center;
 font-size: 1.5rem;
 }
 
+#clearAndCompleted, #formAndAddButton, #addButton{
+  display: flex;
+  justify-content: center;
+}
+
+#clearAll, #clearCompleted{
+  font-size: 1.3rem;
+  background: #000000;
+  color: #ff96b3;
+}
+#clearAll{
+  color: white;
+}
+
+#clearAndCompleted{
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#inputItems, form{
+  display: flex;
+  align-self: center;
+  height: 80%;
+  border-radius: 1rem;
+}
+
 button{
-  background: white;
+  background: rgb(0, 0, 0);
   border: .1rem solid white;
-  margin: auto .2rem;
-  color: #2daeac;
+  margin: .5rem .5rem;
+  padding: 1rem;
+  color: #ffffff;
 }
 
 li{
   list-style: none;
-  color: #fee57e;
-  margin: 2rem auto;
+  color: #000000;
   display: flex;
   justify-content: center;
+  align-content: flex-end;
   font-size: 3rem;
+}
+
+ul{
+  padding-left: 0;
+}
+/* defining a class to apply to strike through style in function 'completed'  */
+.strikethrough{
+  text-decoration: line-through;
+  color: #ff96b3
 }
 
 /******************************************
