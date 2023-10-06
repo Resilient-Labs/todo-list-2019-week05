@@ -6,3 +6,6 @@ A to do list for all your needs. Write out what you need to get done! Then once 
 <b>Tech Used</b>: HTML5, CSS3 and JavaScript
 
 <b>What I Learned:</b> This task was challenging to say the least. The main thing that I took away from this was how I could link my CSS to my JavaScript to enable the crossing out once a task was done.
+
+
+<b>Take a look at my other projects on my portfolio</b>: https://briannawillis.netlify.app/
