@@ -20,4 +20,8 @@ I learned that you can create elements and append children using js. I had never
 ### Examples:
 Take a look at similar projects!
 
+Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe/tree/answer
+
+NASA Picture of the Day Selector: https://github.com/JacinthaDev/NASA
+
 Avatar The Last Airbender Slot Machine: https://github.com/JacinthaDev/Slot-Machine/tree/answer
