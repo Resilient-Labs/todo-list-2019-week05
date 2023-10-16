@@ -19,4 +19,5 @@ I learned that you can create elements and append children using js. I had never
 
 ### Examples:
 Take a look at similar projects!
+
 Avatar The Last Airbender Slot Machine: https://github.com/JacinthaDev/Slot-Machine/tree/answer
