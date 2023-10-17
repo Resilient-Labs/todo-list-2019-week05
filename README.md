@@ -17,7 +17,7 @@ I used event listeners to the '+' button to run a function to add list elements 
 ## Lessons Learned:
 I learned that you can create elements and append children using js. I had never done that before. I learned how to better use psuedocode to avoid mistake by first thinking through what I want to happen. I also practiced using the console and console.log to better identify when certain parts of my code are or are not running. Overall, I was able to detect my mistakes much faster than my last JS project.
 
-### Examples:
+## Examples:
 Take a look at similar projects!
 
 Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe/tree
