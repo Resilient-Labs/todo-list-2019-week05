@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: peachpuff;
+    font-family: 'Cedarville Cursive', cursive;
+    
+
+}
+
+
+ul li {
+    list-style: none;
+    display: float;
+    background-color: lightgray;
+    height: 30px;
+    border: 1px groove 
+}
+
+.complete{
+    background-color: rgb(232, 133, 133);
+    text-decoration: line-through;
+}
+
+.todo{
+    text-align: center;
+    height: 500px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 5%;
+    background-color: burlywood;
+}
+
+h1{
+    font-weight: 800;
+    color: royalblue;
+    margin-top: 10%;
+}
+
+button{
+    border: 1px round black;
+    background-color: royalblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* small desktop */
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+    
+
+}
+
+
+/*Tablet view */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+
+
+
+}
+
+
+
+
+
+/*mobile view */
+@media only screen and (max-width: 600px) {
+
+}
