@@ -1,0 +1,120 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background: floralwhite;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+  text-decoration: underline;
+}
+h3{
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.container{
+  text-align: center;}
+.title{
+  display: flex;
+  justify-content: center;
+}
+.input{
+  margin-bottom: 15px;
+}
+input{
+  height: 31px;
+  border-radius: 9px;
+  font-size: 1.5rem;
+  text-align: center;
+  border-width: thin;
+  margin-right: 10px;
+}
+.button button{
+  height: 31px;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    background: forestgreen;
+    border-width: thin;
+    width: 54px;
+    color: white;
+}
+ul{
+  list-style: none;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 35px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+.clearAll{
+  height: 31px;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    background: forestgreen;
+    border-width: thin;
+    width: 76px;
+    margin-right: 10px;
+    color: white;
+}
+.clear{
+  height: 31px;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    background: forestgreen;
+    border-width: thin;
+    width: 59px;
+    color: white;
+}
+.crossOut{
+  text-decoration: line-through;
+}
