@@ -1,0 +1,65 @@
+
+body{
+  background-image: url(petals3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1{
+  font-family: 'Dancing Script';
+  margin: 50px 0 30px 30px;
+  width: 35%;
+  padding:20px;
+  padding-left: 30px;
+  background-color: palevioletred;
+  border-radius: 15%;
+  font-size: 50px;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.412);
+}
+.interact{
+   margin: 0 0 30px 372px;
+}
+#items{
+  font-size: 22px;
+  color:slategrey;
+  padding: 2px 5px;
+}
+button{
+  font-size: 18px;
+}
+li{
+  margin: 0 0 0 30px;
+  font-size: 30px;
+  font-family: 'Shadows Into Light';
+  list-style-type: 20px ;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.412);
+  font-weight: 400;
+}
+i{
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 10px 10px 20px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.strike{
+  text-decoration: line-through;
+}
+
+#clearAll{
+  margin: 0 0 0 10px;
+  border:2px solid palevioletred;
+  border-radius: 50%;
+  padding:10px;
+}
+#itemRemove{
+  margin: 0 0 0 30px;
+  padding:10px;
+  border:2px solid palevioletred;
+  border-radius: 50%;
+}
+.totalCount{ 
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 0 60px;
+}
