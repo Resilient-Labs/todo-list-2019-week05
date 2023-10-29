@@ -1,0 +1,74 @@
+html {
+    margin: 30px;
+    background-color: #8fb4d7;
+}
+#container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.maincontainer {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.todo {
+    border: thick double black;
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    border-radius: 60px;
+    font-size: 25px;
+    background: #cbdcec;
+    border-bottom: none;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.liList {
+    font-size: 15px;
+}
+.submitlist {
+    width: 30%;
+    height: 300px;
+}
+h1 {
+    margin: 20px 14px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+p {
+    font-size: 15px;
+}
+span {
+        font-weight: bolder;
+
+}
+input {
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+button {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+#clearCompletedList {
+    width: 50%;
+}
+
+.strike {
+    text-decoration: line-through;
+}

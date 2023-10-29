@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">    
+    
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="maincontainer">
+            <div class="submitlist">
+                <h1>To Do List:</h1>
+                <input type="text" id="list" placeholder="List">
+                <button id="add">Add</button>
+
+                <button id="clearList">Clear</button>
+                <button id="clearCompletedList">Clear Complete</button>
+            </div>
+            <div class="todo">
+                <ul id="placeToSee"></ul>
+
+                <p>You have <span class="count">0</span> task left.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="js/answer.js"></script>
+</body>
+</html>
