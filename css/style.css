@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background: rgb(217, 199, 105);
+    background: radial-gradient(circle, rgba(217, 199, 105, 1) 13%, rgba(203, 167, 119, 1) 61%, rgba(186, 82, 82, 1) 100%);
+    font-family: 'Pixelify Sans', Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 67.5%;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+    font-size: 2.2rem;
+    color: rgb(211, 187, 108);
+    font-weight: 600;
+    width: 100%;
+    font-family: 'Pixelify Sans', Arial, Helvetica, sans-serif;
+}
+
+.full {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.list {
+    border: 2px solid rgb(190, 97, 89);
+    background-color: rgb(200, 145, 110);
+    border-radius: 5%;
+    width: 30%;
+    height: 70rem;
+    padding: .5%;
+
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 0px 1%;
+    margin-bottom: 5px;
+}
+
+.spaceb {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.spacea {
+    width: 90%;
+}
+
+.delete {
+    font-size: 3rem;
+}
+
+#task {
+    width: 98%;
+    font-size: 2rem;
+    border-radius: 5%;
+    border: 2px solid rgb(190, 97, 89);
+    background-color: rgb(200, 145, 110);
+    color: rgb(209, 179, 117);
+}
+
+#addTask {
+    width: 25%;
+    font-size: 2rem;
+    background-color: lightgreen;
+    border-radius: 5%;
+    border: 2px solid rgb(200, 145, 110);
+    background-color: rgb(190, 97, 89);
+    color: rgb(209, 179, 117);
+    font-weight: 700;
+}
+
+/* CLEARFIX TRICK */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+}
+
+h2{
+    color: white;
+}
