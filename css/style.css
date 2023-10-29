@@ -1,0 +1,72 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  text-align: center;
+  background: url(../img/sunflowers.png);
+  background-size: cover;
+}
+
+.ol{
+  background-color: white;
+  width: 25%;
+  float: left;
+  height: 600px;
+  margin-top: 3%;
+  border-radius: 10%;
+  margin: 2% 0 2% 38%;
+  box-shadow: 15px -10px 10px rgb(104, 55, 10);
+}
+
+section{
+  float: left;
+  width: 100%;
+}
+
+
+
+.done{
+  text-decoration: line-through;
+  color: rgb(245, 230, 22);
+}
+
+#taskList{
+  border-radius: 30%;
+  height: 30px;
+  
+}
+
+#enter, #clearItem, #clearALL{
+  border-radius: 30%;
+  height: 30px;
+  background-color: rgb(245, 230, 22);
+  
+}
+
+h1{
+  font-family: 'Fasthand', cursive;
+  font-size: 4rem;
+  margin: 0 0;
+  text-shadow: 1px 1px 2px rgb(224, 166, 7), 0 0 1em rgb(231, 76, 3), 0 0 0.2em rgb(0, 0, 0);
+}
+
+
+li{
+  font-size: 1rem;
+  margin: 2% -6%;
+  width: 100%;
+  border-bottom: 2px dotted rgb(245, 230, 22);
+  padding: 3%;
+}
+
+
+
