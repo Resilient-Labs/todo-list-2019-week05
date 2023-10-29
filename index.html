@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Yomogi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>Your Very Own To Do List</h1>
+    <section class="inPut">
+        <!-- <p>Type in whatever you want to get done here and then click the button...</p> -->
+        <form id="textInput">
+            <input type="text" id="todo" placeholder="Type List Item Here">
+            <button type="button" id="place">Place On Your List!</button>
+        </form>
+    </section>
+    <section class="outPut">
+        <section class="outPutLeft">
+            <span>To-Do's</span>
+            <ol id="list">
+            </ol>
+        </section>
+        <section class="outPutRight">
+            <section class="outPutR1">
+                <h2>To Do's Left:</h2>
+                <h3 id="leftToDo"></h3>
+            </section>
+            <section class="outPutR2">
+                <button type="button" id="clearLi">Erase List</button>
+                <button type="button" id="clearDone">Earse Done</button>
+            </section>
+
+        </section>
+    </section>
+    <script src="JS/app.js"></script>
+</body>
+</html>
