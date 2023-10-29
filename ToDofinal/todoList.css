@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://static8.depositphotos.com/1570716/1049/i/950/depositphotos_10495668-stock-photo-cork-board-background.jpg);
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    text-align: center;
+    font-size: 3.5rem;
+    width:70%;
+    height:900px;
+    margin-left: 15%;
+    background-color: #Ffff99;
+}
+.box{
+    font-size: 2.2rem;
+    width:10%;
+}
+h1{
+    text-decoration: underline;
+    padding-bottom: 1%;
+}
+
+button{
+    margin-right: .5%;
+    font-size: 2.5rem;
+    margin-bottom: 1%;
+    background-color: #f5ebe0;
+}
+
+#emptyMsg{
+    width: 50%;
+    margin-left: 22%;
+    background-color: #f5ebe0;
+    color: black;
+}
+form, label, input{
+    background-color: #Ffff99;
+}
+form, label{
+    padding: 1% 0;
+}
+.top{
+    background-color: #Ffff99;
+    width: 80%;
+    margin-left:10%;
+    padding-bottom: 1%;
+}
+.delete{
+    font-size: 2.5rem;
+    height:35px;
+    margin-top:2%;
+    margin-left:1%;
+}
+.task{
+    border-bottom: 1px dashed black;
+    background-color: #Ffff99;
+}
+#emptyMsg{
+    background-color: #Ffff99;
+    margin-bottom: 1%;
+}
+
+span{
+    background-color: #Ffff99;
+    margin-left: -10%;
+}
+#tasks{
+    background-color: #Ffff99;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%; 
+}
+
+.completed{
+    color: gray;
+}
+.hidden{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
