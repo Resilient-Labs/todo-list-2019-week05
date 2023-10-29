@@ -1,0 +1,49 @@
+.soulBreaker {
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #bc3908;
+    font-size: 3em;
+    
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+#input {
+    background-color: #bc3908;
+}
+
+#input::placeholder {
+    color: white;
+    opacity: 50%;
+}
+
+#click {
+    background-color: #bc3908;
+}
+
+
+
+form {
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: black;
+}
