@@ -1,22 +1,21 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Project: Todo List
 
-### Goal: Build a Simple Todo List
+### Goal: Build a To-do-list
 
-### How to submit your code for review:
+This project was a Todo list where you can write tasks that need to be completed, create, cross & remove any that are either done or need to be changed.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### How it's Made:
+Tech used:  HTML, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I took inspiration from a simple grocery list or daily task's
+this was a great project to make considering its utility & simplicity.
+
+
+### Lessons learned
+I learned alot about different methods & functions used such as removeChild & createElement & style.list to make the completed tasks underlined.
+Also i learned that setting different functionaity with each list item is completely up to the user such as making it double click instead of a button or X to delete a completed list item.
+
+
+## Example
+
+![Image Alt Text](./img/to-do.PNG)
