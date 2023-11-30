@@ -58,7 +58,8 @@ removeDone.addEventListener('click', removeWhatsDone)
 function removeWhatsDone() {
   document.querySelectorAll('.listaLista').forEach(li => li.remove())
   let list = document.getElementsByClassName('list')
-       count.innerText= list.length
+  count.innerText= list.length
+}
 }
 
   // add a count everthing left to do that updates, the clear the complete ones and unmarked the ones done .
@@ -70,7 +71,6 @@ function removeWhatsDone() {
 //   for(let i=azul[1]; i <= items.length; i++){
 //   console.log(e.target.remove())
 //   }
-}
 // ul.addEventListener('dblclick', eliminalo)
 //    function eliminalo(e){
 //     const equis= e.target.parentElement
