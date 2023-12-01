@@ -21,7 +21,9 @@ Next I creatd the addMyTask function, I made it so this function would use an if
 
 Then I created an event listener on the ul that would run an anonymous function with the event object as a parameter. This function would listen for a click and if the target contained a specific class list would run the function removeTask() with the argument of the target the user clicked on.The function removeTask() has a parameter and inside the function it takes the parameter and targets the li it's on using the parentElement object. Then runs the remove() method on that element. 
 
+## Optimizations:
 
+I updated the user interface, it was hard to see the task with the color pairing I chose originally.
 
 ## Lessons Learned:
 
