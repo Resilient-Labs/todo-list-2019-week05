@@ -3,7 +3,7 @@
 
 This is a simple to do list project I created. It allows the user to add tasks to a list and clear each task when they are done.
 
-![To Do List Site Gif](images/updated-to-do.gif)
+![To Do List Gif](images/updatedtodo.gif)
 
 
 Link to project: https://to-do-roreecedev.netlify.app/
