@@ -6,6 +6,13 @@ const taskList = document.getElementById('taskList')
 //Event listener to add task on click
 document.querySelector('#addTask').addEventListener('click', addMyTask)
 
+// Event listener to add task on Enter key press
+taskItem.addEventListener('keyup', function (e) {
+    if (e.key === 'Enter') {
+        addMyTask();
+    }
+});
+
 
 
 function addMyTask() {
